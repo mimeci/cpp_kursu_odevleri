@@ -1,0 +1,24 @@
+Aşağıdaki kaynak kod
+
+a) C dilinin kurallarına göre derlenip çalıştırıldığında ne olur?
+
+b) C++ dilinin kurallarına göre derlenip çalıştırıldığında ne olur?
+
+c) #include <stdbool.h>   
+   Önişlemci komutu koda eklenerek C dilinin kurallarına göre derlenip çalıştırıldığında ne olur?
+   
+/*     Kod     */
+
+#include <stdio.h>
+
+int main()
+{
+#if true
+	printf("dogru\n");
+#else
+	printf("yanlis\n");
+#endif
+}
+
+
+/*     Kod     */
