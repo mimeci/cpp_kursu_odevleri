@@ -25,6 +25,10 @@ Aşağıdaki açıklamalar kodda verilen yorum satırlarına ilişkindir:
 21) Sonek ++ operatörünü yükleyen işlev. (İşlevin referans döndürmediğine dikkat ediniz). 
 22) Önek -- operatörünü yükleyen işlev. (İşlevin referans döndürdüğüne dikkat ediniz). 
 23) Sonek -- operatörünü yükleyen işlev. (İşlevin referans döndürmediğine dikkat ediniz). 
+24) Rastgele bir tarih döndüren sınıfın static üye işlevi
+25) Artık yıl testi yapan sınıfın static üye işlevi
+26-31) Date nesnelerinin karşılaştırılmasını sağlayacak global operatör işlevleri
+32) İki tarih arasındaki gün farkını döndüren global operatör fonksiyonu
 
 #include <iosfwd>
 #include <ctime>
@@ -57,18 +61,18 @@ public:
 	Date& operator--(); //22
 	Date operator--(int); //23
 
-	static Date random_date();
-	static constexpr bool isleap(int y);
+	static Date random_date(); //24
+	static constexpr bool isleap(int y); //25
 };
 
-bool operator<(const Date &, const Date &);
-bool operator<=(const Date &, const Date &);
-bool operator>(const Date &, const Date &);
-bool operator>=(const Date &, const Date &);
-bool operator==(const Date &, const Date &);
-bool operator!=(const Date &, const Date &);
+bool operator<(const Date &, const Date &); //26
+bool operator<=(const Date &, const Date &); //27
+bool operator>(const Date &, const Date &); //28
+bool operator>=(const Date &, const Date &); //29
+bool operator==(const Date &, const Date &); //30
+bool operator!=(const Date &, const Date &); //31
 
-int operator-(const Date &d1, const Date &d2);
+int operator-(const Date &d1, const Date &d2); //32
 Date operator+(const Date &date, int n);
 Date operator+(int, const Date &);
 Date::WeekDay& operator++(Date::WeekDay &r);
