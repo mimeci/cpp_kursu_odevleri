@@ -1,6 +1,6 @@
 Aşağıda ismi Date olan bir sınıfın tanımlandığı başlık dosyası yer almaktadır. Bu ödevde Date sınıfının kodlarını yazmanız isteniyor.
 Date sınıfı türünden bir nesnenin değeri bir tarihtir. Örnek: 15 Şubat 1998
-Aşağıdaki açıklamalar kodda verilen yorum satırlarına ilişkindir:
+Aşağıdaki açıklamalar kodda bulunan yorum satırlarına ilişkindir:
 
 1) Sınıfın hizmet verdiği en küçük yıl değeri
 2) random_date işlevinin üreteceği tarih için en küçük yıl değeri
@@ -18,9 +18,9 @@ Aşağıdaki açıklamalar kodda verilen yorum satırlarına ilişkindir:
 14) Ayın gününü değiştiriyor.
 15) Ayı değiştiriyor
 16) Yılı değiştiriyor.
-17) Tarihten gün çıkartan const üye operatör işlevi. Geri dönüş değeri elde edilen tarih.
-18) Tarihi gelen gün kadar arttıran üye operatör işlevi. Geri dönüş değeri *this
-19) Tarihi gelen gün kadar eksilten üye operatör işlevi. Geri dönüş değeri *this
+17) Tarihten gün çıkartan const üye operatör işlevi. Geri dönüş değeri elde edilen tarih olacak.
+18) Tarihi gelen gün kadar arttıran üye operatör işlevi. Geri dönüş değeri *this olmalı.
+19) Tarihi gelen gün kadar eksilten üye operatör işlevi. Geri dönüş değeri *this olmalı.
 20) Önek ++ operatörünü yükleyen işlev. (İşlevin referans döndürdüğüne dikkat ediniz). 
 21) Sonek ++ operatörünü yükleyen işlev. (İşlevin referans döndürmediğine dikkat ediniz). 
 22) Önek -- operatörünü yükleyen işlev. (İşlevin referans döndürdüğüne dikkat ediniz). 
