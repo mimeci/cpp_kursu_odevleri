@@ -31,10 +31,20 @@ Aşağıdaki açıklamalar kodda verilen yorum satırlarına ilişkindir:
 32) İki tarih arasındaki gün farkını döndüren global operatör işlevi
 33-34) Gelen tarihten n gün sonrasını döndüren global operatör işlevleri
 35-38) İçsel (nested) enum class Weekday için arttırma ve eksiltme işlevleri
-39) Date nesnelerinin değerlerini çıkış akımlarına yazdıracak global operatör işlevi
+39) Date nesnelerinin değerlerini çıkış akımlarına yazdıracak global operatör işlevi (inserter)
 Formatlama şöyle olmalı:  31 Ekim 2019 Persembe
 40) Date nesnelerine giriş akımlarından aldığı karakterlerden oluşturulacak değeri yerleştiren global operatör işlevi (extractor)
 Formatlama: gg/aa/yyyy (ayıraç olarak istenilen bir karakter kullanılabilir.
+
+Diğer notlar:
+-------------
+- Dilediğiniz global işlevleri "friend" yapabilirsiniz.
+- Sınıfın private arayüzünü dilediğiniz gibi oluşturabilirsiniz.
+- Gerekli görürseniz sınıfın public arayüzüne eklemeler yapabilirsiniz.
+- Gerekli görürseniz sınıfın public arayüzünde değişiklikler yapabilirsiniz.
+- Dilediğiniz işlevleri "constexpr" yapabilirsiniz.
+- Bu ödevde "exception handling" araçlarını kullanmayacağız. (exception handling konusunu gördükten sonra kodlarda değişiklik yapacağız.)
+
 
 #include <iosfwd>
 #include <ctime>
