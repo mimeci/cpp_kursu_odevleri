@@ -18,8 +18,13 @@ Aşağıdaki açıklamalar kodda verilen yorum satırlarına ilişkindir:
 14) Ayın gününü değiştiriyor.
 15) Ayı değiştiriyor
 16) Yılı değiştiriyor.
-
-
+17) Tarihten gün çıkartan const üye operatör fonksiyonu. Geri dönüş değeri elde edilen tarih.
+18) Tarihi gelen gün kadar arttıran üye operatör işlevi. Geri dönüş değeri *this
+19) Tarihi gelen gün kadar eksilten üye operatör işlevi. Geri dönüş değeri *this
+20) Önek ++ operatörünü yükleyen işlev. (İşlevin referans döndürdüğüne dikkat ediniz). 
+21) Sonek ++ operatörünü yükleyen işlev. (İşlevin referans döndürmediğine dikkat ediniz). 
+22) Önek -- operatörünü yükleyen işlev. (İşlevin referans döndürdüğüne dikkat ediniz). 
+23) Sonek -- operatörünü yükleyen işlev. (İşlevin referans döndürmediğine dikkat ediniz). 
 
 #include <iosfwd>
 #include <ctime>
@@ -44,13 +49,13 @@ public:
 	Date &set_month(int month); //15
 	Date &set_year(int year); //16
 
-	Date operator-(int day)const;
-	Date &operator+=(int day);
-	Date &operator-=(int day);
-	Date &operator++();
-	Date &operator++(int);
-	Date &operator--();
-	Date &operator--(int);
+	Date operator-(int day)const; //17
+	Date& operator+=(int day); //18
+	Date& operator-=(int day); //19
+	Date& operator++(); //20
+	Date operator++(int); //21
+	Date& operator--(); //22
+	Date operator--(int); //23
 
 	static Date random_date();
 	static constexpr bool isleap(int y);
