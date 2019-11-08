@@ -13,3 +13,7 @@ Bir std::string nesnesi üzerinde aşağıdaki silme işlemlerini gerçekleştir
 11. Yazıdaki tüm a karakterlerini A karakterlerine dönüştürün. (kara kartal) -> (kArA kArtAl)
 12. Yazıda geçen tüm "can" yazılarını * karakteri ile değiştirin. (ercan cansel nurcan damacana) -> (er* *sel nur* dama*a)
 13. Yazının her karakterinden sonra gelecek şekilde karakterin kod numarası olan tamsayıyı ekleyin. (necati) -> (n110e101c99a97t116i105)
+14. idx1 < idx2 olmak üzere yazının [idx1 idx2) aralığını (range) yazının başına ekleyin.
+15. idx1 < idx2 olmak üzere yazının [idx1 idx2) aralığını (range) yazınınsonuna ekleyin.
+16. Yazının içinde kaç tane a karakteri var ise yazının hem başına hem de sonuna o kadar sayıda * karakteri ekleyin. (karaman) -> (***karaman***)
+
