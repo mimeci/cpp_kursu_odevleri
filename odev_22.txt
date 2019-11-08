@@ -1,0 +1,15 @@
+Bir std::string nesnesi üzerinde aşağıdaki silme işlemlerini gerçekleştirmeniz gerekiyor:
+
+Yazının başına * karakterini ekleyin. (necati) -> (*necati)
+Yazının sonuna * karakterini ekleyin. (sami) -> (sami*)
+Yazının 4. karakteri olacak şekilde * karakterini ekleyin. (polat) -> (pol*at)
+Yazının başına yazının ilk karakterinden bir tane daha ekleyin. (recep) -> (rrecep)
+Yazının sonuna yazının son karakterinden bir tane daha ekleyin. (recep) -> (recepp)
+Yazının başına "***" yazısını ekleyin. (necati) -> (***necati)
+Yazının sonuna "***" yazısını ekleyin. (necati) -> (necati***)
+Yazının başına standart giriş akımından s isimli string nesnesine alınan yazıyı ekleyin.
+Yazının sonuna standart giriş akımından s isimli string nesnesine alınan yazıyı ekleyin.
+Yazının içinde a karakteri geçen her yere bir a karakteri daha ekleyin. (akraba) -> (aakraabaa)
+Yazıdaki tüm a karakterlerini A karakterlerine dönüştürün. (kara kartal) -> (kArA kArtAl)
+Yazıda geçen tüm "can" yazılarını * karakteri ile değiştirin. (ercan cansel nurcan damacana) -> (er* *sel nur* dama*a)
+Yazının her karakterinden sonra gelecek şekilde karakterin kod numarası olan tamsayıyı ekleyin. (necati) -> (n110e101c99a97t116i105)
