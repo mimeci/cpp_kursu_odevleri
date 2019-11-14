@@ -1,4 +1,4 @@
-Aşağıdaki C++ kodunda bir sentaks hatası/hataları olup olmadığını belirtiniz. Varsa, her bir sentaks hatasının nedenini açıklayınız.
+Aşağıdaki C++ kodunda bir sentaks hatası/hataları olup olmadığını belirtiniz. Eğer varsa, her bir sentaks hatasının nedenini açıklayınız.
 Her bir fonksiyon çağrısı için hangi fonksiyonun çağrıldığını belirtiniz.
 
 
