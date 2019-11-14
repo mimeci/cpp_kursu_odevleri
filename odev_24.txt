@@ -3,8 +3,8 @@ Aşağıdaki işlevleri tanımlayınız ve kendi yazacağınız test kodu (kodla
 std::string change_case(std::string &s);
 
 işlev parametresi ile aldığı yazıdaki 
--küçük harflerin yerinde aynı karakterlerin büyüğü olan
--büyük harflerin yerinde aynı karakterlerin küçüğü olan
+- küçük harflerin yerinde aynı karakterlerin büyüğü olan
+- büyük harflerin yerinde aynı karakterlerin küçüğü olan
 
 bir string döndürecek.
 
