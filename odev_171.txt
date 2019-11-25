@@ -9,6 +9,7 @@ private:
   T t;
   U u;
   X x;
+  
  };
  
 Yukarıdaki Myclass sınıfı için derleyicinizin yazdığı tüm özel üye işlevleri derleyicinizin tanımladığı biçimde tanımlayınız.
