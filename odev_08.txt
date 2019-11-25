@@ -29,6 +29,7 @@ void f2()
 	*b = 56;
 }
 
+
 void f3()
 {
 	int x = 10;
