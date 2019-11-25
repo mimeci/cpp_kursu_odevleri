@@ -12,6 +12,7 @@ constexpr int f2(int x)
 
 int g = 10;
 
+
 constexpr const int *f3()
 {
 	return &g;
