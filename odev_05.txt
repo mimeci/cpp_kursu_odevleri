@@ -18,6 +18,7 @@ int main()
 #else
 	printf("yanlis\n");
 #endif
+
 }
 
 
