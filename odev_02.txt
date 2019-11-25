@@ -9,7 +9,6 @@ int main()
 	struct nec {
 		char str[64];
 	};
-
 	printf("sizeof(nec) = %zu\n", sizeof(nec));
 }
 
