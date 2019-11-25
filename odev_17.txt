@@ -9,6 +9,7 @@ public:
 		static int x{};
 		std::cout << x++ << " ";
 	}
+	
 };
 
 
