@@ -1,4 +1,5 @@
 Aşağıdaki kodların her biri için şu soruya yanıt vermeniz gerekiyor:
+
 a) sentaks hatası var mı?
 b) işlev yüklemesi var mı?
 
