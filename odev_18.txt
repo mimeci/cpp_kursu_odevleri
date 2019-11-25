@@ -25,4 +25,5 @@ int main()
 	int i = 0;
 	str[i] = i[str + 2];
 	cout << str;
+	
 } 
