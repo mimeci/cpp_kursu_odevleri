@@ -1,5 +1,6 @@
-Aşağıdaki C++ programında sınıfın non-const olan func isimli üye işlevinin yine sınıfın const olan üye işlevini çağırmasını istiyoruz. Bunu nasıl sağlayabiliriz? 
+##### Aşağıdaki C++ programında sınıfın *non-const* olan *func* isimli üye işlevinin yine sınıfın *const* olan üye işlevini çağırmasını istiyoruz. Bunu nasıl sağlayabiliriz? 
 
+```
 #include <iostream>
 
 class A {
@@ -22,3 +23,4 @@ int main()
 
 	ax.func();
 }
+```
