@@ -1,4 +1,4 @@
-# Aşağıdaki kodlardan herbiri için yapılan işlev çağrılarının durumunu belirtin. Geçerli mi değil mi? Geçerli ise çağrılan işlev hangisidir?
+### Aşağıdaki kodlardan herbiri için yapılan işlev çağrılarının durumunu belirtin. Geçerli mi değil mi? Geçerli ise çağrılan işlev hangisidir?
 
 ```
 void func(int);  //1
