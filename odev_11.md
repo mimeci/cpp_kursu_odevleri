@@ -1,6 +1,6 @@
-Aşağıdaki kodlardan herbiri için yapılan işlev çağrılarının durumunu belirtin. (Geçerli mi değil mi? Geçerli ise çağrılan işlev hangisidir?
+## Aşağıdaki kodlardan herbiri için yapılan işlev çağrılarının durumunu belirtin. Geçerli mi değil mi? Geçerli ise çağrılan işlev hangisidir?
 
-
+```
 void func(int);  //1
 void func(double); //2
 void func(long);  //3
@@ -17,9 +17,9 @@ void foo()
 	func(&x);
 	func(nullptr);
 }
+```
 
-//--------------------------------------------------------------------------------------------------------------------------------------
-
+```
 void func(void *);  //1
 void func(bool); //2
 
@@ -33,8 +33,8 @@ void foo()
 	func(x);
 }
 
-----------------------------------------------------------------------------------------------------------------------------------------
 
+```
 void func(char *p);  //1
 void func(const char *p); //2
 
@@ -51,9 +51,9 @@ void foo()
 	func(p1);
 	func(p2);
 }
+```
 
-//--------------------------------------------------------------------------------------------------------------------------------------
-
+```
 enum Color {Blue, Green, Red};
 
 void func(Color);
@@ -63,9 +63,9 @@ void foo()
 {
 	func(12);
 }
+```
 
-//--------------------------------------------------------------------------------------------------------------------------------------
-
+```
 void func(int &);
 void func(int &&);
 void func(const int &);
@@ -83,7 +83,5 @@ void foo()
 	func(x + 5);
 	func(f1());
 	func(f2());
-	
 }
-
-//-------------------------------------------------------------------------------------------------------------------------------------
+```
