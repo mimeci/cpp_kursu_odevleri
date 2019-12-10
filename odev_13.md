@@ -1,5 +1,6 @@
-Aşağıdaki kodda sentaks hatası içeren deyimleri belirtiniz ve sentaks hatalarının nedenlerini açıklayınız:
+##### Aşağıdaki kodda sentaks hatası içeren deyimleri belirtiniz ve sentaks hatalarının nedenlerini açıklayınız:
 
+```
 class Myclass {
 public:
 	void func();
@@ -18,5 +19,5 @@ int main()
 	Myclass::func();
 	&m->func();
 	(&m)->Myclass::func();
-	
 }
+```
