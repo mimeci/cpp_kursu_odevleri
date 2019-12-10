@@ -1,5 +1,6 @@
-Aşağıdaki kodda yapılan referans tanımlamalarından geçersiz olanları işaretleyin ve geçersizlik nedenlerini açıklayın:
+#### Aşağıdaki kodda yapılan referans tanımlamalarından geçersiz olanları işaretleyin ve geçersizlik nedenlerini açıklayın:
 
+```
 int &f1();
 int f2();
 
@@ -26,3 +27,4 @@ int main()
 	int(&r15)[] = a;
 	int(&r16)[3] = a;
 }
+```
