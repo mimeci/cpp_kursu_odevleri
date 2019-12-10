@@ -1,5 +1,6 @@
-Aşağıdaki kodlardaki (varsa) sentaks hatalarını işaretleyiniz ve nedenlerini açıklayınız:
+## Aşağıdaki kodlardaki (varsa) sentaks hatalarını işaretleyiniz ve nedenlerini açıklayınız:
 
+```
 int f1(int x)
 {
 	return x + 1;
@@ -11,7 +12,6 @@ constexpr int f2(int x)
 }
 
 int g = 10;
-
 
 constexpr const int *f3()
 {
@@ -28,3 +28,4 @@ void f4()
 	constexpr int *f = f3();
 	constexpr const int *g = f3();
 }
+```
