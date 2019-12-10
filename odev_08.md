@@ -1,5 +1,6 @@
-Aşağıdaki kodlarda (varsa) sentaks hatalarını işaretleyiniz ve sentaks hatalarının nedenlerini belirtiniz:
+#### Aşağıdaki kodlarda (varsa) sentaks hatalarını işaretleyiniz ve sentaks hatalarının nedenlerini belirtiniz:
 
+```
 void f1()
 {
 	const int x = 10;
@@ -81,3 +82,4 @@ void f6()
 	++b;
 	decltype(*&x) c;
 }
+```
