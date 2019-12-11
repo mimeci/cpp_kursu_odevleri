@@ -66,6 +66,7 @@ int main()
 	MulDer d1;
 	MulDer d2(d1);
 }
+
 ```
 
 __Sorunun yanıtı şu seçeneklerden biri de olabilir:__
