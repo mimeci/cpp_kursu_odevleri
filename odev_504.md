@@ -31,6 +31,7 @@ int main()
 	display(der1);
 	display(a[0]);
 }
+
 ```
 
 __Sorunun yanıtı şu seçeneklerden biri de olabilir:__
