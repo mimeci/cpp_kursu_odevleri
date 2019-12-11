@@ -1,12 +1,12 @@
 #### Bir *std::string* nesnesi üzerinde aşağıdaki silme işlemlerini gerçekleştirmeniz gerekiyor:
 
 01. Yazının başına *!* karakterini ekleyin. (necati) -> (!necati)
-02. Yazının sonuna *!* karakterini ekleyin. *(sami) -> (sam!)*
+02. Yazının sonuna *!* karakterini ekleyin. *(sami) -> (sami!)*
 03. Yazının *4.* karakteri olacak şekilde ! karakterini ekleyin. (polat) -> (pol!at)
 04. Yazının başına yazının ilk karakterinden bir tane daha ekleyin. (recep) -> (rrecep)
 05. Yazının sonuna yazının son karakterinden bir tane daha ekleyin. (recep) -> (recepp)
-06. Yazının başına *"***"* yazısını ekleyin. *(necati) -> (***necati)*
-07. Yazının sonuna *"***"* yazısını ekleyin. *(necati) -> (necati***)*
+06. Yazının başına *"!!!"* yazısını ekleyin. *(necati) -> (!!!necati)*
+07. Yazının sonuna *"!!!"* yazısını ekleyin. *(necati) -> (necati!!!)*
 08. Yazının başına standart giriş akımından *s* isimli string nesnesine alınan yazıyı ekleyin.
 09. Yazının sonuna standart giriş akımından *s* isimli string nesnesine alınan yazıyı ekleyin.
 10. Yazının içinde *a* karakteri geçen her yere bir a karakteri daha ekleyin. *(akraba) -> (aakraabaa)*
