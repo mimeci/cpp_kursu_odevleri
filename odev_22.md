@@ -17,3 +17,4 @@
 15. *idx1 < idx2* olmak üzere yazının *[idx1 idx2)* aralığını *(range)* yazınınsonuna ekleyin.
 16. Yazının içinde kaç tane a karakteri var ise yazının hem başına hem de sonuna o kadar sayıda *!* karakteri ekleyin. (karaman) -> (!!!karaman!!!)
 
+
