@@ -1,5 +1,6 @@
-Aşağıdaki C++ programı derlenip çalıştırıldığında standart çıkış akımına ne yazar?
+#### Aşağıdaki C++ programı derlenip çalıştırıldığında standart çıkış akımına ne yazar?
 
+```
 int foo(int *p, int *q)
 {
 	*p = 1;
@@ -27,3 +28,4 @@ int main()
 	cout << str;
 	
 } 
+```
