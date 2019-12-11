@@ -1,5 +1,7 @@
 #### Aşağıda ismi *Date* olan bir sınıfın tanımlandığı başlık dosyası yer almaktadır. Bu ödevde *Date* sınıfının kodlarını yazmanız isteniyor:
-__*Date* sınıfı türünden bir nesnenin değeri bir tarihtir. *Örnek: 15 Şubat 1998*__
+
+*Date* sınıfı türünden bir nesnenin değeri bir tarihtir.  *Örnek: 15 Şubat 1998*  
+
 __Aşağıdaki açıklamalar kodda bulunan yorum satırlarına ilişkindir:__
 
 + //1 Sınıfın hizmet verdiği en küçük yıl değeri
