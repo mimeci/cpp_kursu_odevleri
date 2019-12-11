@@ -23,4 +23,5 @@ int main()
 	std::cout << "(" << remove_duplicates(s2) << ")\n"; //(ankr tlydimv)
  
 }
+
 ```
