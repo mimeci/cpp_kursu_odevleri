@@ -24,4 +24,4 @@ Daha sonra, yine *Fibonacci* serisinin *n.* teriminin derleme zamanında hesapla
 constexpr unsigned int fibonacci(unsigned int);
 ```
 
-#### Son olarak, C++14 standartlarıyla olanakları genişletilen constexpr işlev yapısını kullanarak aynı işlevi özyinelemeli olmayan *(iterative)* biçimde gerçekleştirin.
+#### Son olarak, C++14 standartlarıyla olanakları genişletilen *constexpr* işlev yapısını kullanarak aynı işlevi özyinelemeli olmayan *(iterative)* biçimde gerçekleştirin.
