@@ -1,6 +1,8 @@
 #### Aşağıdaki işlevleri tanımlayınız ve kendi yazacağınız test kodu (kodları) ile test ediniz:
 
-**std::string change_case(std::string &s);**
+```
+std::string change_case(std::string &s);
+```
 
 işlev parametresi ile aldığı yazıdaki 
  + küçük harflerin yerinde aynı karakterlerin büyüğü olan
@@ -8,21 +10,22 @@ işlev parametresi ile aldığı yazıdaki
 
 bir string döndürecek.
 
-**std::string remove_chars(const std::string &source, const std::string scars);**
+```
+std::string remove_chars(const std::string &source, const std::string scars);
+```
 
 İşlevin geri dönüş değeri olan *string*'in değeri source *string*'i içinden *scars* stringinin karakterlerinin silimiş hali olacak.
-
 örnek (parantezler yazılara dahil değil)
 
 **source**           : *(ankaranin tasina bak gozlerimin yasina bak)*
 **scars**            : *(kain )*
 **geri dönüş değeri**: *(tsbgozlermnysb)*
 
-
-**std::string time(const std::string &source);**
+```
+std::string time(const std::string &source);**
+```
 
 işlevin geri dönüş değeri olan string source stringinin başındaki ve sonundaki boşluk karakterlerinin silinmiş hali olacak.
-
 (     necati ergin     )  ->  (necati ergin)
 
 parantezler yazıya ait değil.
