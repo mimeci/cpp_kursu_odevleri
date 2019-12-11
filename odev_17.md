@@ -1,5 +1,6 @@
-Aşağıdaki C++ programı derlenip çalıştırıldığında ekran çıktısı ne olur?
+#### Aşağıdaki C++ programı derlenip çalıştırıldığında ekran çıktısı ne olur?
 
+```
 #include <iostream>
 
 class Myclass {
@@ -12,8 +13,8 @@ public:
 	
 };
 
-
 int main()
 {
 	Myclass a[100];
 }
+```
