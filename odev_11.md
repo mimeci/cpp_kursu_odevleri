@@ -1,10 +1,10 @@
-### Aşağıdaki kodlardan herbiri için yapılan işlev çağrılarının durumunu belirtin. Geçerli mi değil mi? Geçerli ise çağrılan işlev hangisidir?
+#### Aşağıdaki kodlardan herbiri için yapılan işlev çağrılarının durumunu belirtin. Geçerli mi değil mi? Geçerli ise çağrılan işlev hangisidir?
 
 ```
-void func(int);  //1
-void func(double); //2
-void func(long);  //3
-void func(bool); //4
+void func(int);  	//1
+void func(double); 	//2
+void func(long);  	//3
+void func(bool); 	//4
 
 void foo()
 {
