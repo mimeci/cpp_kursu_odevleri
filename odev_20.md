@@ -20,19 +20,19 @@ __Aşağıdaki açıklamalar kodda bulunan yorum satırlarına ilişkindir:__
 + //15 Tarihin ayını değiştiriyor
 + //16 Tarihin yılını değiştiriyor.
 + //17 Tarihten gün çıkartan const üye operatör işlevi. Geri dönüş değeri elde edilen tarih olacak.
-+ 18) Tarihi gelen gün kadar arttıran üye operatör işlevi. Geri dönüş değeri *this olmalı.
-+ 19) Tarihi gelen gün kadar eksilten üye operatör işlevi. Geri dönüş değeri *this olmalı.
-+ 20) Önek ++ operatörünü yükleyen işlev. (İşlevin referans döndürdüğüne dikkat ediniz). 
-+ 21) Sonek *++* operatörünü yükleyen işlev. (İşlevin referans döndürmediğine dikkat ediniz). 
-+ 22) Önek *--* operatörünü yükleyen işlev. (İşlevin referans döndürdüğüne dikkat ediniz). 
-+ 23) Sonek *--* operatörünü yükleyen işlev. (İşlevin referans döndürmediğine dikkat ediniz). 
-+ 24) Rastgele bir tarih döndüren sınıfın *static* üye işlevi.
-+ 25) Artık yıl testi yapan sınıfın static üye işlevi.
-+ 26-31. *Date* nesnelerinin karşılaştırılmasını sağlayacak global operatör işlevleri
-+ 32. İki tarih arasındaki gün farkını döndüren global operatör işlevi
-+ 33-34. Gelen tarihten *n* gün sonrasını döndüren global operatör işlevleri
++ //18 Tarihi gelen gün kadar arttıran üye operatör işlevi. Geri dönüş değeri _*this_ olmalı.
++ //19 Tarihi gelen gün kadar eksilten üye operatör işlevi. Geri dönüş değeri _*this_ olmalı.
++ //20 Önek ++ operatörünü yükleyen işlev. (İşlevin referans döndürdüğüne dikkat ediniz). 
++ //21 Sonek *++* operatörünü yükleyen işlev. (İşlevin referans döndürmediğine dikkat ediniz). 
++ //22  Önek *--* operatörünü yükleyen işlev. (İşlevin referans döndürdüğüne dikkat ediniz). 
++ //23  Sonek *--* operatörünü yükleyen işlev. (İşlevin referans döndürmediğine dikkat ediniz). 
++ //24  Rastgele bir tarih döndüren sınıfın *static* üye işlevi.
++ //25  Artık yıl testi yapan sınıfın static üye işlevi.
++ //26-31 *Date* nesnelerinin karşılaştırılmasını sağlayacak global operatör işlevleri
++ //32 İki tarih arasındaki gün farkını döndüren global operatör işlevi
++ //33-34 Gelen tarihten *n* gün sonrasını döndüren global operatör işlevleri
 + //35-38 İçsel *(nested) enum class Weekday* için arttırma ve eksiltme işlevleri
-+ //39 Date nesnelerinin değerlerini çıkış akımlarına yazdıracak global operatör işlevi (inserter)
++ //39 *Date* nesnelerinin değerlerini çıkış akımlarına yazdıracak global operatör işlevi (inserter)
 Formatlama şöyle olmalı:  31 Ekim 2019 Persembe
 + //40 *Date* nesnelerine giriş akımlarından aldığı karakterlerden oluşturulacak değeri yerleştiren global operatör işlevi *(extractor)*
 Formatlama: *gg/aa/yyyy* (ayıraç olarak istenilen bir karakter kullanılabilir.
