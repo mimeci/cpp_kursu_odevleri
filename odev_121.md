@@ -67,6 +67,8 @@ enum Color {gray, red, blue};
 void g(Color);
 void g(int);
 ```
+
+```
 #include <cstdint>
 
 void func(int32_t);
@@ -86,6 +88,8 @@ void foo(int);
 ```
 void func(char);
 void func(signed char);
+```
+
 ```
 void f(char);
 void f(unsigned char);
