@@ -32,6 +32,7 @@ int main()
 	A a;
 	B b = a.createObject();
 }
+
 ```
 
 __Sorunun yanıtı şu seçeneklerden biri de olabilir:__
