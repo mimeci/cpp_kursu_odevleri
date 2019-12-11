@@ -1,8 +1,6 @@
-Aşağıdaki C++ programında bir sentaks hatası var mı?
-Varsa sentaks hatasının nedeni/nedenleri nedir?
-Sentaks hatası yok ise ekrana ne yazdırılır?
+#### Aşağıdaki C++ programında bir sentaks hatası var mı? Varsa sentaks hatasının nedeni/nedenleri nedir? Sentaks hatası yok ise ekrana ne yazdırılır?
 
-
+```
 #include <iostream>
 
 namespace Nec {
@@ -26,3 +24,4 @@ int main()
 	Myclass mx;
 	mx.foo();
 }
+```
