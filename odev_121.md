@@ -39,6 +39,8 @@ int f(const int *p);
 void func(int &);
 void func(const int &);
 ```
+
+```
 void g(int);
 void g(int &);
 ```
