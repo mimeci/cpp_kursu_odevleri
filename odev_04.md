@@ -1,5 +1,5 @@
 
-##### C dili tekrarı için sorulmaktadır. Aşağıdaki kod hakkında yorum yapınız. Bu kodda bir sentaks hatası var mı? Yok ise, bu kod çalıştırılırsa standart çıkış akımına ne yazılır? Bir derleyici ya da IDE kullanmadan yanıt veriniz.
+#### C dili tekrarı için sorulmaktadır. Aşağıdaki kod hakkında yorum yapınız. Bu kodda bir sentaks hatası var mı? Yok ise, bu kod çalıştırılırsa standart çıkış akımına ne yazılır? Bir derleyici ya da IDE kullanmadan yanıt veriniz.
 
 
 ```
