@@ -1,5 +1,6 @@
 #### Bir *std::string* nesnesi üzerinde aşağıdaki silme işlemlerini gerçekleştirmeniz gerekiyor:
 
+
 01. Yazının başına *!* karakterini ekleyin. (necati) -> (!necati)
 02. Yazının sonuna *!* karakterini ekleyin. *(sami) -> (sami!)*
 03. Yazının *4.* karakteri olacak şekilde ! karakterini ekleyin. (polat) -> (pol!at)
