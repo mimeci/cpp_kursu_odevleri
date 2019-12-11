@@ -1,5 +1,6 @@
-Aşağıdaki kodda sentaks hatası içeren deyimleri işaretleyiniz ve her bir sentaks hatasının nedenini açıklayınız:
+#### Aşağıdaki kodda sentaks hatası içeren deyimleri işaretleyiniz ve her bir sentaks hatasının nedenini açıklayınız:
 
+```
 class A {
 public:
 	A &f1();
@@ -20,3 +21,4 @@ int main()
 	c.f4();
 	c.f3().f4();
 }
+```
