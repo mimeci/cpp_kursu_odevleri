@@ -25,7 +25,8 @@ std::string remove_chars(const std::string &source, const std::string scars);
 std::string time(const std::string &source);
 ```
 
-işlevin geri dönüş değeri olan string source stringinin başındaki ve sonundaki boşluk karakterlerinin silinmiş hali olacak.
+işlevin geri dönüş değeri olan string source stringinin başındaki ve sonundaki boşluk karakterlerinin silinmiş hali olacak:
+
 (     necati ergin     )  ->  (necati ergin)
 
 parantezler yazıya ait değil.
