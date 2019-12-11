@@ -26,7 +26,6 @@ int main()
  
 	((Base &)myder).vfunc();
 }
-
 ```
 
 __Sorunun yanıtı şu seçeneklerden biri de olabilir:__
