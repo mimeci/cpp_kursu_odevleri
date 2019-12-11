@@ -1,4 +1,4 @@
-####Aşağıdaki her bir C programı hakkında yorum yapınız
+#### Aşağıdaki her bir C programı hakkında yorum yapınız
 
 + sentaks hatası var ise, hatayı ve hatanın nedenini belirtiniz.
 + tanımsız davranış var ise nedenini belirtiniz.
