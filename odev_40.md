@@ -16,6 +16,7 @@ int main()
 	Nec n1{ 0 }, n2{ 2 };
 	std::cout << n1 + n2 << (n1 == n2);
 }
+
 ```
 
 __Sorunun yanıtı şu seçeneklerden biri de olabilir:__
