@@ -1,5 +1,4 @@
-+ C dili tekrarı için sorulmaktadır.
-+ Aşağıdaki kodda C ve C++ dillerinin kurallarına göre sentaks hatası oluşturan deyimleri (statements) işaretleyiniz ve sentaks hatalarının nedenlerini açıklayınız. Her bir gösterici *(pointer)* değişkeni niteleyen ingilizce terimleri yazınız. Soruya bir derleyici ya da *IDE* kullanmadan yanıt veriniz.
+#### C dili tekrarı için sorulmaktadır. Aşağıdaki kodda C ve C++ dillerinin kurallarına göre sentaks hatası oluşturan deyimleri *(statements)* işaretleyiniz ve sentaks hatalarının nedenlerini açıklayınız. Her bir gösterici *(pointer)* değişkeni niteleyen ingilizce terimleri yazınız. Soruya bir derleyici ya da *IDE* kullanmadan yanıt veriniz.
 
 ```
 int main()
