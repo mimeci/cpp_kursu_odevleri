@@ -16,6 +16,7 @@ int main()
 	auto f = [](int ival) { std::cout << ival; };
 	tfunc(f, 42);
 }
+
 ```
 
 __Sorunun yanıtı şu seçeneklerden biri de olabilir:__
