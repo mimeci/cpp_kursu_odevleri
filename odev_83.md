@@ -9,7 +9,7 @@ struct Fibonacci {
 
 #### sınıf şablonunu oluşturunuz.
 
-````
+```
 int main()
 {
 	int a[Fibonacci<11>::value] = { 0 };
