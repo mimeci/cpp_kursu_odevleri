@@ -12,6 +12,7 @@ int main()
 	};
 	printf("sizeof(nec) = %zu\n", sizeof(nec));
 }
+
 ```
 
 #### Bu kod C dilinin kurallarına göre derlenirse ne olur? C++ dilinin kurallarına göre derlenirse ne olur? Açıklayınız.
