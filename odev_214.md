@@ -12,6 +12,7 @@ bir string döndürecek.
 
 ```
 std::string remove_chars(const std::string &source, const std::string scars);
+
 ```
 
 İşlevin geri dönüş değeri olan *string*'in değeri source *string*'i içinden *scars* stringinin karakterlerinin silimiş hali olacak.
