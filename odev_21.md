@@ -1,4 +1,4 @@
-Bir std::string nesnesi üzerinde aşağıdaki silme işlemlerini gerçekleştirmeniz gerekiyor:
+#### Bir std::string nesnesi üzerinde aşağıdaki silme işlemlerini gerçekleştirmeniz gerekiyor:
 
 01. Yazının ilk karakterini silin.
 02. Yazının son karakterini silin.
@@ -23,10 +23,9 @@ Bir std::string nesnesi üzerinde aşağıdaki silme işlemlerini gerçekleştir
 21. Yazıdaki ardışık eşit karakterlerden sadece bir tane kalacak şekilde silme işlemi yapın. (unique)
 22. Yazıdaki tüm boşluk (whitespace) karakterlerini silin.
 
-Aşağıdaki test kodunu kullanabilirsiniz:
+**Aşağıdaki test kodunu kullanabilirsiniz:**
 
-/*************************** KOD *********************************/
-
+```
 #include <string>
 #include <iostream>
 
@@ -45,5 +44,5 @@ int main()
 	///kod
 	print(s);
 }
+```
 
-/*************************** KOD *********************************/
