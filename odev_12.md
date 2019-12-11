@@ -1,10 +1,11 @@
-Aşağıdaki her bir C programı hakkında yorum yapınız
-a) sentaks hatası var ise, hatayı ve hatanın nedenini belirtiniz.
-b) tanımsız davranış var ise nedenini belirtiniz.
-c) standart çıkış akımına ne yazdırılacağını belirtiniz.
+####Aşağıdaki her bir C programı hakkında yorum yapınız
 
++ sentaks hatası var ise, hatayı ve hatanın nedenini belirtiniz.
++ tanımsız davranış var ise nedenini belirtiniz.
++ standart çıkış akımına ne yazdırılacağını belirtiniz.
+
+```
 //prog1.cpp
-
 #include <iostream>
 
 int &func(int x)
@@ -18,9 +19,10 @@ int main()
 	func(y) = 50;
 	std::cout << "y = " << y << "\n";
 }
+```
 
-//-----------------------------------------------------
 
+```
 //prog2.cpp
 
 #include <iostream>
@@ -33,9 +35,10 @@ int main()
 
 	std::cout << y << " " << x << "\n";
 }
+```
 
-//-----------------------------------------------------
 
+```
 //prog3.cpp
 
 #include <iostream>
@@ -53,9 +56,10 @@ int main()
 
 	std::cout << r1 + r2 + r3 << "\n";
 }
+```
 
-//-----------------------------------------------------
 
+```
 //prog4.cpp
 
 #include <iostream>
@@ -69,9 +73,10 @@ int main()
 
 	std::cout << "x = " << x << "\n";
 }
+```
 
-//-----------------------------------------------------
 
+```
 //prog5.cpp
 
 #include <iostream>
@@ -85,9 +90,10 @@ int main()
 	++r2[3];
 	std::cout << (r1[3] == r2[3]) << "\n";
 }
+```
 
-//-----------------------------------------------------
 
+```
 //prog6.cpp
 
 #include <iostream>
@@ -103,9 +109,10 @@ int main()
 	std::cout << *r << "\n";
 	
 }
+```
 
-//-----------------------------------------------------
 
+```
 //prog7.cpp
 
 #include <iostream>
@@ -127,9 +134,10 @@ int main()
 
 	std::cout << "x = " << x << "\n";
 }
+```
 
-//-----------------------------------------------------
 
+```
 //prog8.cpp
 
 #include <iostream>
@@ -154,9 +162,6 @@ int main()
 	std::cout << "x = " << x << "\n";
 
 }
-
-//-----------------------------------------------------
-
-
+```
 
 
