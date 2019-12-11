@@ -24,4 +24,5 @@ int main()
 	Myclass mx;
 	mx.foo();
 }
+
 ```
