@@ -15,6 +15,7 @@ int main()
 	auto n2 = sum(1, 0.5, 1, 0.5);
 	std::cout << n1 << n2;
 }
+
 ```
 
 __Sorunun yanıtı şu seçeneklerden biri de olabilir:__
