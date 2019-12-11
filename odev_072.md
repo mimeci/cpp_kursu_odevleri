@@ -1,6 +1,7 @@
 #### Sentaks hatası olan satırları belirtiniz:
 
 ```
+
 auto a;
 int &b;
 auto c = 10;
