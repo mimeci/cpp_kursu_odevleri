@@ -16,7 +16,7 @@ int main()
 }
 ```
 
-#### Yukarıdaki *main* işlevinde *a* dizisinin boyutu *Fibonacc*i serisinin *11.* terimi olan *89* olmalı.
+Yukarıdaki *main* işlevinde *a* dizisinin boyutu *Fibonacc*i serisinin *11.* terimi olan *89* olmalı.
 Daha sonra, yine *Fibonacci* serisinin *n.* teriminin derleme zamanında hesaplanmasını sağlayacak bir *constexpr* işlevi özyinelemeli *(recursive)* olarak gerçekleştirin:
 
 ```
