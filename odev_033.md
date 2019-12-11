@@ -1,4 +1,4 @@
-## Aşağıdaki kodlardaki (varsa) sentaks hatalarını işaretleyiniz ve nedenlerini açıklayınız:
+#### Aşağıdaki kodlardaki (varsa) sentaks hatalarını işaretleyiniz ve nedenlerini açıklayınız:
 
 ```
 int f1(int x)
