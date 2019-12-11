@@ -28,4 +28,5 @@ int main()
 
 	std::cout << x << " " << y << "\n";
 }
+
 ```
