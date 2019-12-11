@@ -1,7 +1,7 @@
-### Aşağıdaki kaynak koddaki her bir sentaks hatasını
+#### Aşağıdaki kaynak koddaki her bir sentaks hatasını
 
-#### a) C dilinin kurallarına göre
-#### b) C++ dilinin kurallarına 
++ C dilinin kurallarına göre
++ C++ dilinin kurallarına 
 
 #### belirleyiniz. Her bir sentaks hatasının nedenini açıklayınız:
 
