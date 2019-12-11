@@ -24,4 +24,5 @@ int main()
 	Der der;
 	der.func(10);
 }
+
 ```
