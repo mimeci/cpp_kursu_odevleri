@@ -30,6 +30,7 @@ int main()
 {
 	A a;	
 }
+
 ``` 
 
 __Sorunun yanıtı şu seçeneklerden biri de olabilir:__
