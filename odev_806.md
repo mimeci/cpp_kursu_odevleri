@@ -13,6 +13,7 @@ int main()
 		std::cout << std::is_same<char, unsigned char>::value;
 	}
 }
+
 ```
 
 __Sorunun yanıtı şu seçeneklerden biri de olabilir:__
