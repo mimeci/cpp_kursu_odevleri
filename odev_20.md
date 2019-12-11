@@ -15,10 +15,10 @@ __Aşağıdaki açıklamalar kodda bulunan yorum satırlarına ilişkindir:__
 + //9 Ayın gününü döndürüyor.
 + //10 Ay değerini döndürüyor. *(Ocak 1, Şubat 2, ...)*
 + //11 Tarihin yıl değerini döndürüyor
-+ //12 Yılın gününü döndürüyor *(01 Ocak ---> 1   31 Aralık---> 365 ya da 366)*
++ //12 Yılın gününü döndürüyor. *(01 Ocak ---> 1   31 Aralık---> 365 ya da 366)*
 + //13 Haftanın gününü döndürüyor.
 + //14 Tarihin ayın gününü değiştiriyor.
-+ //15 Tarihin ayını değiştiriyor
++ //15 Tarihin ayını değiştiriyor.
 + //16 Tarihin yılını değiştiriyor.
 + //17 Tarihten gün çıkartan const üye operatör işlevi. Geri dönüş değeri elde edilen tarih olacak.*
 + //18 Tarihi gelen gün kadar arttıran üye operatör işlevi. Geri dönüş değeri _*this_ olmalı.*
@@ -28,7 +28,7 @@ __Aşağıdaki açıklamalar kodda bulunan yorum satırlarına ilişkindir:__
 + //22  Önek *--* operatörünü yükleyen işlev. *(İşlevin referans döndürdüğüne dikkat ediniz).* 
 + //23  Sonek *--* operatörünü yükleyen işlev. *(İşlevin referans döndürmediğine dikkat ediniz).*
 + //24  Rastgele bir tarih döndüren sınıfın *static* üye işlevi.
-+ //25  Artık yıl testi yapan sınıfın static üye işlevi.
++ //25  Artık yıl testi yapan sınıfın *static* üye işlevi.
 + //26-31 *Date* nesnelerinin karşılaştırılmasını sağlayacak global operatör işlevleri
 + //32 İki tarih arasındaki gün farkını döndüren global operatör işlevi
 + //33-34 Gelen tarihten *n* gün sonrasını döndüren global operatör işlevleri
