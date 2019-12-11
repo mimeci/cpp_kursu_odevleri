@@ -22,6 +22,7 @@ int main()
 	bitset<8> bs{175u};
 	cout << tostring(12, "ali", 2.3, s, bs) << "\n";
 }
+
 ```
 
 #### Örnek ekran çıktısı şöyle olmalı:
