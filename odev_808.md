@@ -21,6 +21,7 @@ int main()
 	int ival = 0;
 	func(ival);
 }
+
 ```
 
 __Sorunun yanıtı şu seçeneklerden biri de olabilir:__
