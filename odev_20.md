@@ -3,8 +3,8 @@
 + *Date* sınıfı türünden bir nesnenin değeri bir tarihtir. *Örnek: 15 Şubat 1998*
 + Aşağıdaki açıklamalar kodda bulunan yorum satırlarına ilişkindir:
 
-1. Sınıfın hizmet verdiği en küçük yıl değeri
-2. *random_date* işlevinin üreteceği tarih için en küçük yıl değeri
++ //1 Sınıfın hizmet verdiği en küçük yıl değeri
++ //2 *random_date* işlevinin üreteceği tarih için en küçük yıl değeri
 3. *random_date* işlevinin üreteceği tarih için en büyük yıl değeri
 4. Haftanın günü için *enum class* türü
 5. Varsayılan kurucu işlev: *Date* nesnesini* 01-01-1900* tarihi ile oluşturacak
