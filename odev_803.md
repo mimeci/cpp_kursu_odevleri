@@ -27,4 +27,5 @@ int main()
  
 	std::cout << b1 << b2 << b3; //100
 }
+
 ```
