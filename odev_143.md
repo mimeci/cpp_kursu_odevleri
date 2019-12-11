@@ -34,4 +34,5 @@ public:
 		n.func(x);
 	}
 };
+
 ```
