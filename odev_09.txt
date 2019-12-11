@@ -1,9 +1,10 @@
-Aşağıdaki C++ programı hakkında yorum yapınız:
+#### Aşağıdaki C++ programı hakkında yorum yapınız:
 
-a) sentaks hatası
-b) tanımsız davranış
-c) ekrana şunu yazar: 
++ sentaks hatası
++ tanımsız davranış
++ ekrana şunu yazar: 
 
+```
 #include <iostream>
 
 int main()
@@ -22,3 +23,4 @@ int main()
 
 	std::cout << "x = " << x << "\n";
 }
+```
