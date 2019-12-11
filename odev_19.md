@@ -1,7 +1,6 @@
-Aşağıdaki kodda bulunan her bir sentaks hatasını işaretleyin ve sentaks hatasının nedenini belirtin:
+#### Aşağıdaki kodda bulunan her bir sentaks hatasını işaretleyin ve sentaks hatasının nedenini belirtin:
 
-/************************************* kod ********************************************/
-
+```
 int x = 0;
 int y = 0;
 
@@ -35,5 +34,4 @@ public:
 		n.func(x);
 	}
 };
-
-/************************************* kod ********************************************/
+```
