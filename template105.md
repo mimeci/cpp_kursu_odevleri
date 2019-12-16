@@ -23,6 +23,7 @@ int main()
 	const int *cp{ &cx };
 
 	func(42);
+	func(ci);
 	func(ptr);
 	func(cp);
 }
