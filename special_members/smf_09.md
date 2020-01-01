@@ -4,36 +4,33 @@
 ```
 #include <iostream>
  
-struct A {
-	A() { std::cout << "a"; }
-	~A() { std::cout << "A"; }
+using namespace std;
+ 
+struct Member1 {
+	Member1()
+	{
+		std::cout << "M1";
+	}
 };
  
-struct B {
-	B() { std::cout << "b"; }
-	~B() { std::cout << "B"; }
+struct Member2 {
+	Member2()
+	{
+		std::cout << "M2";
+	}
 };
  
-struct C {
-	C() { std::cout << "c"; }
-	~C() { std::cout << "C"; }
+class Owner{
+public:
+	Owner() :m1(), m2() {}
+private:
+	Member2 m2;
+	Member1 m1;
 };
  
-struct D {
-	D() { std::cout << "d"; }
-	~D() { std::cout << "D"; }
-};
- 
-A a;
- 
-void f1() { static C c; }
-void f2() { D d; }
- 
-int main()
+int main() 
 {
-	B b;
-	f1();
-	f2();
+	Owner x;
 }
 ```
 
