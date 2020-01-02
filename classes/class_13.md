@@ -8,13 +8,13 @@
 ```
 #include <iostream>
 
-class C {
+class Myclass {
 public:
-	explicit C(int) 
+	explicit Myclass(int) 
 	{
 		std::cout << "i";
 	};
-	C(char) 
+	Myclass(char) 
 	{
 		std::cout << "c";
 	};
@@ -22,8 +22,8 @@ public:
 
 int main() 
 {
-	C c1{ 7 };
-	C c2 = 7;
+	Myclass c1{ 7 };
+	Myclass c2 = 7;
 }
 
 ```
