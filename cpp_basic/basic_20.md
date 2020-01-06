@@ -1,9 +1,9 @@
-According to the C++17 standard, what is the output of this program?
+#### Aşağıdaki C++ programı hakkında yorum yapınız:
 
-a) it is guranteed to output : 
-b) syntax error
-c) undefined behavior
-d) implementation defined / specified
++ sentaks hatası
++ tanımsız davranış
++ derleyiciye göre değişir
++ ekrana şunu yazar: 
 
 ```
 #include <iostream>
