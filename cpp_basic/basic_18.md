@@ -1,3 +1,11 @@
+#### Aşağıdaki C++ programı hakkında yorum yapınız:
+
++ sentaks hatası
++ tanımsız davranış
++ derleyiciye göre değişir
++ ekrana şunu yazar: 
+
+```
 #include <iostream>
 #include <limits>
 
@@ -8,3 +16,4 @@ int main()
 	std::cout << (--b == a);
 	std::cout << ++a;
 }
+```
