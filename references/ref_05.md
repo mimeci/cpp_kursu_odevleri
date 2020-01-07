@@ -1,3 +1,11 @@
+#### Aşağıdaki C++ programı hakkında yorum yapınız:
+
++ sentaks hatası
++ tanımsız davranış
++ derleyiciye göre değişir
++ ekrana şunu yazar: 
+
+```
 #include<iostream>
 
 void func(int& ra, const int& rb) 
@@ -13,3 +21,5 @@ int main()
 
 	func(ival, ival);
 }
+
+```
