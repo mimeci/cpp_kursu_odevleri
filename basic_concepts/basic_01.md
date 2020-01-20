@@ -1,4 +1,4 @@
-#### aşağıdaki ifadelerin her biri için değer kategorisini (value category) belirtiniz:
+#### Aşağıdaki ifadelerin her birinin değer kategorisini (value category) belirtiniz:
 
 ```
 struct Nec {
