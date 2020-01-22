@@ -3,15 +3,15 @@
 1) vector'de tutulan ilk öğeyi silin.
 2) vector'de tutulan son öğeyi silin.
 3) vector'de tutulan 15. öğeyi silin.
-4) ilk ve son öğe haricindeki tüm öğeleri silin
-5) değeri 5 olan ilk öğeyi (varsa) silin
-6) değeri 5 olan son öğeyi (varsa) silin
-7) değeri 5 olan tüm öğeleri (varsa) silin
-8) standart giriş akımından alınacak değerdeki tüm öğeleri silin
+4) ilk ve son öğe haricindeki tüm öğeleri (varsa) silin.
+5) değeri 5 olan ilk öğeyi (varsa) silin.
+6) değeri 5 olan son öğeyi (varsa) silin.
+7) değeri 5 olan tüm öğeleri (varsa) silin.
+8) standart giriş akımından alınacak değerdeki tüm öğeleri (varsa) silin
 9) standart giriş akımından alınacak indeksteki öğeyi silin
-10) 
-11) tüm çift sayıları silin
-12) indeksi 3'e tam bölünen öğeleri silin
+10) standart giriş akımından alınacak aralıktaki tüm öğeleri (varsa) silin. Örnek [3 - 7] aralığı.
+11) tüm çift sayıları (varsa) ilin.
+12) indeksi 3'e tam bölünen öğeleri silin.
 13) ardışık aynı değerde olan öğelerin sayısını teke indirin.
 14) vector'de aynı değerden birden fazla olmayacak şekilde silme işlemi yapın. Silme işleminden sonra her değer "unique" olmalı.
 
