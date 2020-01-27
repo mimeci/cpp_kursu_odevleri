@@ -6,7 +6,7 @@
 
 
 ```
-//prog3.cpp
+
 
 #include <iostream>
 
