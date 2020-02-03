@@ -7,12 +7,12 @@ class A {
 public:
 	void func()const
 	{
-		std::cout << "Myclass::func() const\n";
+		std::cout << "A::func() const\n";
 	}
 
 	void func()
 	{
-		std::cout << "Myclass::func()\n";
+		std::cout << "A::func()\n";
 		//burada sınıfın const üye işlevi olan func cagrilacak
 	}
 };
