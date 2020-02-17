@@ -21,4 +21,5 @@ int main() {
 	Nec&& nec = Nec{ 0 };
 	Nec{ 1 };
 	Nec{ 2 };
-}```
+}
+```
