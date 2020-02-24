@@ -1,4 +1,4 @@
-#Date sınıfı
+# Date sınıfı
 
 Aşağıda ismi `Date` olan bir sınıfın tanımlandığı başlık dosyası yer almaktadır. 
 Bu ödevde `Date` sınıfının kodlarını yazmanız isteniyor.
