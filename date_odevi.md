@@ -1,3 +1,5 @@
+#Date sınıfı
+
 Aşağıda ismi `Date` olan bir sınıfın tanımlandığı başlık dosyası yer almaktadır. 
 Bu ödevde `Date` sınıfının kodlarını yazmanız isteniyor.
 `Date` sınıfı türünden bir nesnenin değeri bir tarihtir. Örnek: `15 Şubat 1998`
@@ -10,7 +12,7 @@ Aşağıdaki açıklamalar kodda bulunan yorum satırlarına ilişkindir:
 5. Varsayılan kurucu işlev: `Date` nesnesini `01-01-1900` tarihi ile oluşturacak
 6. `Date` nesnesini gün, ay, yıl değeri ile oluşturacak kurucu işlev
 7. `Date` nesnesini formatlanmış  yazından alacağı tarih değeri ile oluşturacak. Format: `gg/aa/yil`
-8. Date nesnesini "calender time" değerinden dönüştüreceği tarih değeri ile oluşturacak
+8. `Date` nesnesini `"calender time"` değerinden dönüştüreceği tarih değeri ile oluşturacak
 9. Ayın gününü döndürüyor.
 10. Ay değerini döndürüyor. `(Ocak 1, Şubat 2, ...)`
 11. Tarihin yıl değerini döndürüyor
@@ -19,7 +21,7 @@ Aşağıdaki açıklamalar kodda bulunan yorum satırlarına ilişkindir:
 14. Tarihin ayın gününü değiştiriyor.
 15. Tarihin ayını değiştiriyor
 16. Tarihin yılını değiştiriyor.
-17. Tarihten gün çıkartan const üye operatör işlevi. Geri dönüş değeri elde edilen tarih olacak.
+17. Tarihten gün çıkartan `const` üye operatör işlevi. Geri dönüş değeri elde edilen tarih olacak.
 18. Tarihi gelen gün kadar arttıran üye operatör işlevi. Geri dönüş değeri `*this` olmalı.
 19. Tarihi gelen gün kadar eksilten üye operatör işlevi. Geri dönüş değeri `*this` olmalı.
 20. Önek `++` operatörünü yükleyen işlev. (İşlevin referans döndürdüğüne dikkat ediniz). 
@@ -30,7 +32,7 @@ Aşağıdaki açıklamalar kodda bulunan yorum satırlarına ilişkindir:
 25. Artık yıl testi yapan sınıfın `static` üye işlevi.
 26. Date nesnelerinin karşılaştırılmasını sağlayacak global operatör işlevleri
 27. İki tarih arasındaki gün farkını döndüren global operatör işlevi
-28. Gelen tarihten n gün sonrasını döndüren global operatör işlevleri
+28. Gelen tarihten `n` gün sonrasını döndüren global operatör işlevleri
 29. İçsel `(nested) enum class Weekday` için arttırma ve eksiltme işlevleri
 30. Date nesnelerinin değerlerini çıkış akımlarına yazdıracak global operatör işlevi `(inserter)`
 Formatlama şöyle olmalı:  `31 Ekim 2019 Persembe`
@@ -51,6 +53,8 @@ Formatlama: `gg/aa/yyyy` (ayıraç olarak istenilen bir karakter kullanılabilir
 
 
 ```
+#ifndef DATE_H
+#define DATE_H
 #include <iosfwd>
 #include <ctime>
 
@@ -103,4 +107,5 @@ Date::WeekDay& operator--(Date::WeekDay &r, int); //29
 
 std::ostream &operator<<(std::ostream &os, const Date &date); //30
 std::istream &operator>>(std::istream &is, Date &date); //31
+#endif
 ```
