@@ -4,50 +4,50 @@ Bu ödevde `Date` sınıfının kodlarını yazmanız isteniyor.
 Aşağıdaki açıklamalar kodda bulunan yorum satırlarına ilişkindir:
 
 1. Sınıfın hizmet verdiği en küçük yıl değeri
-2. random_date işlevinin üreteceği tarih için en küçük yıl değeri
-3. random_date işlevinin üreteceği tarih için en büyük yıl değeri
-4.  Haftanın günü için enum class türü
-5. Varsayılan kurucu işlev: Date nesnesini 01-01-1900 tarihi ile oluşturacak
-6. Date nesnesini gün, ay, yıl değeri ile oluşturacak kurucu işlev
-7. Date nesnesini formatlanmış  yazından alacağı tarih değeri ile oluşturacak. Format: gg/aa/yil
+2. `random_date` işlevinin üreteceği tarih için en küçük yıl değeri
+3. `random_date` işlevinin üreteceği tarih için en büyük yıl değeri
+4.  Haftanın günü için `enum class` türü
+5. Varsayılan kurucu işlev: `Date` nesnesini `01-01-1900` tarihi ile oluşturacak
+6. `Date` nesnesini gün, ay, yıl değeri ile oluşturacak kurucu işlev
+7. `Date` nesnesini formatlanmış  yazından alacağı tarih değeri ile oluşturacak. Format: `gg/aa/yil`
 8. Date nesnesini "calender time" değerinden dönüştüreceği tarih değeri ile oluşturacak
 9. Ayın gününü döndürüyor.
-10. Ay değerini döndürüyor. (Ocak 1, Şubat 2, ...)
+10. Ay değerini döndürüyor. `(Ocak 1, Şubat 2, ...)`
 11. Tarihin yıl değerini döndürüyor
-12. Yılın gününü döndürüyor (01 Ocak ---> 1   31 Aralık---> 365 ya da 366
+12. Yılın gününü döndürüyor `(01 Ocak ---> 1   31 Aralık---> 365 ya da 366`
 13. Haftanın gününü döndürüyor.
 14. Tarihin ayın gününü değiştiriyor.
 15. Tarihin ayını değiştiriyor
 16. Tarihin yılını değiştiriyor.
 17. Tarihten gün çıkartan const üye operatör işlevi. Geri dönüş değeri elde edilen tarih olacak.
-18. Tarihi gelen gün kadar arttıran üye operatör işlevi. Geri dönüş değeri *this olmalı.
-19. Tarihi gelen gün kadar eksilten üye operatör işlevi. Geri dönüş değeri *this olmalı.
-20. Önek ++ operatörünü yükleyen işlev. (İşlevin referans döndürdüğüne dikkat ediniz). 
-21. Sonek ++ operatörünü yükleyen işlev. (İşlevin referans döndürmediğine dikkat ediniz). 
-22. Önek -- operatörünü yükleyen işlev. (İşlevin referans döndürdüğüne dikkat ediniz). 
-23. Sonek -- operatörünü yükleyen işlev. (İşlevin referans döndürmediğine dikkat ediniz). 
-24. Rastgele bir tarih döndüren sınıfın static üye işlevi.
-25. Artık yıl testi yapan sınıfın static üye işlevi.
-26-31. Date nesnelerinin karşılaştırılmasını sağlayacak global operatör işlevleri
-32. İki tarih arasındaki gün farkını döndüren global operatör işlevi
-33-34. Gelen tarihten n gün sonrasını döndüren global operatör işlevleri
-35-38. İçsel (nested) enum class Weekday için arttırma ve eksiltme işlevleri
-39. Date nesnelerinin değerlerini çıkış akımlarına yazdıracak global operatör işlevi (inserter)
-Formatlama şöyle olmalı:  31 Ekim 2019 Persembe
-40. Date nesnelerine giriş akımlarından aldığı karakterlerden oluşturulacak değeri yerleştiren global operatör işlevi (extractor)
-Formatlama: gg/aa/yyyy (ayıraç olarak istenilen bir karakter kullanılabilir.
+18. Tarihi gelen gün kadar arttıran üye operatör işlevi. Geri dönüş değeri `*this` olmalı.
+19. Tarihi gelen gün kadar eksilten üye operatör işlevi. Geri dönüş değeri `*this` olmalı.
+20. Önek `++` operatörünü yükleyen işlev. (İşlevin referans döndürdüğüne dikkat ediniz). 
+21. Sonek `++` operatörünü yükleyen işlev. (İşlevin referans döndürmediğine dikkat ediniz). 
+22. Önek `--` operatörünü yükleyen işlev. (İşlevin referans döndürdüğüne dikkat ediniz). 
+23. Sonek `--` operatörünü yükleyen işlev. (İşlevin referans döndürmediğine dikkat ediniz). 
+24. Rastgele bir tarih döndüren sınıfın `static` üye işlevi.
+25. Artık yıl testi yapan sınıfın `static` üye işlevi.
+26. Date nesnelerinin karşılaştırılmasını sağlayacak global operatör işlevleri
+27. İki tarih arasındaki gün farkını döndüren global operatör işlevi
+28. Gelen tarihten n gün sonrasını döndüren global operatör işlevleri
+29. İçsel `(nested) enum class Weekday` için arttırma ve eksiltme işlevleri
+30. Date nesnelerinin değerlerini çıkış akımlarına yazdıracak global operatör işlevi `(inserter)`
+Formatlama şöyle olmalı:  `31 Ekim 2019 Persembe`
+31. `Date` nesnelerine giriş akımlarından aldığı karakterlerden oluşturulacak değeri yerleştiren global operatör işlevi `(extractor)`
+Formatlama: `gg/aa/yyyy` (ayıraç olarak istenilen bir karakter kullanılabilir.
 
 ### Diğer notlar:
-* Dilediğiniz global işlevleri "friend" yapabilirsiniz.
-* Sınıfın private arayüzünü dilediğiniz gibi oluşturabilirsiniz.
-* Gerekli görürseniz sınıfın public arayüzüne eklemeler yapabilirsiniz.
-* Gerekli görürseniz sınıfın public arayüzünde değişiklikler yapabilirsiniz.
-* Sınıfın public öğelerinin isimlerini istediğiniz şekilde değiştirebilirsiniz.
-* Dilediğiniz işlevleri "constexpr" yapabilirsiniz.
-* Bu ödevde "exception handling" araçlarını kullanmayacağız. (exception handling konusunu gördükten sonra kodlarda değişiklik yapacağız.)
+* Dilediğiniz global işlevleri `"friend"` yapabilirsiniz.
+* Sınıfın `private` arayüzünü dilediğiniz gibi oluşturabilirsiniz.
+* Gerekli görürseniz sınıfın `public` arayüzüne eklemeler yapabilirsiniz.
+* Gerekli görürseniz sınıfın `public` arayüzünde değişiklikler yapabilirsiniz.
+* Sınıfın `public` öğelerinin isimlerini istediğiniz şekilde değiştirebilirsiniz.
+* Dilediğiniz işlevleri `"constexpr"` yapabilirsiniz.
+* Bu ödevde `"exception handling"` araçlarını kullanmayacağız. (`exception handling` konusunu gördükten sonra kodlarda değişiklik yapacağız.)
 * Kod tekrarından mümkün olduğu kadar kaçınmalısınız.
-* cnst doğruluğuna (const correctness) çok dikkat etmelisiniz. (const olması gereken tüm varlıklar const olmalı)
-* Freksiz yorum satırlarından mümkün olduğu kadar kaçınmalısınız.
+* `const` doğruluğuna `(const correctness)` çok dikkat etmelisiniz. `(const olması gereken tüm varlıklar const olmalı)`
+* Gereksiz yorum satırlarından mümkün olduğu kadar kaçınmalısınız.
 
 
 ```
@@ -87,22 +87,20 @@ public:
 };
 
 bool operator<(const Date &, const Date &); //26
-bool operator<=(const Date &, const Date &); //27
-bool operator>(const Date &, const Date &); //28
-bool operator>=(const Date &, const Date &); //29
-bool operator==(const Date &, const Date &); //30
-bool operator!=(const Date &, const Date &); //31
+bool operator<=(const Date &, const Date &); //26
+bool operator>(const Date &, const Date &); //26
+bool operator>=(const Date &, const Date &); //26
+bool operator==(const Date &, const Date &); //26
+bool operator!=(const Date &, const Date &); //26
 
-int operator-(const Date &d1, const Date &d2); //32
-Date operator+(const Date &date, int n); //33
-Date operator+(int n, const Date &); //34
-Date::WeekDay& operator++(Date::WeekDay &r); //35
-Date::WeekDay& operator++(Date::WeekDay &r, int); //36
-Date::WeekDay& operator--(Date::WeekDay &r); //37
-Date::WeekDay& operator--(Date::WeekDay &r, int); //38
+int operator-(const Date &d1, const Date &d2); //27
+Date operator+(const Date &date, int n); //28
+Date operator+(int n, const Date &); //28
+Date::WeekDay& operator++(Date::WeekDay &r); //29
+Date::WeekDay& operator++(Date::WeekDay &r, int); //29
+Date::WeekDay& operator--(Date::WeekDay &r); //29
+Date::WeekDay& operator--(Date::WeekDay &r, int); //29
 
-std::ostream &operator<<(std::ostream &os, const Date &date); //39
-std::istream &operator>>(std::istream &is, Date &date); //40
+std::ostream &operator<<(std::ostream &os, const Date &date); //30
+std::istream &operator>>(std::istream &is, Date &date); //31
 ```
-
-
