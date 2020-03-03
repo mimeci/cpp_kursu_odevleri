@@ -8,6 +8,7 @@
 06. Yazının sonuna yazının uzunluğunu ekleyin: necati ----> necati6
 07. Yazıda bulunan rakam karakterlerinden bir tane daha ekleyin:   a4b71p9eak23t ----> a44b7711p99eak2233t
 
+
 **Aşağıdaki test kodunu kullanabilirsiniz:**
 
 ```
