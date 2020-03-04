@@ -1,4 +1,4 @@
-#### `main* işlevi içinde yapılan çağrılardan hangileri geçerlidir? Geçerli olan çağrılar karşılığında hangi fonksiyon(lar) çağrılır? 
+#### `main' işlevi içinde yapılan çağrılardan hangileri geçerlidir? Geçerli olan çağrılar karşılığında hangi fonksiyon(lar) çağrılır? 
 Sentaks hatası olan durumlarda sentaks hatası nedeni nedir?
 
 ```
