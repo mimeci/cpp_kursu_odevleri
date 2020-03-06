@@ -2,9 +2,10 @@
 
 Aşağıda ismi `Fraction` olan bir sınıfın tanımlandığı başlık dosyası yer almaktadır. 
 Bu ödevde `Fraction` sınıfının kodlarını yazmanız isteniyor.
-`Fraction` sınıfı türünden bir nesnenin değeri bir rasyonel sayı (kesirdir) . Örnek: `3 / 5` <br>
-`Fraction` sınıfı türünden bir nesne rasyonel sayıyı en sade haliyle tutar. Örneğin bir rasyonel sayının değeri `(12 / 36)' olamaz. Değer `(1 / 3)` olarak tutulmalıdır.<br>
-Aşağıdaki açıklamalar kodda bulunan yorum satırlarına ilişkindir:
+`Fraction` sınıfı türünden bir nesnenin değeri bir rasyonel sayı (kesirdir) . Örnek: `(3 / 5)` <br>
+`Fraction` sınıfı türünden bir nesne rasyonel sayıyı en sade haliyle tutar. Örneğin bir rasyonel sayının değeri `(12 / 36)` olamaz. Değer `(1 / 3)` olarak tutulmalıdır.<br>
+
+### Aşağıdaki açıklamalar kodda bulunan yorum satırlarına ilişkindir:
 
 1. Pay `(numerator)` ve payda `(denominator)` isteyen kurucu işlev.
 2. Kurucu işlev. Oluşturulan rasyonel sayının değeri argüman olarak alınan `double` değere yakın olmalı.
@@ -22,24 +23,22 @@ Aşağıdaki açıklamalar kodda bulunan yorum satırlarına ilişkindir:
 14. 
 15. 
 16. 
-17. 
+17. Rastgele `Fraction` döndüren `static` üye fonksiyon.
 18. İki rasyonel sayıyı toplayan operatör fonksiyonu. Dilerseniz üye fonksiyon olarak yazabilirsiniz.
 19. İki rasyonel sayıyı birbirinden çıkartan operatör fonksiyonu. Dilerseniz üye fonksiyon olarak yazabilirsiniz.
 20. İki rasyonel sayıyı çarpan  operatör fonksiyonu. Dilerseniz üye fonksiyon olarak yazabilirsiniz.
 21. İki rasyonel sayıyı birbirine bölen operatör fonksiyonu. Dilerseniz üye fonksiyon olarak yazabilirsiniz.
-22. 
-23. 
-24. Sonek `--` operatörünü yükleyen işlev. (İşlevin referans döndürmediğine dikkat ediniz). 
-25. Rastgele bir tarih döndüren sınıfın `static` üye işlevi.
-26. 
-27. 
-28. 
-29. 
-30. 
-31. `Fraction` nesnelerinin değerlerini çıkış akımlarına yazdıracak global operatör işlevi `(inserter)`
-Formatlama şöyle olmalı:  `31 Ekim 2019 Persembe`
-32. `Fraction` nesnelerine giriş akımlarından aldığı karakterlerden oluşturulacak değeri yerleştiren global operatör işlevi `(extractor)`
-Formatlama: 
+22. == Karşılaştırma operatörü. Dilerseniz üye fonksiyon olarak yazabilirsiniz.
+23. != Karşılaştırma operatörü. Dilerseniz üye fonksiyon olarak yazabilirsiniz.
+24. < Karşılaştırma operatörü. Dilerseniz üye fonksiyon olarak yazabilirsiniz.
+25. <= Karşılaştırma operatörü. Dilerseniz üye fonksiyon olarak yazabilirsiniz.
+26. > Karşılaştırma operatörü. Dilerseniz üye fonksiyon olarak yazabilirsiniz.
+27. >= Karşılaştırma operatörü. Dilerseniz üye fonksiyon olarak yazabilirsiniz.
+28. `Fraction` nesnelerinin değerlerini çıkış akımlarına yazdıracak global operatör işlevi `(inserter)`
++ Pay ve payda arasında `'/'` karakteri olacak
++ Payda 1 ise yazılmayacak. `(5) (-13)`
++ Eğer kesir negatif ise - işareti yalnızca payda olacak. `(-5/3) (-3/5)`
+29. `Fraction` nesnelerine giriş akımlarından aldığı karakterlerden oluşturulacak değeri yerleştiren global operatör işlevi `(extractor)`
 
 
 ### Diğer notlar:
