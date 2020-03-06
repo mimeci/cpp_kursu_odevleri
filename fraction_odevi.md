@@ -9,24 +9,24 @@ Aşağıdaki açıklamalar kodda bulunan yorum satırlarına ilişkindir:
 1. Pay `(numerator)` ve payda `(denominator)` isteyen kurucu işlev.
 2. Kurucu işlev. Oluşturulan rasyonel sayının değeri argüman olarak alınan `double` değere yakın olmalı.
 3. `random_date` işlevinin üreteceği tarih için en büyük yıl değeri
-4.  Haftanın günü için `enum class` türü
-5. Varsayılan kurucu işlev: `Date` nesnesini `01-01-1900` tarihi ile oluşturacak
-6. `Date` nesnesini gün, ay, yıl değeri ile oluşturacak kurucu işlev
-7. `Date` nesnesini formatlanmış  yazıdan alacağı tarih değeri ile oluşturacak. Format: `gg/aa/yil`
+4. Toplama işlemli atama operatör fonksiyonu. (üye operatör fonksiyonu olmalı)
+5. Çıkartma işlemli atama operatör fonksiyonu. (üye operatör fonksiyonu olmalı)
+6. Çarpma işlemli atama operatör fonksiyonu. (üye operatör fonksiyonu olmalı)
+7. Bölme işlemli atama operatör fonksiyonu. (üye operatör fonksiyonu olmalı)
 8. `Date` nesnesini `"calender time"` değerinden dönüştüreceği tarih değeri ile oluşturacak.
 9. Ayın gününü döndürüyor.
 10. Ay değerini döndürüyor. `(Ocak 1, Şubat 2, ...)`
 11. Tarihin yıl değerini döndürüyor
-12. Yılın gününü döndürüyor `(01 Ocak ---> 1   31 Aralık---> 365 ya da 366`
-13. Haftanın gününü döndürüyor.
+12. pay '(numerator)' değerini döndüren const üye işlev.
+13. payda '(denominator)' değerini döndüren const üye işlev.
 14. Tarihin ayın günü değerini değiştiriyor.
 15. Tarihin ayını değiştiriyor
 16. Tarihin yılını değiştiriyor.
 17. Tarihi değiştiriyor.
-18. Tarihten gün çıkartan `const` üye operatör işlevi. Geri dönüş değeri elde edilen tarih olacak.
-19. Tarihi gelen gün kadar arttıran üye operatör işlevi. Geri dönüş değeri `*this` olmalı.
-20. Tarihi gelen gün kadar eksilten üye operatör işlevi. Geri dönüş değeri `*this` olmalı.
-21. Önek `++` operatörünü yükleyen işlev. (İşlevin referans döndürdüğüne dikkat ediniz). 
+18. İki rasyonel sayıyı toplayan operatör fonksiyonu. Dilerseniz üye fonksiyon olarak yazabilirsiniz.
+19. İki rasyonel sayıyı birbirinden çıkartan operatör fonksiyonu. Dilerseniz üye fonksiyon olarak yazabilirsiniz.
+20. İki rasyonel sayıyı çarpan  operatör fonksiyonu. Dilerseniz üye fonksiyon olarak yazabilirsiniz.
+21. İki rasyonel sayıyı birbirine bölen operatör fonksiyonu. Dilerseniz üye fonksiyon olarak yazabilirsiniz.
 22. Sonek `++` operatörünü yükleyen işlev. (İşlevin referans döndürmediğine dikkat ediniz). 
 23. Önek `--` operatörünü yükleyen işlev. (İşlevin referans döndürdüğüne dikkat ediniz). 
 24. Sonek `--` operatörünü yükleyen işlev. (İşlevin referans döndürmediğine dikkat ediniz). 
