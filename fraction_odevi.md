@@ -20,11 +20,11 @@ Bu ödevde `Fraction` sınıfının kodlarını yazmanız isteniyor.
 9. Sonek `++` operatörünü yükleyen işlev. (İşlevin referans döndürmediğine dikkat ediniz). 
 10. Önek `--` operatörünü yükleyen işlev. (İşlevin referans döndürdüğüne dikkat ediniz). 
 11. Sonek `--` operatörünü yükleyen işlev. (İşlevin referans döndürmediğine dikkat ediniz). 
-12. pay '(numerator)' değerini döndüren const üye işlev.
-13. payda '(denominator)' değerini döndüren const üye işlev.
+12. pay `(numerator)` değerini döndüren `const` üye işlev.
+13. payda `(denominator)` değerini döndüren `const` üye işlev.
 14. `bool` türüne dönüştüren operatör fonksiyonu. (Dilerseniz `constexpr` yapabilirsiniz.)
 15. `double` türüne dönüştüren isimlendirilmiş tür dönüştürme operatör fonksiyonu.
-16.  std::string türüne dönüştüren tür dönüştürme operatör fonksiyonu.
+16. `std::string` türüne dönüştüren tür dönüştürme operatör fonksiyonu.
 17. Rastgele `Fraction` döndüren `static` üye fonksiyon.
 18. İki rasyonel sayıyı toplayan operatör fonksiyonu. Dilerseniz üye fonksiyon olarak yazabilirsiniz.
 19. İki rasyonel sayıyı birbirinden çıkartan operatör fonksiyonu. Dilerseniz üye fonksiyon olarak yazabilirsiniz.
@@ -37,9 +37,9 @@ Bu ödevde `Fraction` sınıfının kodlarını yazmanız isteniyor.
 26. `>` Karşılaştırma operatörü. Dilerseniz üye fonksiyon olarak yazabilirsiniz.
 27. `>=` Karşılaştırma operatörü. Dilerseniz üye fonksiyon olarak yazabilirsiniz.
 28. `Fraction` nesnelerinin değerlerini çıkış akımlarına yazdıracak global operatör işlevi `(inserter)`
-+ Pay ve payda arasında `'/'` karakteri olacak
-+ Payda `1` ise yazılmayacak. `(5) (-13)`
-+ Eğer kesir negatif ise - işareti yalnızca payda olacak. `(-5/3) (-3/5)`
+* Pay ve payda arasında `'/'` karakteri olacak
+* Payda `1` ise yazılmayacak. `(5) (-13)`
+* Eğer kesir negatif ise - işareti yalnızca payda olacak. `(-5/3) (-3/5)`
 29. `Fraction` nesnelerine giriş akımlarından aldığı karakterlerden oluşturulacak değeri yerleştiren global operatör işlevi `(extractor)`
 30. Ham `(uncooked)` user defined literal operatör fonksiyonu `"3/5"_f` 
 
