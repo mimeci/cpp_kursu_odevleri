@@ -2,8 +2,10 @@
 
 Aşağıda ismi `Fraction` olan bir sınıfın tanımlandığı başlık dosyası yer almaktadır. 
 Bu ödevde `Fraction` sınıfının kodlarını yazmanız isteniyor.
-`Fraction` sınıfı türünden bir nesnenin değeri bir rasyonel sayı (kesirdir) . Örnek: `(3 / 5)` <br>
-`Fraction` sınıfı türünden bir nesne rasyonel sayıyı en sade haliyle tutar. Örneğin bir rasyonel sayının değeri `(12 / 36)` olamaz. Değer `(1 / 3)` olarak tutulmalıdır.<br>
++ `Fraction` sınıfı türünden bir nesnenin değeri bir rasyonel sayı (kesirdir) . Örnek: `(3/5)` <br>
++ `Fraction` sınıfı türünden bir nesne rasyonel sayıyı en sade haliyle tutar. Örneğin bir rasyonel sayının değeri `(12/36)` olamaz. Değer `(1/3)` olarak tutulmalıdır.
++ Rasyonel sayı negatif ya da pozitif olabilir.
+
 
 ### Aşağıdaki açıklamalar kodda bulunan yorum satırlarına ilişkindir:
 
@@ -20,9 +22,9 @@ Bu ödevde `Fraction` sınıfının kodlarını yazmanız isteniyor.
 11. Sonek `--` operatörünü yükleyen işlev. (İşlevin referans döndürmediğine dikkat ediniz). 
 12. pay '(numerator)' değerini döndüren const üye işlev.
 13. payda '(denominator)' değerini döndüren const üye işlev.
-14. 
-15. 
-16. 
+14. `bool` türüne dönüştüren operatör fonksiyonu. (Dilerseniz `constexpr` yapabilirsiniz.)
+15. `double` türüne dönüştüren isimlendirilmiş tür dönüştürme operatör fonksiyonu.
+16.  std::string türüne dönüştüren tür dönüştürme operatör fonksiyonu.
 17. Rastgele `Fraction` döndüren `static` üye fonksiyon.
 18. İki rasyonel sayıyı toplayan operatör fonksiyonu. Dilerseniz üye fonksiyon olarak yazabilirsiniz.
 19. İki rasyonel sayıyı birbirinden çıkartan operatör fonksiyonu. Dilerseniz üye fonksiyon olarak yazabilirsiniz.
@@ -79,7 +81,7 @@ public:
 	
 	constexpr int Num()const;  //12
 	constexpr int Denom()const; //13
-	operator bool()const;  //14
+	explicit operator bool()const;  //14
 	double to_double()const; //15
 	std::string to_string()const; //16
 	
