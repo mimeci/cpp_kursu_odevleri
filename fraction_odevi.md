@@ -32,15 +32,16 @@ Bu ödevde `Fraction` sınıfının kodlarını yazmanız isteniyor.
 21. İki rasyonel sayıyı birbirine bölen operatör fonksiyonu. Dilerseniz üye fonksiyon olarak yazabilirsiniz.
 22. == Karşılaştırma operatörü. Dilerseniz üye fonksiyon olarak yazabilirsiniz.
 23. != Karşılaştırma operatörü. Dilerseniz üye fonksiyon olarak yazabilirsiniz.
-24. < Karşılaştırma operatörü. Dilerseniz üye fonksiyon olarak yazabilirsiniz.
-25. <= Karşılaştırma operatörü. Dilerseniz üye fonksiyon olarak yazabilirsiniz.
-26. > Karşılaştırma operatörü. Dilerseniz üye fonksiyon olarak yazabilirsiniz.
-27. >= Karşılaştırma operatörü. Dilerseniz üye fonksiyon olarak yazabilirsiniz.
+24. `<` Karşılaştırma operatörü. Dilerseniz üye fonksiyon olarak yazabilirsiniz.
+25. `<=` Karşılaştırma operatörü. Dilerseniz üye fonksiyon olarak yazabilirsiniz.
+26. `>` Karşılaştırma operatörü. Dilerseniz üye fonksiyon olarak yazabilirsiniz.
+27. `>=` Karşılaştırma operatörü. Dilerseniz üye fonksiyon olarak yazabilirsiniz.
 28. `Fraction` nesnelerinin değerlerini çıkış akımlarına yazdıracak global operatör işlevi `(inserter)`
 + Pay ve payda arasında `'/'` karakteri olacak
-+ Payda 1 ise yazılmayacak. `(5) (-13)`
++ Payda `1` ise yazılmayacak. `(5) (-13)`
 + Eğer kesir negatif ise - işareti yalnızca payda olacak. `(-5/3) (-3/5)`
 29. `Fraction` nesnelerine giriş akımlarından aldığı karakterlerden oluşturulacak değeri yerleştiren global operatör işlevi `(extractor)`
+30. Ham `(uncooked)` user defined literal operatör fonksiyonu `"3/5"_f` 
 
 
 ### Diğer notlar:
@@ -102,6 +103,6 @@ bool operator>=(const Fraction& f1, const Fraction& f2);  //27
 
 std::ostream &operator<<(std::ostream&, const Fraction &); //28
 std::istream &operator>>(std::istream&, Fraction &);  //29
-
+constexpr Fraction operator""_f(const char*, size_t); //30
 
 ```
