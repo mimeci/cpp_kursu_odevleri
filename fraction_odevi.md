@@ -4,7 +4,7 @@ Aşağıda ismi `Fraction` olan bir sınıfın tanımlandığı başlık dosyas�
 Bu ödevde `Fraction` sınıfının kodlarını yazmanız isteniyor.
 + `Fraction` sınıfı türünden bir nesnenin değeri bir rasyonel sayı (kesirdir) . Örnek: `(3/5)` <br>
 + `Fraction` sınıfı türünden bir nesne rasyonel sayıyı en sade haliyle tutar. Örneğin bir rasyonel sayının değeri `(12/36)` olamaz. Değer `(1/3)` olarak tutulmalıdır.
-+ Rasyonel sayı negatif ya da pozitif olabilir.
++ Rasyonel sayı negatif ya da pozitif olabilir. `(4/7) (-2/5) (-12)`
 
 
 ### Aşağıdaki açıklamalar kodda bulunan yorum satırlarına ilişkindir:
@@ -23,6 +23,7 @@ Bu ödevde `Fraction` sınıfının kodlarını yazmanız isteniyor.
 12. pay `(numerator)` değerini döndüren `const` üye işlev.
 13. payda `(denominator)` değerini döndüren `const` üye işlev.
 14. `bool` türüne dönüştüren `explicit`operatör fonksiyonu. (Dilerseniz `constexpr` yapabilirsiniz.)
+14. `operator !` üye fonksiyonu. (Dilerseniz `constexpr` yapabilirsiniz.)
 15. `double` türüne dönüştüren isimlendirilmiş tür dönüştürme operatör fonksiyonu.
 16. `std::string` türüne dönüştüren tür dönüştürme operatör fonksiyonu.
 17. Rastgele `Fraction` döndüren `static` üye fonksiyon.
@@ -84,6 +85,7 @@ public:
 	constexpr int Num()const;  //12
 	constexpr int Denom()const; //13
 	explicit operator bool()const;  //14
+	bool operator !()const;  //14
 	double to_double()const; //15
 	std::string to_string()const; //16
 	
