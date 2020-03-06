@@ -8,38 +8,38 @@ Aşağıdaki açıklamalar kodda bulunan yorum satırlarına ilişkindir:
 
 1. Pay `(numerator)` ve payda `(denominator)` isteyen kurucu işlev.
 2. Kurucu işlev. Oluşturulan rasyonel sayının değeri argüman olarak alınan `double` değere yakın olmalı.
-3. `random_date` işlevinin üreteceği tarih için en büyük yıl değeri
+3. Kurucu işlev. Oluşturulacak rasyonel sayının değeri argüman olarak gelen `std::string` nesnesinden alınacak.
 4. Toplama işlemli atama operatör fonksiyonu. (üye operatör fonksiyonu olmalı)
 5. Çıkartma işlemli atama operatör fonksiyonu. (üye operatör fonksiyonu olmalı)
 6. Çarpma işlemli atama operatör fonksiyonu. (üye operatör fonksiyonu olmalı)
 7. Bölme işlemli atama operatör fonksiyonu. (üye operatör fonksiyonu olmalı)
-8. `Date` nesnesini `"calender time"` değerinden dönüştüreceği tarih değeri ile oluşturacak.
-9. Ayın gününü döndürüyor.
-10. Ay değerini döndürüyor. `(Ocak 1, Şubat 2, ...)`
-11. Tarihin yıl değerini döndürüyor
+8. Önek `++` operatörünü yükleyen işlev. (İşlevin referans döndürdüğüne dikkat ediniz). 
+9. Sonek `++` operatörünü yükleyen işlev. (İşlevin referans döndürmediğine dikkat ediniz). 
+10. Önek `--` operatörünü yükleyen işlev. (İşlevin referans döndürdüğüne dikkat ediniz). 
+11. Sonek `--` operatörünü yükleyen işlev. (İşlevin referans döndürmediğine dikkat ediniz). 
 12. pay '(numerator)' değerini döndüren const üye işlev.
 13. payda '(denominator)' değerini döndüren const üye işlev.
-14. Tarihin ayın günü değerini değiştiriyor.
-15. Tarihin ayını değiştiriyor
-16. Tarihin yılını değiştiriyor.
-17. Tarihi değiştiriyor.
+14. 
+15. 
+16. 
+17. 
 18. İki rasyonel sayıyı toplayan operatör fonksiyonu. Dilerseniz üye fonksiyon olarak yazabilirsiniz.
 19. İki rasyonel sayıyı birbirinden çıkartan operatör fonksiyonu. Dilerseniz üye fonksiyon olarak yazabilirsiniz.
 20. İki rasyonel sayıyı çarpan  operatör fonksiyonu. Dilerseniz üye fonksiyon olarak yazabilirsiniz.
 21. İki rasyonel sayıyı birbirine bölen operatör fonksiyonu. Dilerseniz üye fonksiyon olarak yazabilirsiniz.
-22. Sonek `++` operatörünü yükleyen işlev. (İşlevin referans döndürmediğine dikkat ediniz). 
-23. Önek `--` operatörünü yükleyen işlev. (İşlevin referans döndürdüğüne dikkat ediniz). 
+22. 
+23. 
 24. Sonek `--` operatörünü yükleyen işlev. (İşlevin referans döndürmediğine dikkat ediniz). 
 25. Rastgele bir tarih döndüren sınıfın `static` üye işlevi.
-26. Artık yıl testi yapan sınıfın `static` üye işlevi.
-27. `Date` nesnelerinin karşılaştırılmasını sağlayacak global operatör işlevleri
-28. İki tarih arasındaki gün farkını döndüren global operatör işlevi
-29. Gelen tarihten `n` gün sonrasını döndüren global operatör işlevleri
-30. İçsel `(nested) enum class Weekday` için arttırma ve eksiltme işlevleri
-31. Date nesnelerinin değerlerini çıkış akımlarına yazdıracak global operatör işlevi `(inserter)`
+26. 
+27. 
+28. 
+29. 
+30. 
+31. `Fraction` nesnelerinin değerlerini çıkış akımlarına yazdıracak global operatör işlevi `(inserter)`
 Formatlama şöyle olmalı:  `31 Ekim 2019 Persembe`
-32. `Date` nesnelerine giriş akımlarından aldığı karakterlerden oluşturulacak değeri yerleştiren global operatör işlevi `(extractor)`
-Formatlama: `gg/aa/yyyy` (ayıraç olarak istenilen bir karakter kullanılabilir.
+32. `Fraction` nesnelerine giriş akımlarından aldığı karakterlerden oluşturulacak değeri yerleştiren global operatör işlevi `(extractor)`
+Formatlama: 
 
 
 ### Diğer notlar:
