@@ -12,6 +12,7 @@ Bu ödevde `Vector` sınıfının kodlarını yazmanız isteniyor.
 ```
 #include <cstddef>
 #include <initializer_list>
+#include <vector>
 
 class Vector {
 public:
@@ -23,10 +24,24 @@ public:
 	Vector& operator=(const Vector&);
 	Vector& operator=(Vector&&);
 
+	void reserve(size_t new_cap);
+	void shrink_to_fit();
+
 	//constructors
 	Vector(size_t size);
 	Vector(std::initializer_list<int> ilist);
 	Vector(const int *pbegin, const int *pend);
+
+	//setters
+	Vector& operator=(std::initializer_list<int> ilist);
+	void resize(size_t);
+	void resize(size_t, int val);
+	
+	void assign(size_t n, int val);
+	void assign(std::initializer_list<int> ilist);
+	void assign(const int* pbeg, const int* pend);
+
+	void swap(Vector &other);
 
 	int &front();
 	const int &front()const;
