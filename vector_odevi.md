@@ -11,15 +11,30 @@ Bu ödevde `Vector` sınıfının kodlarını yazmanız isteniyor.
 
 ```
 #include <cstddef>
-
+#include <initializer_list>
 
 class Vector {
 public:
+	//special members
+	Vector();
+	~Vector();
+	Vector(const Vector &);
+	Vector(Vector &&);
+	Vector& operator=(const Vector&);
+	Vector& operator=(Vector&&);
+
+	//constructors
 	Vector(size_t size);
-	
+	Vector(std::initializer_list<int> ilist);
+	Vector(const int *pbegin, const int *pend);
+
 	int &front();
+	const int &front()const;
 	int &back();
-	int& operator[](size_t idx)const;
+	const int &back()const;
+	int& operator[](size_t idx);
+	const int& operator[](size_t idx)const;
+	
 	int* data();
 	const int* data()const;
 
