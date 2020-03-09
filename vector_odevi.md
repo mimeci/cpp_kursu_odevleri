@@ -1,4 +1,11 @@
+# Fraction sınıfı
 
+Aşağıda ismi `Vector` olan bir sınıfın tanımlandığı başlık dosyası yer almaktadır. 
+Bu ödevde `Vector` sınıfının kodlarını yazmanız isteniyor.
++ `Vector` sınıfı türünden bir nesne bir dinamik diziyi `(dynamic array)` temsil etmektedir. Bu ödevi yapabilmek için dinamik dizi veri yapısı hakkında temel bilgilere sahip olmalısınız.
+
+
+### Aşağıdaki açıklamalar kodda bulunan yorum satırlarına ilişkindir:
 
 
 
