@@ -1,4 +1,4 @@
-# Fraction sınıfı
+# Vector sınıfı
 
 Aşağıda ismi `Vector` olan bir sınıfın tanımlandığı başlık dosyası yer almaktadır. 
 Bu ödevde `Vector` sınıfının kodlarını yazmanız isteniyor.
