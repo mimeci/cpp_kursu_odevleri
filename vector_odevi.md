@@ -13,8 +13,10 @@ Bu ödevde `Vector` sınıfının kodlarını yazmanız isteniyor.
 4. Sonlandırıcı işlev _(destructor)_. Kaynakları geri verir.
 5. Kopyalayan kurucu işlev. _(copy constructor)_
 6. Taşıyan kurucu işlev. _(move constructor)_
-7. Kopyalayan atama işlevi. _(copy assignment)__
-8. Taşıyan atama işlevi. _(move assignment)__
+7. Kopyalayan atama işlevi. _(copy assignment)_
+8. Taşıyan atama işlevi. _(move assignment)_
+9. Kurucu işlev _(constructor)_ _Vector_'ü değeri `val` olan `size` tane öğe ile başlatır.
+10. `std::initializer_list` parametreli kurucu işlev. `Vector` nesnesini listedeki değerleri tutacak şekilde başlatır. 
 
 ```
 class Vector {
@@ -41,12 +43,13 @@ public:
 
 	//--------------------------------------------------
 	//constructors
-	Vector(size_t size);
-	Vector(std::initializer_list<int> ilist);
-	Vector(const int *pbegin, const int *pend);
+	explicit Vector(size_t size, int val = 0);  //9
+	Vector(std::initializer_list<int> ilist);   //10
+	Vector(const int *pbegin, const int *pend);  //11
+        Vector(const_iterator, const_iterator);     //12
+
 	//--------------------------------------------------
 
-	
 	void reserve(size_t new_cap);
 	void shrink_to_fit();
 
@@ -63,6 +66,12 @@ public:
 	void assign(size_t n, int val);
 	void assign(std::initializer_list<int> ilist);
 	void assign(const int* pbeg, const int* pend);
+
+        iterator& insert(iterator where, int val);
+        iterator& insert(iterator where, iterator source_beg, iterator source_end);
+
+        iterator& erase(iterator where);
+	iterator& erase(iterator beg, iterator end);
 
 	void swap(Vector &other);
 	void clear();
