@@ -9,26 +9,33 @@ Bu ödevde `Vector` sınıfının kodlarını yazmanız isteniyor.
 1. içsel _(nested)_ iterator türü. Kaptaki öğelerin konumlarını tutan _iterator_ nesnelerinin türü. Okuma ve yazma erişimi sağlar.
 2. içsel _(nested)_ const_iterator türü. Kaptaki öğelerin konumlarını tutan _const\_iterator_ nesnelerinin türü. Yalnızca okuma erişimi sağlar.
 
+3. Varsayılan kurucu işlev _(default constructor)_. Boş bir _Vector_ oluşturur.
+4. Sonlandırıcı işlev _(destructor)_. Kaynakları geri verir.
+5. Kopyalayan kurucu işlev. _(copy constructor)_
+6. Taşıyan kurucu işlev. _(move constructor)_
+7. Kopyalayan atama işlevi. _(copy assignment)__
+8. Taşıyan atama işlevi. _(move assignment)__
+
 ```
 class Vector {
 public:
 
 	//--------------------------------------------------
 	// type members
-	class iterator; //1
-	class const_iterator;
+	class iterator;       //1
+	class const_iterator; //2
 	//--------------------------------------------------
 
 
 	//--------------------------------------------------
 	// special member functions
 
-	Vector();
-	~Vector();
-	Vector(const Vector &);
-	Vector(Vector &&);
-	Vector& operator=(const Vector&);
-	Vector& operator=(Vector&&);
+	Vector();                            //3
+	~Vector();			     //4
+	Vector(const Vector &);              //5
+	Vector(Vector &&);                   //6
+	Vector& operator=(const Vector&);    //7
+	Vector& operator=(Vector&&);         //8
 	//--------------------------------------------------
 
 
