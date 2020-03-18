@@ -6,34 +6,33 @@ Bu ödevde _Vector_ sınıfının kodlarını yazmanız isteniyor.
 
 
 ### Aşağıdaki açıklamalar kodda bulunan yorum satırlarına ilişkindir:
-__1.__ içsel _(nested)_ iterator türü. Kaptaki öğelerin konumlarını tutan _iterator_ nesnelerinin türü. Okuma ve yazma erişimi sağlar.
-__127.__ içsel _(nested)_ const_iterator türü. Kaptaki öğelerin konumlarını tutan _const\_iterator_ nesnelerinin türü. Yalnızca okuma erişimi sağlar.
+__1.__ İçsel _(nested)_ iterator türü. Kaptaki öğelerin konumlarını tutan _iterator_ nesnelerinin türü. Okuma ve yazma erişimi sağlar.
+__2.__ İçsel _(nested)_ const_iterator türü. Kaptaki öğelerin konumlarını tutan _const\_iterator_ nesnelerinin türü. Yalnızca okuma erişimi sağlar.
 
-3. Varsayılan kurucu işlev _(default constructor)_. Boş bir _Vector_ oluşturur.
-4. Sonlandırıcı işlev _(destructor)_. Kaynakları geri verir.
-5. Kopyalayan kurucu işlev. _(copy constructor)_
-6. Taşıyan kurucu işlev. _(move constructor)_
-7. Kopyalayan atama işlevi. _(copy assignment)_
-8. Taşıyan atama işlevi. _(move assignment)_
-9. Kurucu işlev _(constructor)_ _Vector_'ü değeri `val` olan `size` tane öğe ile başlatır.
-10. `std::initializer_list` parametreli kurucu işlev. `Vector` nesnesini listedeki değerleri tutacak şekilde başlatır. 
-11. Aralık _(range)_ parametreli kurucu işlev. `Vector` nesnesini bu aralıktaki değerleri tutacak şekilde başlatır. 
-12. Aralık _(range)_ parametreli kurucu işlev. `Vector` nesnesini bu aralıktaki değerleri tutacak şekilde başlatır.
+__3.__ Varsayılan kurucu işlev _(default constructor)_. Boş bir _Vector_ oluşturur.
+__4.__ Sonlandırıcı işlev _(destructor)_. Kaynakları geri verir.
+__5.__ Kopyalayan kurucu işlev. _(copy constructor)_
+__6.__ Taşıyan kurucu işlev. _(move constructor)_
+__7.__ Kopyalayan atama işlevi. _(copy assignment)_
+__8.__ Taşıyan atama işlevi. _(move assignment)_
+__9.__ Kurucu işlev. _Vector_'ü değeri _val_ olan _size_ tane öğe ile başlatır.
+__10.__ _std::initializer_list_ parametreli kurucu işlev. _Vector_ nesnesini listedeki değerleri tutacak şekilde başlatır. 
+__11.__ Aralık _(range)_ parametreli kurucu işlev. _Vector_ nesnesini bu aralıktaki değerleri tutacak şekilde başlatır. 
+__12.__ Aralık _(range)_ parametreli kurucu işlev. _Vector_ nesnesini bu aralıktaki değerleri tutacak şekilde başlatır.
 
-13. _reserve_ işlevi. Eğer _new_cap_ değeri var olan kapasiteden büyükse kapasiteyi arttırır. Eğer _new_cap_ değeri var olan kapasiteden küçükse kapasiteyi küçültmez.
+__13.__ _reserve_ işlevi. Eğer _new_cap_ değeri var olan kapasiteden büyükse kapasiteyi arttırır. Eğer _new_cap_ değeri var olan kapasiteden küçükse kapasiteyi küçültmez.
 
-14. Kapasite değerini _Vector_'de tutulan öğe sayısına _(size)_ büzer (kapasiteyi küçültür). 
+__14.__ Kapasite değerini _Vector_'de tutulan öğe sayısına _(size)_ büzer (kapasiteyi küçültür). 
 
-15. _Vector_'de tutulan ilk öğenin konumunu döndürür. İşlevin geri dönüş değeri içsel bir tür olan _iterator_ türüdür. Boş bir _Vector_'de bu konumun içerik _(dereferencing)_ operatörünün operandı yapılması tanımsız davranıştır.
+__15.__ _Vector_'de tutulan ilk öğenin konumunu döndürür. İşlevin geri dönüş değeri içsel bir tür olan _iterator_ türüdür. Boş bir _Vector_'de bu konumun içerik _(dereferencing)_ operatörünün operandı yapılması tanımsız davranıştır.
 
-
-16. _Vector_'de tutulan son öğeden sonraki _(olmayan öğenin)_ konumunu döndürür. İşlevin geri dönüş değeri içsel bir tür olan _iterator_ türüdür. Bu işlevden alınan konum karşılaştırma operatörleri ile diğer konumlarla karşılaştırılabilir. Bu konumun içerik _(dereferencing)_ operatörünün operandı yapılması tanımsız davranıştır.
+__16.__ _Vector_'de tutulan son öğeden sonraki _(olmayan öğenin)_ konumunu döndürür. İşlevin geri dönüş değeri içsel bir tür olan _iterator_ türüdür. Bu işlevden alınan konum karşılaştırma operatörleri ile diğer konumlarla karşılaştırılabilir. Bu konumun içerik _(dereferencing)_ operatörünün operandı yapılması tanımsız davranıştır.
 
 __42.__ _front_ işlevi _Vector_'de tutulan ilk öğeyi döndürür. _Vector_'ün boş olması durumunda bu işlevin çağrılması tanımsız davranıştır.
 
 __43.__ _front_ işlevi _Vector_'de tutulan ilk öğeye _const_ referans döndürür _(const overloading)_. _Vector_'ün boş olması durumunda bu işlevin çağrılması tanımsız davranıştır.
 
-__44.__ _backt__ işlevi _Vector_'de tutulan son öğeyi döndürür. _Vector_'ün boş olması durumunda bu işlevin çağrılması tanımsız davranıştır.
+__44.__ _back_ işlevi _Vector_'de tutulan son öğeyi döndürür. _Vector_'ün boş olması durumunda bu işlevin çağrılması tanımsız davranıştır.
 
 __45.__ _back_ işlevi _Vector_'de tutulan ilk öğeye _const_ referans döndürür _(const overloading)_. _Vector_'ün boş olması durumunda bu işlevin çağrılması tanımsız davranıştır.
 
