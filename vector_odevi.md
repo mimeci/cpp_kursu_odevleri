@@ -206,12 +206,12 @@ public:
 
 		const int& operator*(size_t idx);
 		const int &operator[](size_t idx);
-		bool operator<(iterator)const;
-		bool operator<=(iterator)const;
-		bool operator>(iterator)const;
-		bool operator>=(iterator)const;
-		bool operator==(iterator)const;
-		bool operator!=(iterator)const;
+		bool operator<(const_iterator)const;
+		bool operator<=(const_iterator)const;
+		bool operator>(const_iterator)const;
+		bool operator>=(const_iterator)const;
+		bool operator==(const_iterator)const;
+		bool operator!=(const_iterator)const;
 	};
 };
 	
