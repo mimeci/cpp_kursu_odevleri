@@ -87,6 +87,23 @@ __53.__ _size_ işlevi _Vector_'ün _size_ değerini döndürür. _size_ değeri
 __54.__ _empty_ işlevi _Vector_'ünboş olup olmadığını sınar. </br>
 
 
+### Diğer notlar:
+* Dilediğiniz global işlevleri _"friend"_ yapabilirsiniz.
+* Sınıfın _private_ arayüzünü dilediğiniz gibi oluşturabilirsiniz.
+* Gerekli görürseniz sınıfın _public_ arayüzüne eklemeler yapabilirsiniz.
+* Gerekli görürseniz sınıfın _public_ arayüzünde değişiklikler yapabilirsiniz.
+* Sınıfın _public_ öğelerinin isimlerini istediğiniz şekilde değiştirebilirsiniz. Ödevde seçilen isimler C++ standart kütüphanesinin 
+tercih ettiği isimlerdir.
+* Dilediğiniz işlevleri _"constexpr"_ yapabilirsiniz.
+* Bu ödevde _exception handling_ araçlarını kullanabilirsiniz. 
+* Kod tekrarından mümkün olduğu kadar kaçınmalısınız.
+* _const_ doğruluğuna _(const correctness)_ çok dikkat etmelisiniz. _(const olması gereken tüm varlıklar const olmalı)_
+* Gereksiz yorum satırlarından mümkün olduğu kadar kaçınmalısınız.
+* Yazdığınız kodların doğru çalışıp çalışmadığını sınamak için test kodları yazmalısınız.
+* Derleyicinizin uygun bir `switch`'ini kullanarak mantıksal uyarı iletilerinin hata `(error)` olarak değerlendirilmesini sağlayınız.
+
+
+
 
 ```
 class Vector {
