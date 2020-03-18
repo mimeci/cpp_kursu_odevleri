@@ -26,9 +26,9 @@ __9.__ Kurucu işlev. _Vector_'ü değeri _val_ olan _size_ tane öğe ile başl
 
 __10.__ _std::initializer_list_ parametreli kurucu işlev. _Vector_ nesnesini listedeki değerleri tutacak şekilde başlatır. <br>
 
-__11.__ Aralık _(range)_ parametreli kurucu işlev. _Vector_ nesnesini bu aralıktaki değerleri tutacak şekilde başlatır. <br>
+__11.__ Aralık _(range)_ parametreli kurucu işlev. _Vector_ nesnesini _\[pbegin, pend)_ aralığındaki değerlerle başlatır. Aralık olarak doğrudan adresler _(pointer)_ kullanılmaktadır. <br>
 
-__12.__ Aralık _(range)_ parametreli kurucu işlev. _Vector_ nesnesini bu aralıktaki değerleri tutacak şekilde başlatır.<br>
+__12.__ Aralık _(range)_ parametreli kurucu işlev. _Vector_ nesnesini _\[beg, end)_ aralığındaki değerlerle başlatır. Aralık olarak _const\_iterator_  değerleri kullanılmaktadır. <br>
 
 __13.__ _reserve_ işlevi. Eğer _new_cap_ değeri var olan kapasiteden büyükse kapasiteyi arttırır. Eğer _new_cap_ değeri var olan kapasiteden küçükse kapasiteyi küçültmez.<br>
 
@@ -133,7 +133,7 @@ public:
 	explicit Vector(size_t size, int val = 0);  //9
 	Vector(std::initializer_list<int> ilist);   //10
 	Vector(const int *pbegin, const int *pend);  //11
-        Vector(const_iterator, const_iterator);     //12
+        Vector(const_iterator beg, const_iterator end);     //12
 
 	//--------------------------------------------------
 
