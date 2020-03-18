@@ -25,7 +25,9 @@ __8.__ Taşıyan atama işlevi. _(move assignment)_<br>
 __9.__ Kurucu işlev. _Vector_'ü değeri _val_ olan _size_ tane öğe ile başlatır.<br>
 
 __10.__ _std::initializer_list_ parametreli kurucu işlev. _Vector_ nesnesini listedeki değerleri tutacak şekilde başlatır. <br>
+
 __11.__ Aralık _(range)_ parametreli kurucu işlev. _Vector_ nesnesini bu aralıktaki değerleri tutacak şekilde başlatır. <br>
+
 __12.__ Aralık _(range)_ parametreli kurucu işlev. _Vector_ nesnesini bu aralıktaki değerleri tutacak şekilde başlatır.<br>
 
 __13.__ _reserve_ işlevi. Eğer _new_cap_ değeri var olan kapasiteden büyükse kapasiteyi arttırır. Eğer _new_cap_ değeri var olan kapasiteden küçükse kapasiteyi küçültmez.<br>
@@ -35,6 +37,8 @@ __14.__ Kapasite değerini _Vector_'de tutulan öğe sayısına _(size)_ büzer 
 __15.__ _Vector_'de tutulan ilk öğenin konumunu döndürür. İşlevin geri dönüş değeri içsel bir tür olan _iterator_ türüdür. Boş bir _Vector_'de bu konumun içerik _(dereferencing)_ operatörünün operandı yapılması tanımsız davranıştır.<br>
 
 __16.__ _Vector_'de tutulan son öğeden sonraki _(olmayan öğenin)_ konumunu döndürür. İşlevin geri dönüş değeri içsel bir tür olan _iterator_ türüdür. Bu işlevden alınan konum karşılaştırma operatörleri ile diğer konumlarla karşılaştırılabilir. Bu konumun içerik _(dereferencing)_ operatörünün operandı yapılması tanımsız davranıştır.<br>
+
+__38__. _swap_ işlevi iki _Vector_'ü takas eder. İşlev yalnızca sınıfın veri öğelerini takas etmelidir. Dinamik bellek alanında yer alan _Vector_'ün tuttuğu öğeler takas edilmemelidir.</br>
 
 __42.__ _front_ işlevi _Vector_'de tutulan ilk öğeyi döndürür. _Vector_'ün boş olması durumunda bu işlevin çağrılması tanımsız davranıştır.<br>
 
