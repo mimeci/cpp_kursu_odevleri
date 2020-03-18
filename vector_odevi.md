@@ -185,18 +185,23 @@ public:
 	class iterator {
 		//...
 	public:
-		iterator& operator++();
-		iterator operator++(int);
-		iterator& operator--();
-		iterator operator--(int);
-		int& operator*(size_t idx);
-		int &operator[](size_t idx);
-		bool operator<(iterator)const;
-		bool operator<=(iterator)const;
-		bool operator>(iterator)const;
-		bool operator>=(iterator)const;
-		bool operator==(iterator)const;
-		bool operator!=(iterator)const;
+		iterator& operator++();  //60
+		iterator operator++(int); //61
+		iterator& operator--();  //62
+		iterator operator--(int); //63
+		int& operator*(size_t idx); //64
+		int &operator[](size_t idx);  //65
+		ptrdiff_t operator-(iterator); //66
+		iterator operator+(int n); //67
+		iterator operator-(int n); //68
+		iterator& operator+=(int n)  //69
+                iterator& operator-=(int n) //70
+		bool operator<(iterator)const; //71
+		bool operator<=(iterator)const; //71
+		bool operator>(iterator)const; //71
+		bool operator>=(iterator)const; //71
+		bool operator==(iterator)const; //71
+		bool operator!=(iterator)const; //71
 	};
 
 	class const_iterator {
