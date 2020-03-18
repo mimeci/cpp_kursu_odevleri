@@ -34,13 +34,21 @@ __13.__ _reserve_ işlevi. Eğer _new_cap_ değeri var olan kapasiteden büyüks
 
 __14.__ Kapasite değerini _Vector_'de tutulan öğe sayısına _(size)_ büzmeli (kapasiteyi küçültmeli). <br>
 
-__15.__ _Vector_'de tutulan ilk öğenin konumunu döndürür. İşlevin geri dönüş değeri içsel bir tür olan _iterator_ türüdür. Boş bir _Vector_'de bu konumun içerik _(dereferencing)_ operatörünün terimi yapılması tanımsız davranıştır.<br>
+__15.__ _Vector_'de tutulan ilk öğenin konumunu döndürmeli.
+İşlevin geri dönüş değeri içsel bir tür olan _iterator_ türüdür.
+Boş bir _Vector_'de bu konumun içerik _(dereferencing)_ operatörünün terimi yapılması tanımsız davranıştır.<br>
 
-__16.__ _Vector_'de tutulan son öğeden sonraki _(olmayan öğenin)_ konumunu döndürür. İşlevin geri dönüş değeri içsel bir tür olan _iterator_ türüdür. Bu işlevden alınan konum karşılaştırma operatörleri ile diğer konumlarla karşılaştırılabilir. Bu konumun içerik _(dereferencing)_ operatörünün terimi yapılması tanımsız davranıştır.<br>
+__16.__ _Vector_'de tutulan son öğeden sonraki _(olmayan öğenin)_ konumunu döndürmeli.
+İşlevin geri dönüş değeri içsel bir tür olan _iterator_ türüdür.
+Bu işlevden alınan konum karşılaştırma operatörleri ile diğer konumlarla karşılaştırılabilir.
+Bu konumun içerik _(dereferencing)_ operatörünün terimi yapılması tanımsız davranıştır.<br>
 
-__17.__ _Vector_'de tutulan ilk öğenin konumunu _(salt okuma erişimli)_ döndürür. İşlevin geri dönüş değeri içsel bir tür olan _const\_iterator_ türüdür. Boş bir _Vector_'de bu konumun içerik _(dereferencing)_ operatörünün terimi yapılması tanımsız davranıştır.<br>
+__17.__ _Vector_'de tutulan ilk öğenin konumunu _(salt okuma erişimli)_ döndürmeli.
+İşlevin geri dönüş değeri içsel bir tür olan _const\_iterator_ türüdür.
+Boş bir _Vector_'de bu konumun içerik _(dereferencing)_ operatörünün terimi yapılması tanımsız davranıştır.<br>
 
-__16.__ _Vector_'de tutulan son öğeden sonraki _(olmayan öğenin)_ konumunu döndürür. İşlevin geri dönüş değeri içsel bir tür olan _const\_iterator_ türüdür. Bu işlevden alınan konum karşılaştırma operatörleri ile diğer konumlarla karşılaştırılabilir. Bu konumun içerik _(dereferencing)_ operatörünün terimi yapılması tanımsız davranıştır.<br>
+__16.__ _Vector_'de tutulan son öğeden sonraki _(olmayan öğenin)_ konumunu döndürmeli.
+İşlevin geri dönüş değeri içsel bir tür olan _const\_iterator_ türüdür. Bu işlevden alınan konum karşılaştırma operatörleri ile diğer konumlarla karşılaştırılabilir. Bu konumun içerik _(dereferencing)_ operatörünün terimi yapılması tanımsız davranıştır.<br>
 
 
 
