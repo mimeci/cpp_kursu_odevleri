@@ -42,6 +42,20 @@ __22.__ _initializer_list_ parametreli atama işlevi. Bu işlevin çağrılması
 
 __23.__ _resize_ işlevi. _Vector_'de turulan öğe sayısını değiştirir. Bu işlev _Vector_'deki öğe sayısını hem arttırmak hem de azaltmak için kullanlabilir. İşlevin varsayılan argüman alan ikinci parametresi _Vector_'deki öğe sayısının arttırılması durumunda yeni eklenecek öğelerin alacakları değerdir. </br>
 
+__26.__ _assign_ işlevi. Bu işlevin çağrılmasıyla _Vector_ nesnesi _n_ tane _val_ değeri tutar hale gelir. _(fill assign)_ </br>
+
+__27.__ _initializer_list_ parametreli _assign_ işlevi. Bu işlevin çağrılması ile _Vector_ artık parametre olan listedeki değerleri tutacaktır. </br>
+
+__28.__ aralık _(range)__ parametreli assign işlevi. Bu işlevin çağrılması ile _Vector_ artık parametresine gelen aralıktaki değerleri tutacaktır. </br>
+
+__30.__ </br>
+
+__31.__ </br>
+
+__34.__ </br>
+
+__35.__ </br>
+
 __38__. _swap_ işlevi iki _Vector_'ü takas eder. İşlev yalnızca sınıfın veri öğelerini takas etmelidir. Dinamik bellek alanında yer alan _Vector_'ün tuttuğu öğeler takas edilmemelidir.</br>
 
 __39__. _clear_ işlevi iki _Vector_'deki tüm öğeleri siler yani _Vector_'ü boşaltır. Bu işlemden sonra _Vector_'ün _size_ değeri _0_ olmalıdır.</br>
