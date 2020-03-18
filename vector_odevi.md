@@ -75,16 +75,16 @@ __31.__ _where_ konumuna _\[beg end)_ aralığındaki değerleri eklemeli.
 İşlevin geri dönüş değeri ilk eklenmiş öğenin konumu olmalı. </br>
 
 
-__34.__ _where_ konumundaki öğeyi siler.
-İşlevin geri dönüş değeri silinmiş öğeden sonraki öğenin konumudur</br>
+__34.__ _where_ konumundaki öğeyi silmeli.
+İşlevin geri dönüş değeri silinmiş öğeden sonraki öğenin konumu olmalı</br>
 
-__35.__ _\[beg end)_ aralığındaki değerleri siler.
-İşlevin geri dönüş değeri silinen öğelerden sonraki öğenin konumudur.</br>
+__35.__ _\[beg end)_ aralığındaki değerleri silmeli.
+İşlevin geri dönüş değeri silinen öğelerden sonraki öğenin konumu olmalı.</br>
 
-__36.__ _push|_back_ işlevi.
+__36.__ _push\_back_ işlevi.
 Parametresine gelen değeri _Vector_'e son öğe olarak eklemeli. </br>
 
-__37.__ _pop|_back_ işlevi. 
+__37.__ _pop\_back_ işlevi. 
 _Vector_'deki son öğeyi silmeli. </br>
 
 __38__. _swap_ işlevi iki _Vector_'ü takas etmeli. 
