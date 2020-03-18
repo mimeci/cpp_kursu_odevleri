@@ -207,20 +207,25 @@ public:
 	class const_iterator {
 		//...
 	public:
-		const_iterator& operator++();
-		const_iterator operator++(int);
-		
-		const_iterator& operator--();
-		const_iterator operator--(int);
-
-		const int& operator*(size_t idx);
-		const int &operator[](size_t idx);
-		bool operator<(const_iterator)const;
-		bool operator<=(const_iterator)const;
-		bool operator>(const_iterator)const;
-		bool operator>=(const_iterator)const;
-		bool operator==(const_iterator)const;
-		bool operator!=(const_iterator)const;
+		public:
+		iterator& operator++();  //80
+		iterator operator++(int); //81
+		iterator& operator--();  //82
+		iterator operator--(int); //83
+		int& operator*(size_t idx); //84
+		int &operator[](size_t idx);  //85
+		ptrdiff_t operator-(iterator); //86
+		const_iterator operator+(int n); //87
+		const_iterator operator-(int n); //88
+		const_iterator& operator+=(int n)  //89
+                const_iterator& operator-=(int n) //90
+		bool operator<(const_iterator)const; //91
+		bool operator<=(const_iterator)const; //91
+		bool operator>(const_iterator)const; //91
+		bool operator>=(const_iterator)const; //91
+		bool operator==(const_iterator)const; //91
+		bool operator!=(const_iterator)const; //91
+	};
 	};
 };
 	
