@@ -98,16 +98,19 @@ __61.__   Son ek _++_ operatörü. _iterator_ nesnesini _1_ arttırarak bir sonr
 
 __62.__   Ön ek _--_ operatörü. _iterator_ nesnesini _1_ eksilterek bir önceki öğenin konumunu tutmasını sağlar.<br>
 
-__63.__   Ön ek _--_ operatörü. _iterator_ nesnesini _1_ eksilterek bir önceki öğenin konumunu tutmasını sağlar.<br>
+__63.__   Son ek _--_ operatörü. _iterator_ nesnesini _1_ eksilterek bir önceki öğenin konumunu tutmasını sağlar.<br>
 
 __64.__   İçerik operatörü. _iterator_ nesnesinin tuttuğu konumdaki öğeye eriştirir.<br>
 __65.__   İndeks operatörü. _iterator_ nesnesinin tuttuğu konumdaki öğeden _n_ sonraki ya da önceki öğeye eriştirir.<br>
 __66.__   <br>
 __67.__   <br>
 __68.__   <br>
-__69.__   <br>
-__70.__   <br>
-__71.__   <br>		
+
+__69.__ _iterator_ nesnesini _n_ sonraki nesnenin konumunu tutacak şekilde arttırır. </br>
+
+__70.__ _iterator_ nesnesini _n_ önceki nesnenin konumunu tutacak şekilde eksiltir. </br>
+
+__71.__   _iterator_ nesnelerinin karşılaştırılmalarını sağlayan karşılaştıma operatör işlevleri. <br>		
 
 ### Vector::const_iterator sınıfı
 
