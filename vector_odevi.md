@@ -6,9 +6,9 @@ Bu ödevde _Vector_ sınıfının kodlarını yazmanız isteniyor.
 
 
 ### Aşağıdaki açıklamalar kodda bulunan yorum satırlarına ilişkindir:
-__1.__ İçsel _(nested)_ iterator türü. Kaptaki öğelerin konumlarını tutan _iterator_ nesnelerinin türü. Okuma ve yazma erişimi sağlar.<br>
+__1.__ İçsel _(nested)_ _iterator_ türü. Kaptaki öğelerin konumlarını tutan _iterator_ nesnelerinin türü. Okuma ve yazma erişimi sağlar.<br>
 
-__2.__ İçsel _(nested)_ const_iterator türü. Kaptaki öğelerin konumlarını tutan _const\_iterator_ nesnelerinin türü. Yalnızca okuma erişimi sağlar.<br>
+__2.__ İçsel _(nested)_ _const\_iterator_ türü. Kaptaki öğelerin konumlarını tutan _const\_iterator_ nesnelerinin türü. Yalnızca okuma amaçlı erişim sağlar.<br>
 
 __3.__ Varsayılan kurucu işlev _(default constructor)_. Boş bir _Vector_ oluşturur.<br>
 
