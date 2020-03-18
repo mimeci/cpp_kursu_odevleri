@@ -84,7 +84,7 @@ __52.__ _capacity_ işlevi _Vector_'ün kapasite değerini döndürür. Kapasite
 
 __53.__ _size_ işlevi _Vector_'ün _size_ değerini döndürür. _size_ değeri _Vector_ nesnesinin tutmakta olduğu öğe sayısıdır. </br>
 
-__54.__ _empty_ işlevi _Vector_'ünboş olup olmadığını sınar. </br>
+__54.__ _empty_ işlevi _Vector_'ün boş olup olmadığını sınar. </br>
 
 
 ### Diğer notlar:
@@ -92,7 +92,7 @@ __54.__ _empty_ işlevi _Vector_'ünboş olup olmadığını sınar. </br>
 * Sınıfın _private_ arayüzünü dilediğiniz gibi oluşturabilirsiniz.
 * Gerekli görürseniz sınıfın _public_ arayüzüne eklemeler yapabilirsiniz.
 * Gerekli görürseniz sınıfın _public_ arayüzünde değişiklikler yapabilirsiniz.
-* Sınıfın _public_ öğelerinin isimlerini istediğiniz şekilde değiştirebilirsiniz. Ödevde seçilen isimler C++ standart kütüphanesinin 
+* Sınıfın _public_ öğelerinin isimlerini istediğiniz şekilde değiştirebilirsiniz. Ödevde seçilen isimler _C++_ standart kütüphanesinin 
 tercih ettiği isimlerdir.
 * Dilediğiniz işlevleri _"constexpr"_ yapabilirsiniz.
 * Bu ödevde _exception handling_ araçlarını kullanabilirsiniz. 
@@ -100,10 +100,10 @@ tercih ettiği isimlerdir.
 * _const_ doğruluğuna _(const correctness)_ çok dikkat etmelisiniz. _(const olması gereken tüm varlıklar const olmalı)_
 * Gereksiz yorum satırlarından mümkün olduğu kadar kaçınmalısınız.
 * Yazdığınız kodların doğru çalışıp çalışmadığını sınamak için test kodları yazmalısınız.
-* Derleyicinizin uygun bir `switch`'ini kullanarak mantıksal uyarı iletilerinin hata `(error)` olarak değerlendirilmesini sağlayınız.
+* Derleyicinizin uygun bir _switch_'ini kullanarak mantıksal uyarı iletilerinin hata _(error)_ olarak değerlendirilmesini sağlayınız.
 
 
-
+## _Vector_ sınıfının tanımı
 
 ```
 class Vector {
