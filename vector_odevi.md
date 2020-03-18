@@ -187,7 +187,8 @@ public:
 	public:
 		iterator& operator++();
 		iterator operator++(int);
-		
+		iterator& operator--();
+		iterator operator--(int);
 		int& operator*(size_t idx);
 		int &operator[](size_t idx);
 		bool operator<(iterator)const;
@@ -203,6 +204,9 @@ public:
 	public:
 		const_iterator& operator++();
 		const_iterator operator++(int);
+		
+		const_iterator& operator--();
+		const_iterator operator--(int);
 
 		const int& operator*(size_t idx);
 		const int &operator[](size_t idx);
