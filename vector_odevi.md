@@ -40,6 +40,9 @@ __16.__ _Vector_'de tutulan son öğeden sonraki _(olmayan öğenin)_ konumunu d
 
 __38__. _swap_ işlevi iki _Vector_'ü takas eder. İşlev yalnızca sınıfın veri öğelerini takas etmelidir. Dinamik bellek alanında yer alan _Vector_'ün tuttuğu öğeler takas edilmemelidir.</br>
 
+__39__. _clear_ işlevi iki _Vector_'deki tüm öğeleri siler yani _Vector_'ü boşaltır. Bu işlemden sonra _Vector_'ün _size_ değeri _0_ olmalıdır.</br>
+
+
 __42.__ _front_ işlevi _Vector_'de tutulan ilk öğeyi döndürür. _Vector_'ün boş olması durumunda bu işlevin çağrılması tanımsız davranıştır.<br>
 
 __43.__ _front_ işlevi _Vector_'de tutulan ilk öğeye _const_ referans döndürür _(const overloading)_. _Vector_'ün boş olması durumunda bu işlevin çağrılması tanımsız davranıştır.<br>
@@ -47,6 +50,18 @@ __43.__ _front_ işlevi _Vector_'de tutulan ilk öğeye _const_ referans döndü
 __44.__ _back_ işlevi _Vector_'de tutulan son öğeyi döndürür. _Vector_'ün boş olması durumunda bu işlevin çağrılması tanımsız davranıştır.<br>
 
 __45.__ _back_ işlevi _Vector_'de tutulan ilk öğeye _const_ referans döndürür _(const overloading)_. _Vector_'ün boş olması durumunda bu işlevin çağrılması tanımsız davranıştır.<br>
+
+__50.__ _data_ işlevi _Vector_'de tutulan ilk öğenin adresini döndürür. Bu adres _C api'lerine_ bir dizi adresi olarak gönderilebilir. <br>
+
+__51.__ _data_ işlevi _Vector_'de tutulan ilk öğenin adresini _(salt okuma erişimli)_ döndürür. Bu adres _C api'lerine_ bir dizi adresi olarak gönderilebilir. <br>
+
+__52.__ _capacity_ işlevi _Vector_'ün kapasite değerini döndürür. Kapasite değeri _Vector_ nesnesinin edindiği ve tutmakta olduğu dinamik bellek bloğunun öğe sayısı cinsinden büyüklüğüdür.</br>
+
+__53.__ _size_ işlevi _Vector_'ün _size_ değerini döndürür. _size_ değeri _Vector_ nesnesinin tutmakta olduğu öğe sayısıdır. </br>
+
+__54.__ _empty_ işlevi _Vector_'ünboş olup olmadığını sınar. </br>
+
+
 
 ```
 class Vector {
