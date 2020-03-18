@@ -261,11 +261,11 @@ public:
 	void assign(std::initializer_list<int> ilist); //27
 	void assign(const int* pbeg, const int* pend);  //28
 
-        iterator& insert(iterator where, int val); //30
-        iterator& insert(iterator where, iterator source_beg, iterator source_end); //31
+        iterator insert(iterator where, int val); //30
+        iterator insert(iterator where, iterator source_beg, iterator source_end); //31
 
-        iterator& erase(iterator where); //34
-	iterator& erase(iterator beg, iterator end); //35
+        iterator erase(iterator where); //34
+	iterator erase(iterator beg, iterator end); //35
 	void push_back(int val); //36
 	void pop_pack(); //37
 
