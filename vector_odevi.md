@@ -102,9 +102,9 @@ __63.__   Son ek _--_ operatörü. _iterator_ nesnesini _1_ eksilterek bir önce
 
 __64.__   İçerik operatörü. _iterator_ nesnesinin tuttuğu konumdaki öğeye eriştirir.<br>
 __65.__   İndeks operatörü. _iterator_ nesnesinin tuttuğu konumdaki öğeden _n_ sonraki ya da önceki öğeye eriştirir.<br>
-__66.__   <br>
-__67.__   <br>
-__68.__   <br>
+__66.__   İki _iterator_ arasındaki farkı döndürür.<br>
+__67.__   _iterator_ konumundan _n_ sonraki konumu döndürür.<br>
+__68.__   _iterator_ konumundan _n_ sonraki konumu döndürür.<br>
 
 __69.__ _iterator_ nesnesini _n_ sonraki nesnenin konumunu tutacak şekilde arttırır. </br>
 
@@ -114,18 +114,26 @@ __71.__   _iterator_ nesnelerinin karşılaştırılmalarını sağlayan karşı
 
 ### Vector::const_iterator sınıfı
 
-__80.__   <br>
-__81.__   <br>
-__82.__   <br>
-__83.__   <br>
-__84.__   <br>
-__85.__   <br>
-__86.__   <br>
-__87.__   <br>
-__88.__   <br>
-__89.__   <br>
-__90.__   <br>
-__91.__   <br>
+__80.__   Ön ek _++_ operatörü. _const\_iterator_ nesnesini _1_ arttırarak bir sonraki öğenin konumunu tutmasını sağlar.<br>
+
+__81.__   Son ek _++_ operatörü. _const\_iterator_ nesnesini _1_ arttırarak bir sonraki öğenin konumunu tutmasını sağlar.<br>
+
+__82.__   Ön ek _--_ operatörü. _const\_iterator_ nesnesini _1_ eksilterek bir önceki öğenin konumunu tutmasını sağlar.<br>
+
+__83.__   Son ek _--_ operatörü. _const\_iterator_ nesnesini _1_ eksilterek bir önceki öğenin konumunu tutmasını sağlar.<br>
+
+__84.__   İçerik operatörü. _const\_iterator_ nesnesinin tuttuğu konumdaki öğeye okuma amaçlı erişim sağlar.<br>
+__85.__   İndeks operatörü. _const\_iterator_ nesnesinin tuttuğu konumdaki öğeden _n_ sonraki ya da önceki öğeye okuma amaçlı erişim sağlar.<br>
+__86.__   İki _const\_iterator_ arasındaki farkı döndürür.<br>
+__87.__   _const\_iterator_ konumundan _n_ sonraki konumu döndürür.<br>
+__88.__   _const\_iterator_ konumundan _n_ sonraki konumu döndürür.<br>
+
+__89.__ _const\_iterator_ nesnesini _n_ sonraki nesnenin konumunu tutacak şekilde arttırır. </br>
+
+__80.__ _const\_iterator_ nesnesini _n_ önceki nesnenin konumunu tutacak şekilde eksiltir. </br>
+
+__81.__   _const\_iterator_ nesnelerinin karşılaştırılmalarını sağlayan karşılaştıma operatör işlevleri. <br>		
+
 
 
 
@@ -190,9 +198,9 @@ public:
 	
 	//setters/mutators
 	Vector& operator=(std::initializer_list<int> ilist); //22
-	void resize(size_t, int val = 0);  //23
+	void resize(std::size_t, int val = 0);  //23
 	
-	void assign(size_t n, int val);  //26
+	void assign(std::size_t n, int val);  //26
 	void assign(std::initializer_list<int> ilist); //27
 	void assign(const int* pbeg, const int* pend);  //28
 
@@ -235,7 +243,7 @@ public:
 		iterator operator--(int); //63
 		int& operator*(); //64
 		int &operator[](int n);  //65
-		ptrdiff_t operator-(iterator); //66
+		std::ptrdiff_t operator-(iterator); //66
 		iterator operator+(int n); //67
 		iterator operator-(int n); //68
 		iterator& operator+=(int n)  //69
