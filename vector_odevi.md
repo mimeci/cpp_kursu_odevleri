@@ -50,23 +50,29 @@ Boş bir _Vector_'de bu konumun içerik _(dereferencing)_ operatörünün terimi
 __16.__ _Vector_'de tutulan son öğeden sonraki _(olmayan öğenin)_ konumunu döndürmeli.
 İşlevin geri dönüş değeri içsel bir tür olan _const\_iterator_ türüdür. Bu işlevden alınan konum karşılaştırma operatörleri ile diğer konumlarla karşılaştırılabilir. Bu konumun içerik _(dereferencing)_ operatörünün terimi yapılması tanımsız davranıştır.<br>
 
+__22.__ _initializer_list_ parametreli atama işlevi. 
+Bu işlevin çağrılması ile _Vector_ artık parametre olan listedeki değerleri tutmalı. </br>
 
+__23.__ _resize_ işlevi. 
+_Vector_'de tutulan öğe sayısını değiştirmeli. 
+Bu işlev _Vector_'deki öğe sayısını hem arttırmak hem de azaltmak için kullanılabilir. 
+İşlevin varsayılan argüman alan ikinci parametresi _Vector_'deki öğe sayısının arttırılması durumunda yeni eklenecek öğelerin alacakları değerdir. 
+_Vector_'deki öğe sayısından daha küçük bir değerle çağrılırsa sondan silme işlemi yapmalı.</br>
 
-__22.__ _initializer_list_ parametreli atama işlevi. Bu işlevin çağrılması ile _Vector_ artık parametre olan listedeki değerleri tutacaktır. </br>
+__26.__ _assign_ işlevi. 
+Bu işlevin çağrılmasıyla _Vector_ nesnesi _n_ tane _val_ değeri tutar hale gelmeli. _(fill assign)_ </br>
 
-__23.__ _resize_ işlevi. _Vector_'de turulan öğe sayısını değiştirmeli. Bu işlev _Vector_'deki öğe sayısını hem arttırmak hem de azaltmak için kullanlabilir. İşlevin varsayılan argüman alan ikinci parametresi _Vector_'deki öğe sayısının arttırılması durumunda yeni eklenecek öğelerin alacakları değerdir. _Vector_'deki öğe sayısından daha küçük bir değerle çağrılırsa sondan silme işlemi yapmalı.</br>
+__27.__ _initializer_list_ parametreli _assign_ işlevi. 
+Bu işlevin çağrılması ile _Vector_ artık parametresine gelen listedeki değerleri tutmalı. </br>
 
-__26.__ _assign_ işlevi. Bu işlevin çağrılmasıyla _Vector_ nesnesi _n_ tane _val_ değeri tutar hale gelmeli. _(fill assign)_ </br>
-
-__27.__ _initializer_list_ parametreli _assign_ işlevi. Bu işlevin çağrılması ile _Vector_ artık parametresine gelen listedeki değerleri tutmalı. </br>
-
-__28.__ aralık _(range)__ parametreli assign işlevi. Bu işlevin çağrılması ile _Vector_ artık parametresine gelen aralıktaki değerleri tutmalıu. </br>
+__28.__ aralık _(range)__ parametreli assign işlevi. 
+Bu işlevin çağrılması ile _Vector_ artık parametresine gelen aralıktaki değerleri tutmalı. </br>
 
 __30.__ _where_ konumuna _val_ değerini eklemeli.
-İşlevin geri dönüş değeri eklenmiş öğenin konumudur.</br>
+İşlevin geri dönüş değeri eklenmiş öğenin konumu olmalı.</br>
 
 __31.__ _where_ konumuna _\[beg end)_ aralığındaki değerleri eklemeli.
-İşlevin geri dönüş değeri ilk eklenmiş öğenin konumudur. </br>
+İşlevin geri dönüş değeri ilk eklenmiş öğenin konumu olmalı. </br>
 
 
 __34.__ _where_ konumundaki öğeyi siler.
@@ -95,39 +101,45 @@ _Vector_'ün boş olması durumunda bu işlevin çağrılması tanımsız davran
 __43.__ _front_ işlevi _Vector_'de tutulan ilk öğeye _const_ referans döndürmeli _(const overloading)_. 
 _Vector_'ün boş olması durumunda bu işlevin çağrılması tanımsız davranıştır.<br>
 
-__44.__ _back_ işlevi _Vector_'de tutulan son öğeyi döndürür. _Vector_'ün boş olması durumunda bu işlevin çağrılması tanımsız davranıştır.<br>
+__44.__ _back_ işlevi _Vector_'de tutulan son öğeyi döndürmeli. 
+_Vector_'ün boş olması durumunda bu işlevin çağrılması tanımsız davranıştır.<br>
 
-__45.__ _back_ işlevi _Vector_'de tutulan ilk öğeye _const_ referans döndürür _(const overloading)_. _Vector_'ün boş olması durumunda bu işlevin çağrılması tanımsız davranıştır.<br>
+__45.__ _back_ işlevi _Vector_'de tutulan ilk öğeye _const_ referans döndürmeli _(const overloading)_. 
+_Vector_'ün boş olması durumunda bu işlevin çağrılması tanımsız davranıştır.<br>
 
-__50.__ _data_ işlevi _Vector_'de tutulan ilk öğenin adresini döndürür. Bu adres _C api'lerine_ bir dizi adresi olarak gönderilebilir. <br>
+__50.__ _data_ işlevi _Vector_'de tutulan ilk öğenin adresini döndürmeli. 
+Bu adres _C_ işlevlerine bir dizi adresi olarak gönderilebilir. <br>
 
 __51.__ _data_ işlevi _Vector_'de tutulan ilk öğenin adresini _(salt okuma erişimli)_ döndürür. Bu adres _C api'lerine_ bir dizi adresi olarak gönderilebilir. <br>
 
-__52.__ _capacity_ işlevi _Vector_'ün kapasite değerini döndürür. Kapasite değeri _Vector_ nesnesinin edindiği ve tutmakta olduğu dinamik bellek bloğunun öğe sayısı cinsinden büyüklüğüdür.</br>
+__52.__ _capacity_ işlevi _Vector_'ün kapasite değerini döndürmeli. 
+Kapasite değeri _Vector_ nesnesinin edindiği ve tutmakta olduğu dinamik bellek bloğunun öğe sayısı cinsinden büyüklüğüdür.</br>
 
-__53.__ _size_ işlevi _Vector_'ün _size_ değerini döndürür. _size_ değeri _Vector_ nesnesinin tutmakta olduğu öğe sayısıdır. </br>
+__53.__ _size_ işlevi _Vector_'ün _size_ değerini döndürmeli. 
+_size_ değeri _Vector_ nesnesinin tutmakta olduğu öğe sayısıdır. </br>
 
-__54.__ _empty_ işlevi _Vector_'ün boş olup olmadığını sınar. </br>
+__54.__ _empty_ işlevi _Vector_'ün boş olup olmadığını sınamalı. </br>
 
 ### Vector::iterator sınıfı
 
-__60.__   Ön ek _++_ operatörü. _iterator_ nesnesini _1_ arttırarak bir sonraki öğenin konumunu tutmasını sağlar.<br>
+__60.__   Ön ek _++_ operatörü. _iterator_ nesnesini _1_ arttırarak bir sonraki öğenin konumunu tutmasını sağlamalı.<br>
 
-__61.__   Son ek _++_ operatörü. _iterator_ nesnesini _1_ arttırarak bir sonraki öğenin konumunu tutmasını sağlar.<br>
+__61.__   Son ek _++_ operatörü. _iterator_ nesnesini _1_ arttırarak bir sonraki öğenin konumunu tutmasını sağlamalı.<br>
 
-__62.__   Ön ek _--_ operatörü. _iterator_ nesnesini _1_ eksilterek bir önceki öğenin konumunu tutmasını sağlar.<br>
+__62.__   Ön ek _--_ operatörü. _iterator_ nesnesini _1_ eksilterek bir önceki öğenin konumunu tutmasını sağlamalı.<br>
 
-__63.__   Son ek _--_ operatörü. _iterator_ nesnesini _1_ eksilterek bir önceki öğenin konumunu tutmasını sağlar.<br>
+__63.__   Son ek _--_ operatörü. _iterator_ nesnesini _1_ eksilterek bir önceki öğenin konumunu tutmasını sağlamalı.<br>
 
-__64.__   İçerik operatörü. _iterator_ nesnesinin tuttuğu konumdaki öğeye eriştirir.<br>
-__65.__   İndeks operatörü. _iterator_ nesnesinin tuttuğu konumdaki öğeden _n_ sonraki ya da önceki öğeye eriştirir.<br>
-__66.__   İki _iterator_ arasındaki farkı döndürür.<br>
-__67.__   _iterator_ konumundan _n_ sonraki konumu döndürür.<br>
-__68.__   _iterator_ konumundan _n_ sonraki konumu döndürür.<br>
+__64.__   İçerik operatörü. 
+_iterator_ nesnesinin tuttuğu konumdaki öğeye eriştirmeli.<br>
+__65.__   İndeks operatörü. _iterator_ nesnesinin tuttuğu konumdaki öğeden _n_ sonraki ya da önceki öğeye eriştirmeli.<br>
+__66.__   İki _iterator_ arasındaki farkı döndürmeli.<br>
+__67.__   _iterator_ konumundan _n_ sonraki konumu döndürmeli.<br>
+__68.__   _iterator_ konumundan _n_ sonraki konumu döndürmeli.<br>
 
-__69.__ _iterator_ nesnesini _n_ sonraki nesnenin konumunu tutacak şekilde arttırır. </br>
+__69.__ _iterator_ nesnesini _n_ sonraki nesnenin konumunu tutacak şekilde arttırmalı. </br>
 
-__70.__ _iterator_ nesnesini _n_ önceki nesnenin konumunu tutacak şekilde eksiltir. </br>
+__70.__ _iterator_ nesnesini _n_ önceki nesnenin konumunu tutacak şekilde eksiltmeli. </br>
 
 __71.__   _iterator_ nesnelerinin karşılaştırılmalarını sağlayan karşılaştıma operatör işlevleri. <br>		
 
