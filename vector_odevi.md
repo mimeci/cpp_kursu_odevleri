@@ -62,27 +62,38 @@ __27.__ _initializer_list_ parametreli _assign_ işlevi. Bu işlevin çağrılma
 
 __28.__ aralık _(range)__ parametreli assign işlevi. Bu işlevin çağrılması ile _Vector_ artık parametresine gelen aralıktaki değerleri tutmalıu. </br>
 
-__30.__ _where_ konumuna _val_ değerini eklemeli. İşlevin geri dönüş değeri eklenmiş öğenin konumudur.</br>
+__30.__ _where_ konumuna _val_ değerini eklemeli.
+İşlevin geri dönüş değeri eklenmiş öğenin konumudur.</br>
 
-__31.__ _where_ konumuna _\[beg end)_ aralığındaki değerleri eklemeli. İşlevin geri dönüş değeri ilk eklenmiş öğenin konumudur. </br>
-
-
-__34.__ _where_ konumundaki öğeyi siler. İşlevin geri dönüş değeri silinmiş öğeden sonraki öğenin konumudur</br>
-
-__35.__ _\[beg end)_ aralığındaki değerleri siler. İşlevin geri dönüş değeri silinen öğelerden sonraki öğenin konumudur.</br>
-
-__36.__ _push|_back_ işlevi. Parametresine gelen değeri _Vector_'e son öğe olarak ekler. </br>
-
-__37.__ _pop|_back_ işlevi. _Vector_'deki son öğeyi siler. </br>
-
-__38__. _swap_ işlevi iki _Vector_'ü takas eder. İşlev yalnızca sınıfın veri öğelerini takas etmelidir. Dinamik bellek alanında yer alan _Vector_'ün tuttuğu öğeler takas edilmemelidir.</br>
-
-__39__. _clear_ işlevi iki _Vector_'deki tüm öğeleri siler yani _Vector_'ü boşaltır. Bu işlemden sonra _Vector_'ün _size_ değeri _0_ olmalıdır.</br>
+__31.__ _where_ konumuna _\[beg end)_ aralığındaki değerleri eklemeli.
+İşlevin geri dönüş değeri ilk eklenmiş öğenin konumudur. </br>
 
 
-__42.__ _front_ işlevi _Vector_'de tutulan ilk öğeyi döndürür. _Vector_'ün boş olması durumunda bu işlevin çağrılması tanımsız davranıştır.<br>
+__34.__ _where_ konumundaki öğeyi siler.
+İşlevin geri dönüş değeri silinmiş öğeden sonraki öğenin konumudur</br>
 
-__43.__ _front_ işlevi _Vector_'de tutulan ilk öğeye _const_ referans döndürür _(const overloading)_. _Vector_'ün boş olması durumunda bu işlevin çağrılması tanımsız davranıştır.<br>
+__35.__ _\[beg end)_ aralığındaki değerleri siler.
+İşlevin geri dönüş değeri silinen öğelerden sonraki öğenin konumudur.</br>
+
+__36.__ _push|_back_ işlevi.
+Parametresine gelen değeri _Vector_'e son öğe olarak eklemeli. </br>
+
+__37.__ _pop|_back_ işlevi. 
+_Vector_'deki son öğeyi silmeli. </br>
+
+__38__. _swap_ işlevi iki _Vector_'ü takas etmeli. 
+İşlev yalnızca sınıfın veri öğelerini takas etmeli. 
+Dinamik bellek alanında yer alan _Vector_'ün tuttuğu öğeler takas edilmemelidir.</br>
+
+__39__. _clear_ işlevi iki _Vector_'deki tüm öğeleri silmeli yani _Vector_'ü boşaltmalı. 
+Bu işlemden sonra _Vector_'ün _size_ değeri _0_ olmalı.</br>
+
+
+__42.__ _front_ işlevi _Vector_'de tutulan ilk öğeyi döndürmeli. 
+_Vector_'ün boş olması durumunda bu işlevin çağrılması tanımsız davranıştır.<br>
+
+__43.__ _front_ işlevi _Vector_'de tutulan ilk öğeye _const_ referans döndürmeli _(const overloading)_. 
+_Vector_'ün boş olması durumunda bu işlevin çağrılması tanımsız davranıştır.<br>
 
 __44.__ _back_ işlevi _Vector_'de tutulan son öğeyi döndürür. _Vector_'ün boş olması durumunda bu işlevin çağrılması tanımsız davranıştır.<br>
 
