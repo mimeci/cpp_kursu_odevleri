@@ -92,10 +92,14 @@ __54.__ _empty_ işlevi _Vector_'ün boş olup olmadığını sınar. </br>
 
 ### Vector::iterator sınıfı
 
-__70.__   <br>
-__61.__   <br>
-__62.__   <br>
-__63.__   <br>
+__60.__   Ön ek _++_ operatörü. _iterator_ nesnesini _1_ arttırarak bir sonraki öğenin konumunu tutmasını sağlar.<br>
+
+__61.__   Son ek _++_ operatörü. _iterator_ nesnesini _1_ arttırarak bir sonraki öğenin konumunu tutmasını sağlar.<br>
+
+__62.__   Ön ek _--_ operatörü. _iterator_ nesnesini _1_ eksilterek bir önceki öğenin konumunu tutmasını sağlar.<br>
+
+__63.__   Ön ek _--_ operatörü. _iterator_ nesnesini _1_ eksilterek bir önceki öğenin konumunu tutmasını sağlar.<br>
+
 __64.__   <br>
 __65.__   <br>
 __66.__   <br>
