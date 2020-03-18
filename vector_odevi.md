@@ -29,13 +29,13 @@ __127.__ içsel _(nested)_ const_iterator türü. Kaptaki öğelerin konumların
 
 16. _Vector_'de tutulan son öğeden sonraki _(olmayan öğenin)_ konumunu döndürür. İşlevin geri dönüş değeri içsel bir tür olan _iterator_ türüdür. Bu işlevden alınan konum karşılaştırma operatörleri ile diğer konumlarla karşılaştırılabilir. Bu konumun içerik _(dereferencing)_ operatörünün operandı yapılması tanımsız davranıştır.
 
-42. __front__ işlevi _Vector_'de tutulan ilk öğeyi döndürür. _Vector_'ün boş olması durumunda bu işlevin çağrılması tanımsız davranıştır.
+__42.__ _front_ işlevi _Vector_'de tutulan ilk öğeyi döndürür. _Vector_'ün boş olması durumunda bu işlevin çağrılması tanımsız davranıştır.
 
-43. __front__ işlevi _Vector_'de tutulan ilk öğeye _const_ referans döndürür _(const overloading)_. _Vector_'ün boş olması durumunda bu işlevin çağrılması tanımsız davranıştır.
+__43.__ _front_ işlevi _Vector_'de tutulan ilk öğeye _const_ referans döndürür _(const overloading)_. _Vector_'ün boş olması durumunda bu işlevin çağrılması tanımsız davranıştır.
 
-44. __backt__ işlevi _Vector_'de tutulan son öğeyi döndürür. _Vector_'ün boş olması durumunda bu işlevin çağrılması tanımsız davranıştır.
+__44.__ _backt__ işlevi _Vector_'de tutulan son öğeyi döndürür. _Vector_'ün boş olması durumunda bu işlevin çağrılması tanımsız davranıştır.
 
-45. __back__ işlevi _Vector_'de tutulan ilk öğeye _const_ referans döndürür _(const overloading)_. _Vector_'ün boş olması durumunda bu işlevin çağrılması tanımsız davranıştır.
+__45.__ _back_ işlevi _Vector_'de tutulan ilk öğeye _const_ referans döndürür _(const overloading)_. _Vector_'ün boş olması durumunda bu işlevin çağrılması tanımsız davranıştır.
 
 ```
 class Vector {
