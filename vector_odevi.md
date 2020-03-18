@@ -3,6 +3,7 @@
 Aşağıda ismi _Vector_ olan bir sınıfın tanımlandığı başlık dosyası yer almaktadır. 
 Bu ödevde _Vector_ sınıfının kodlarını yazmanız isteniyor.
 + _Vector_ sınıfı türünden bir nesne bir dinamik diziyi _(dynamic array)_ temsil etmektedir. Bu ödevi yapabilmek için dinamik dizi veri yapısı hakkında temel bilgilere sahip olmalısınız.
++ Kodlaması yapılaacak _Vector_ sınıfı _int_ türden değerler tutacaktır. Kursumuzun türden bağımsız programlama _(templates)_ kısmına geldiğimizde sınıfı türden bağımsız hale getireceğiz.
 
 
 ### Aşağıdaki açıklamalar kodda bulunan yorum satırlarına ilişkindir:
@@ -106,6 +107,15 @@ _Vector_'ün boş olması durumunda bu işlevin çağrılması tanımsız davran
 
 __45.__ _back_ işlevi _Vector_'de tutulan ilk öğeye _const_ referans döndürmeli _(const overloading)_. 
 _Vector_'ün boş olması durumunda bu işlevin çağrılması tanımsız davranıştır.<br>
+
+__46.__ operator\[\] işlevi.
+ _Vector_'de tutulan _idx_ indisli öğeyi döndürmeli. 
+_idx_ değerinin geçerli olmaması tanımsız davranıştır.
+
+__47.__ operator\[\] işlevi.
+ _Vector_'de tutulan _idx_ indisli öğeyi _(salt okuma erişimli)_ döndürmeli. _(const overloading)_
+_idx_ değerinin geçerli olmaması tanımsız davranıştır.
+
 
 __50.__ _data_ işlevi _Vector_'de tutulan ilk öğenin adresini döndürmeli. 
 Bu adres _C_ işlevlerine bir dizi adresi olarak gönderilebilir. <br>
@@ -265,9 +275,9 @@ public:
 	int &front();  //42
 	const int &front()const; //43
 	int &back();  //44
-	const int &back()const; //44
-	int& operator[](size_t idx); //45
-	const int& operator[](size_t idx)const; //45
+	const int &back()const; //45
+	int& operator[](size_t idx); //46
+	const int& operator[](size_t idx)const; //47
 
 	//--------------------------------------------------
 
