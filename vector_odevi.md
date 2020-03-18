@@ -10,9 +10,9 @@ __1.__ İçsel _(nested)_ _iterator_ türü. Kaptaki öğelerin konumlarını tu
 
 __2.__ İçsel _(nested)_ _const\_iterator_ türü. Kaptaki öğelerin konumlarını tutan _const\_iterator_ nesnelerinin türü. Yalnızca okuma amaçlı erişim sağlar.<br>
 
-__3.__ Varsayılan kurucu işlev _(default constructor)_. Boş bir _Vector_ oluşturur.<br>
+__3.__ Varsayılan kurucu işlev _(default constructor)_. Boş bir _Vector_ nesnesi oluşturmalı.<br>
 
-__4.__ Sonlandırıcı işlev _(destructor)_. Kaynakları geri verir.<br>
+__4.__ Sonlandırıcı işlev _(destructor)_. Kaynakları geri vermeli.<br>
 
 __5.__ Kopyalayan kurucu işlev. _(copy constructor)_ <br>
 
@@ -22,7 +22,7 @@ __7.__ Kopyalayan atama işlevi. _(copy assignment)_<br>
 
 __8.__ Taşıyan atama işlevi. _(move assignment)_<br>
 
-__9.__ Kurucu işlev. _Vector_'ü değeri _val_ olan _size_ tane öğe ile başlatır.<br>
+__9.__ Kurucu işlev. _Vector_'ü değeri _val_ olan _size_ tane öğe ile başlatmalı _(fill constructor)_.<br>
 
 __10.__ _std::initializer_list_ parametreli kurucu işlev. _Vector_ nesnesini listedeki değerleri tutacak şekilde başlatır. <br>
 
@@ -30,9 +30,9 @@ __11.__ Aralık _(range)_ parametreli kurucu işlev. _Vector_ nesnesini _\[pbegi
 
 __12.__ Aralık _(range)_ parametreli kurucu işlev. _Vector_ nesnesini _\[beg, end)_ aralığındaki değerlerle başlatır. Aralık olarak _const\_iterator_  değerleri kullanılmaktadır. <br>
 
-__13.__ _reserve_ işlevi. Eğer _new_cap_ değeri var olan kapasiteden büyükse kapasiteyi arttırır. Eğer _new_cap_ değeri var olan kapasiteden küçükse kapasiteyi küçültmez.<br>
+__13.__ _reserve_ işlevi. Eğer _new_cap_ değeri var olan kapasiteden büyükse kapasiteyi arttırmalı. Eğer _new_cap_ değeri var olan kapasiteden küçükse kapasiteyi küçültmemeli.<br>
 
-__14.__ Kapasite değerini _Vector_'de tutulan öğe sayısına _(size)_ büzer (kapasiteyi küçültür). <br>
+__14.__ Kapasite değerini _Vector_'de tutulan öğe sayısına _(size)_ büzmeli (kapasiteyi küçültmeli). <br>
 
 __15.__ _Vector_'de tutulan ilk öğenin konumunu döndürür. İşlevin geri dönüş değeri içsel bir tür olan _iterator_ türüdür. Boş bir _Vector_'de bu konumun içerik _(dereferencing)_ operatörünün terimi yapılması tanımsız davranıştır.<br>
 
@@ -46,17 +46,17 @@ __16.__ _Vector_'de tutulan son öğeden sonraki _(olmayan öğenin)_ konumunu d
 
 __22.__ _initializer_list_ parametreli atama işlevi. Bu işlevin çağrılması ile _Vector_ artık parametre olan listedeki değerleri tutacaktır. </br>
 
-__23.__ _resize_ işlevi. _Vector_'de turulan öğe sayısını değiştirir. Bu işlev _Vector_'deki öğe sayısını hem arttırmak hem de azaltmak için kullanlabilir. İşlevin varsayılan argüman alan ikinci parametresi _Vector_'deki öğe sayısının arttırılması durumunda yeni eklenecek öğelerin alacakları değerdir. </br>
+__23.__ _resize_ işlevi. _Vector_'de turulan öğe sayısını değiştirmeli. Bu işlev _Vector_'deki öğe sayısını hem arttırmak hem de azaltmak için kullanlabilir. İşlevin varsayılan argüman alan ikinci parametresi _Vector_'deki öğe sayısının arttırılması durumunda yeni eklenecek öğelerin alacakları değerdir. _Vector_'deki öğe sayısından daha küçük bir değerle çağrılırsa sondan silme işlemi yapmalı.</br>
 
-__26.__ _assign_ işlevi. Bu işlevin çağrılmasıyla _Vector_ nesnesi _n_ tane _val_ değeri tutar hale gelir. _(fill assign)_ </br>
+__26.__ _assign_ işlevi. Bu işlevin çağrılmasıyla _Vector_ nesnesi _n_ tane _val_ değeri tutar hale gelmeli. _(fill assign)_ </br>
 
-__27.__ _initializer_list_ parametreli _assign_ işlevi. Bu işlevin çağrılması ile _Vector_ artık parametre olan listedeki değerleri tutacaktır. </br>
+__27.__ _initializer_list_ parametreli _assign_ işlevi. Bu işlevin çağrılması ile _Vector_ artık parametresine gelen listedeki değerleri tutmalı. </br>
 
-__28.__ aralık _(range)__ parametreli assign işlevi. Bu işlevin çağrılması ile _Vector_ artık parametresine gelen aralıktaki değerleri tutacaktır. </br>
+__28.__ aralık _(range)__ parametreli assign işlevi. Bu işlevin çağrılması ile _Vector_ artık parametresine gelen aralıktaki değerleri tutmalıu. </br>
 
-__30.__ _where_ konumuna _val_ değerini ekler. İşlevin geri dönüş değeri eklenmiş öğenin konumudur.</br>
+__30.__ _where_ konumuna _val_ değerini eklemeli. İşlevin geri dönüş değeri eklenmiş öğenin konumudur.</br>
 
-__31.__ _where_ konumuna _\[beg end)_ aralığındaki değerleri ekler. İşlevin geri dönüş değeri ilk eklenmiş öğenin konumudur. </br>
+__31.__ _where_ konumuna _\[beg end)_ aralığındaki değerleri eklemeli. İşlevin geri dönüş değeri ilk eklenmiş öğenin konumudur. </br>
 
 
 __34.__ _where_ konumundaki öğeyi siler. İşlevin geri dönüş değeri silinmiş öğeden sonraki öğenin konumudur</br>
