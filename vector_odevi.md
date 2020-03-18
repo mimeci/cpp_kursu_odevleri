@@ -90,6 +90,38 @@ __53.__ _size_ işlevi _Vector_'ün _size_ değerini döndürür. _size_ değeri
 
 __54.__ _empty_ işlevi _Vector_'ün boş olup olmadığını sınar. </br>
 
+### Vector::iterator sınıfı
+
+__70.__   <br>
+__61.__   <br>
+__62.__   <br>
+__63.__   <br>
+__64.__   <br>
+__65.__   <br>
+__66.__   <br>
+__67.__   <br>
+__68.__   <br>
+__69.__   <br>
+__70.__   <br>
+__71.__   <br>
+
+
+### Vector::const_iterator sınıfı
+
+__80.__   <br>
+__81.__   <br>
+__82.__   <br>
+__83.__   <br>
+__84.__   <br>
+__85.__   <br>
+__86.__   <br>
+__87.__   <br>
+__88.__   <br>
+__89.__   <br>
+__90.__   <br>
+__91.__   <br>
+
+
 
 ### Diğer notlar:
 * Dilediğiniz global işlevleri _"friend"_ yapabilirsiniz.
