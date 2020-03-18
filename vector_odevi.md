@@ -110,7 +110,8 @@ _Vector_'ün boş olması durumunda bu işlevin çağrılması tanımsız davran
 __50.__ _data_ işlevi _Vector_'de tutulan ilk öğenin adresini döndürmeli. 
 Bu adres _C_ işlevlerine bir dizi adresi olarak gönderilebilir. <br>
 
-__51.__ _data_ işlevi _Vector_'de tutulan ilk öğenin adresini _(salt okuma erişimli)_ döndürür. Bu adres _C api'lerine_ bir dizi adresi olarak gönderilebilir. <br>
+__51.__ _data_ işlevi _Vector_'de tutulan ilk öğenin adresini _(salt okuma erişimli)_ döndürmeli. 
+Bu adres _C api'lerine_ bir dizi adresi olarak gönderilebilir. <br>
 
 __52.__ _capacity_ işlevi _Vector_'ün kapasite değerini döndürmeli. 
 Kapasite değeri _Vector_ nesnesinin edindiği ve tutmakta olduğu dinamik bellek bloğunun öğe sayısı cinsinden büyüklüğüdür.</br>
@@ -132,9 +133,14 @@ __63.__   Son ek _--_ operatörü. _iterator_ nesnesini _1_ eksilterek bir önce
 
 __64.__   İçerik operatörü. 
 _iterator_ nesnesinin tuttuğu konumdaki öğeye eriştirmeli.<br>
-__65.__   İndeks operatörü. _iterator_ nesnesinin tuttuğu konumdaki öğeden _n_ sonraki ya da önceki öğeye eriştirmeli.<br>
+
+__65.__   İndeks operatörü. 
+_iterator_ nesnesinin tuttuğu konumdaki öğeden _n_ sonraki ya da önceki öğeye eriştirmeli.<br>
+
 __66.__   İki _iterator_ arasındaki farkı döndürmeli.<br>
+
 __67.__   _iterator_ konumundan _n_ sonraki konumu döndürmeli.<br>
+
 __68.__   _iterator_ konumundan _n_ sonraki konumu döndürmeli.<br>
 
 __69.__ _iterator_ nesnesini _n_ sonraki nesnenin konumunu tutacak şekilde arttırmalı. </br>
@@ -145,23 +151,33 @@ __71.__   _iterator_ nesnelerinin karşılaştırılmalarını sağlayan karşı
 
 ### Vector::const_iterator sınıfı
 
-__80.__   Ön ek _++_ operatörü. _const\_iterator_ nesnesini _1_ arttırarak bir sonraki öğenin konumunu tutmasını sağlar.<br>
+__80.__   Ön ek _++_ operatörü. 
+_const\_iterator_ nesnesini _1_ arttırarak bir sonraki öğenin konumunu tutmasını sağlamalı.<br>
 
-__81.__   Son ek _++_ operatörü. _const\_iterator_ nesnesini _1_ arttırarak bir sonraki öğenin konumunu tutmasını sağlar.<br>
+__81.__   Son ek _++_ operatörü. 
+_const\_iterator_ nesnesini _1_ arttırarak bir sonraki öğenin konumunu tutmasını sağlamalı.<br>
 
-__82.__   Ön ek _--_ operatörü. _const\_iterator_ nesnesini _1_ eksilterek bir önceki öğenin konumunu tutmasını sağlar.<br>
+__82.__   Ön ek _--_ operatörü. 
+_const\_iterator_ nesnesini _1_ eksilterek bir önceki öğenin konumunu tutmasını sağlamalı.<br>
 
-__83.__   Son ek _--_ operatörü. _const\_iterator_ nesnesini _1_ eksilterek bir önceki öğenin konumunu tutmasını sağlar.<br>
+__83.__   Son ek _--_ operatörü. 
+_const\_iterator_ nesnesini _1_ eksilterek bir önceki öğenin konumunu tutmasını sağlamalı.<br>
 
-__84.__   İçerik operatörü. _const\_iterator_ nesnesinin tuttuğu konumdaki öğeye okuma amaçlı erişim sağlar.<br>
-__85.__   İndeks operatörü. _const\_iterator_ nesnesinin tuttuğu konumdaki öğeden _n_ sonraki ya da önceki öğeye okuma amaçlı erişim sağlar.<br>
-__86.__   İki _const\_iterator_ arasındaki farkı döndürür.<br>
-__87.__   _const\_iterator_ konumundan _n_ sonraki konumu döndürür.<br>
-__88.__   _const\_iterator_ konumundan _n_ sonraki konumu döndürür.<br>
+__84.__   İçerik operatörü. 
+_const\_iterator_ nesnesinin tuttuğu konumdaki öğeye okuma amaçlı erişim sağlamalı.<br>
 
-__89.__ _const\_iterator_ nesnesini _n_ sonraki nesnenin konumunu tutacak şekilde arttırır. </br>
+__85.__   İndeks operatörü. 
+_const\_iterator_ nesnesinin tuttuğu konumdaki öğeden _n_ sonraki ya da önceki öğeye okuma amaçlı erişim sağlamalı.<br>
 
-__80.__ _const\_iterator_ nesnesini _n_ önceki nesnenin konumunu tutacak şekilde eksiltir. </br>
+__86.__   İki _const\_iterator_ arasındaki farkı döndürmeli.<br>
+
+__87.__   _const\_iterator_ konumundan _n_ sonraki konumu döndürmeli.<br>
+
+__88.__   _const\_iterator_ konumundan _n_ sonraki konumu döndürmeli.<br>
+
+__89.__ _const\_iterator_ nesnesini _n_ sonraki nesnenin konumunu tutacak şekilde arttırmalı. </br>
+
+__80.__ _const\_iterator_ nesnesini _n_ önceki nesnenin konumunu tutacak şekilde eksiltmeli. </br>
 
 __81.__   _const\_iterator_ nesnelerinin karşılaştırılmalarını sağlayan karşılaştıma operatör işlevleri. <br>		
 
