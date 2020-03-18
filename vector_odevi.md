@@ -100,15 +100,14 @@ __62.__   Ön ek _--_ operatörü. _iterator_ nesnesini _1_ eksilterek bir önce
 
 __63.__   Ön ek _--_ operatörü. _iterator_ nesnesini _1_ eksilterek bir önceki öğenin konumunu tutmasını sağlar.<br>
 
-__64.__   <br>
-__65.__   <br>
+__64.__   İçerik operatörü. _iterator_ nesnesinin tuttuğu konumdaki öğeye eriştirir.<br>
+__65.__   İndeks operatörü. _iterator_ nesnesinin tuttuğu konumdaki öğeden _n_ sonraki ya da önceki öğeye eriştirir.<br>
 __66.__   <br>
 __67.__   <br>
 __68.__   <br>
 __69.__   <br>
 __70.__   <br>
-__71.__   <br>
-
+__71.__   <br>		
 
 ### Vector::const_iterator sınıfı
 
@@ -231,8 +230,8 @@ public:
 		iterator operator++(int); //61
 		iterator& operator--();  //62
 		iterator operator--(int); //63
-		int& operator*(size_t idx); //64
-		int &operator[](size_t idx);  //65
+		int& operator*(); //64
+		int &operator[](int n);  //65
 		ptrdiff_t operator-(iterator); //66
 		iterator operator+(int n); //67
 		iterator operator-(int n); //68
@@ -254,8 +253,8 @@ public:
 		iterator operator++(int); //81
 		iterator& operator--();  //82
 		iterator operator--(int); //83
-		int& operator*(size_t idx); //84
-		int &operator[](size_t idx);  //85
+		int& operator*(); //84
+		int &operator[](int n);  //85
 		ptrdiff_t operator-(iterator); //86
 		const_iterator operator+(int n); //87
 		const_iterator operator-(int n); //88
