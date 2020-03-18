@@ -34,9 +34,15 @@ __13.__ _reserve_ işlevi. Eğer _new_cap_ değeri var olan kapasiteden büyüks
 
 __14.__ Kapasite değerini _Vector_'de tutulan öğe sayısına _(size)_ büzer (kapasiteyi küçültür). <br>
 
-__15.__ _Vector_'de tutulan ilk öğenin konumunu döndürür. İşlevin geri dönüş değeri içsel bir tür olan _iterator_ türüdür. Boş bir _Vector_'de bu konumun içerik _(dereferencing)_ operatörünün operandı yapılması tanımsız davranıştır.<br>
+__15.__ _Vector_'de tutulan ilk öğenin konumunu döndürür. İşlevin geri dönüş değeri içsel bir tür olan _iterator_ türüdür. Boş bir _Vector_'de bu konumun içerik _(dereferencing)_ operatörünün terimi yapılması tanımsız davranıştır.<br>
 
-__16.__ _Vector_'de tutulan son öğeden sonraki _(olmayan öğenin)_ konumunu döndürür. İşlevin geri dönüş değeri içsel bir tür olan _iterator_ türüdür. Bu işlevden alınan konum karşılaştırma operatörleri ile diğer konumlarla karşılaştırılabilir. Bu konumun içerik _(dereferencing)_ operatörünün operandı yapılması tanımsız davranıştır.<br>
+__16.__ _Vector_'de tutulan son öğeden sonraki _(olmayan öğenin)_ konumunu döndürür. İşlevin geri dönüş değeri içsel bir tür olan _iterator_ türüdür. Bu işlevden alınan konum karşılaştırma operatörleri ile diğer konumlarla karşılaştırılabilir. Bu konumun içerik _(dereferencing)_ operatörünün terimi yapılması tanımsız davranıştır.<br>
+
+__17.__ _Vector_'de tutulan ilk öğenin konumunu _(salt okuma erişimli)_ döndürür. İşlevin geri dönüş değeri içsel bir tür olan _const\_iterator_ türüdür. Boş bir _Vector_'de bu konumun içerik _(dereferencing)_ operatörünün terimi yapılması tanımsız davranıştır.<br>
+
+__16.__ _Vector_'de tutulan son öğeden sonraki _(olmayan öğenin)_ konumunu döndürür. İşlevin geri dönüş değeri içsel bir tür olan _const\_iterator_ türüdür. Bu işlevden alınan konum karşılaştırma operatörleri ile diğer konumlarla karşılaştırılabilir. Bu konumun içerik _(dereferencing)_ operatörünün terimi yapılması tanımsız davranıştır.<br>
+
+
 
 __22.__ _initializer_list_ parametreli atama işlevi. Bu işlevin çağrılması ile _Vector_ artık parametre olan listedeki değerleri tutacaktır. </br>
 
@@ -48,13 +54,14 @@ __27.__ _initializer_list_ parametreli _assign_ işlevi. Bu işlevin çağrılma
 
 __28.__ aralık _(range)__ parametreli assign işlevi. Bu işlevin çağrılması ile _Vector_ artık parametresine gelen aralıktaki değerleri tutacaktır. </br>
 
-__30.__ </br>
+__30.__ _where_ konumuna _val_ değerini ekler. İşlevin geri dönüş değeri eklenmiş öğenin konumudur.</br>
 
-__31.__ </br>
+__31.__ _where_ konumuna _\[beg end)_ aralığındaki değerleri ekler. İşlevin geri dönüş değeri ilk eklenmiş öğenin konumudur. </br>
 
-__34.__ </br>
 
-__35.__ </br>
+__34.__ _where_ konumundaki öğeyi siler. İşlevin geri dönüş değeri silinmiş öğeden sonraki öğenin konumudur</br>
+
+__35.__ _\[beg end)_ aralığındaki değerleri siler. İşlevin geri dönüş değeri silinen öğelerden sonraki öğenin konumudur.</br>
 
 __38__. _swap_ işlevi iki _Vector_'ü takas eder. İşlev yalnızca sınıfın veri öğelerini takas etmelidir. Dinamik bellek alanında yer alan _Vector_'ün tuttuğu öğeler takas edilmemelidir.</br>
 
