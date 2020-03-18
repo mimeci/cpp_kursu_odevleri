@@ -17,6 +17,17 @@ Bu ödevde `Vector` sınıfının kodlarını yazmanız isteniyor.
 8. Taşıyan atama işlevi. _(move assignment)_
 9. Kurucu işlev _(constructor)_ _Vector_'ü değeri `val` olan `size` tane öğe ile başlatır.
 10. `std::initializer_list` parametreli kurucu işlev. `Vector` nesnesini listedeki değerleri tutacak şekilde başlatır. 
+11. Aralık _(range)_ parametreli kurucu işlev. `Vector` nesnesini bu aralıktaki değerleri tutacak şekilde başlatır. 
+12. Aralık _(range)_ parametreli kurucu işlev. `Vector` nesnesini bu aralıktaki değerleri tutacak şekilde başlatır.
+
+13. _reserve_ işlevi. Eğer _new_cap_ değeri var olan kapasiteden büyükse kapasiteyi arttırır. Eğer _new_cap_ değeri var olan kapasiteden küçükse kapasiteyi küçültmez.
+
+14. Kapasite değerini _Vector_'de tutulan öğe sayısına _(size)_ büzer (kapasiteyi küçültür). 
+
+15. _Vector_'de tutulan ilk öğenin konumunu döndürür. İşlevin geri dönüş değeri içsel bir tür olan _iterator_ türüdür. Boş bir _Vector_'de bu konumun içerik _(dereferencing)_ operatörünün operandı yapılması tanımsız davranıştır.
+
+
+16. _Vector_'de tutulan son öğeden sonraki _(olmayan öğenin)_ konumunu döndürür. İşlevin geri dönüş değeri içsel bir tür olan _iterator_ türüdür. Bu işlevden alınan konum karşılaştırma operatörleri ile diğer konumlarla karşılaştırılabilir. Bu konumun içerik _(dereferencing)_ operatörünün operandı yapılması tanımsız davranıştır.
 
 ```
 class Vector {
@@ -50,11 +61,11 @@ public:
 
 	//--------------------------------------------------
 
-	void reserve(size_t new_cap);
-	void shrink_to_fit();
+	void reserve(size_t new_cap);  //13
+	void shrink_to_fit(); //14
 
-	iterator begin();
-	iterator end();
+	iterator begin(); //15
+	iterator end(); //16
 	const_iterator begin()const;
 	const_iterator end()const;
 
@@ -126,8 +137,6 @@ public:
 		bool operator==(iterator)const;
 		bool operator!=(iterator)const;
 	};
-
-
 };
 	
 };
