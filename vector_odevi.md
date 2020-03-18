@@ -63,6 +63,10 @@ __34.__ _where_ konumundaki öğeyi siler. İşlevin geri dönüş değeri silin
 
 __35.__ _\[beg end)_ aralığındaki değerleri siler. İşlevin geri dönüş değeri silinen öğelerden sonraki öğenin konumudur.</br>
 
+__36.__ _push|_back_ işlevi. Parametresine gelen değeri _Vector_'e son öğe olarak ekler. </br>
+
+__37.__ _pop|_back_ işlevi. _Vector_'deki son öğeyi siler. </br>
+
 __38__. _swap_ işlevi iki _Vector_'ü takas eder. İşlev yalnızca sınıfın veri öğelerini takas etmelidir. Dinamik bellek alanında yer alan _Vector_'ün tuttuğu öğeler takas edilmemelidir.</br>
 
 __39__. _clear_ işlevi iki _Vector_'deki tüm öğeleri siler yani _Vector_'ü boşaltır. Bu işlemden sonra _Vector_'ün _size_ değeri _0_ olmalıdır.</br>
@@ -158,7 +162,9 @@ public:
         iterator& insert(iterator where, iterator source_beg, iterator source_end); //31
 
         iterator& erase(iterator where); //34
-	iterator& erase(iterator beg, iterator end); //55
+	iterator& erase(iterator beg, iterator end); //35
+	void push_back(int val); //36
+	void pop_pack(); //37
 
 	void swap(Vector &other); //38
 	void clear(); //39
