@@ -1,6 +1,13 @@
 #### Aşağıdaki C++ programı çalıştırıldığında bu programın çıktısı ne olur?
 
 ```
+
+template<typename T>
+T sum(T val)
+{
+	return val;
+}
+
 template<typename T, typename ...Args>
 T sum(T val, Args... args)
 {
