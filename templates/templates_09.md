@@ -1,4 +1,5 @@
-#### Bu çalışma sorusu *Herb Sutter*'ın *"More exceptional C++"* isimli kitabından alınarak değiştirilmiştir. Aşağıdaki kodun standart çıkış akımına ne yazdıracağını tahmin etmeye çalışın. Daha sonra kodu derleyip çalıştırın. Yanıtınız %100 doğru ise C++ bilginiz ile gurur duyabilirsiniz. Her bir işlev çağrısı için derleyicinizin işlev şablon yüklemeleri ve özelleştirmeleri *(function template overloading – function template specialization)* arasından yaptığı seçimin nedenini anlamaya ve açıklamaya çalışın.
+#### Bu çalışma sorusu *Herb Sutter*'ın *"More exceptional C++"* isimli kitabından alınarak değiştirilmiştir. ;
+Aşağıdaki kodun standart çıkış akımına ne yazdıracağını tahmin etmeye çalışın. Daha sonra kodu derleyip çalıştırın. Yanıtınız %100 doğru ise C++ bilginiz ile gurur duyabilirsiniz. Her bir işlev çağrısı için derleyicinizin işlev şablon yüklemeleri ve özelleştirmeleri *(function template overloading – function template specialization)* arasından yaptığı seçimin nedenini anlamaya ve açıklamaya çalışın.
 
 ```
 #include <cstdio>
