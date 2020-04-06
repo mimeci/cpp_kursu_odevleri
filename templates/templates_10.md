@@ -29,4 +29,4 @@ void func(const T &r)
 
 ```
 
-#### `has_member_begin` isimli `trait` sınıfından faydalanarak `func` işlev şablonundan yalnızca `begin` isimli bir üye işleve sahip *T* türleri için işlevler üretilmesini sağlamanız gerekiyor. Eğer *T* türü `begin` isimli bir işleve sahip değil ise yazacağınız `func` işlev şablonunun işlev yükleme çözümlemesine `(function overload resolution)` katılmaması gerekiyor. `SFINAE` tekniklerinden birini kullanarak `func` işlev şablonunu gerçekleştirin. Yazdığınız şablonu farklı türler için test edin.
++ `has_member_begin` isimli `trait` sınıfından faydalanarak `func` işlev şablonundan yalnızca `begin` isimli bir üye işleve sahip *T* türleri için işlevler üretilmesini sağlamanız gerekiyor. Eğer *T* türü `begin` isimli bir işleve sahip değil ise yazacağınız `func` işlev şablonunun işlev yükleme çözümlemesine `(function overload resolution)` katılmaması gerekiyor. `SFINAE` tekniklerinden birini kullanarak `func` işlev şablonunu gerçekleştirin. Yazdığınız şablonu farklı türler için test edin.
