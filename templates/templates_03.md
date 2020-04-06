@@ -1,4 +1,4 @@
-### Aşağıdaki C++ programı çalıştırıldığında bu programın çıktısı ne olur?
+#### Aşağıdaki C++ programı çalıştırıldığında bu programın çıktısı ne olur?
 
 ```
 #include <iostream>
@@ -10,7 +10,7 @@ void func(T)
 }
 
 template<typename T>
-void f(const T *)
+void func(const T *)
 {
 	std::cout << "2";
 }
@@ -23,9 +23,10 @@ int main()
 	const int *cp{ &cx };
 
 	func(42);
-	func(ci);
+	func(cx);
 	func(ptr);
 	func(cp);
+}
 }
 ```
 
