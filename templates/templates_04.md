@@ -1,4 +1,4 @@
-### Aşağıdaki C++ programı çalıştırıldığında bu programın çıktısı ne olur?
+#### Aşağıdaki C++ programı çalıştırıldığında bu programın çıktısı ne olur?
 
 ```
 #include <iostream>
@@ -27,10 +27,11 @@ int main()
 	foo(cx);
 	foo(ptr);
 	foo(cp);
+}
 ```
 
 __Sorunun yanıtı şu seçeneklerden biri de olabilir:__
 
-+ Sentaks hatası `(syntax error)`
-+ Tanımsız davranış `(undefined behavior)`
-+ Derleyiciye göre değişir `(implementation defined / specified)`
++ Sentaks hatası _(syntax error)_.
++ Tanımsız davranış _(undefined behavior)_.
++ Derleyiciye göre değişir _(implementation defined / specified)_.
