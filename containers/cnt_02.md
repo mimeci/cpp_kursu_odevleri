@@ -2,7 +2,7 @@
 
 #### Oluşturacağımız _vector_'un her bir öğesi kaynak _vector_'de tutulan o indisli öğenin sağında bulunan kendisinden daha büyük öğelerin _(surpasser)_ sayısı olacak. Biraz karışık mı geldi? Bir örnekle açıklayalım:
 
-#### kaynak vector’ümüzde tutulan değerler:**
+#### kaynak vector’ümüzde tutulan değerler:
 
 ```
 34, 185, 56, 17, 8, 3, 98, 21, 10, 4, 77, 124
