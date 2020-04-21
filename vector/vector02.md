@@ -1,20 +1,20 @@
-### Aşağıdaki test kodunda belirtilen yere (ayrı ayrı) `ivec` nesnesi üstünde şu işleri gerçekleştirecek kodları yazınız. Gereken yerlerde lamba ifadelerini kullanınız:
+### Aşağıdaki test kodunda belirtilen yere (ayrı ayrı) _ivec_ nesnesi üstünde şu işleri gerçekleştirecek kodları yazınız. Gereken yerlerde lambda ifadelerini kullanınız:
 
-1) Sona 127 değerini ekleyin
-2) Başa 253 değerini ekleyin.
-3) Sondan bir önceki değer olacak şekilde 666 değerini ekleyin.
-4) İkinci değer olacak şekilde 444 değerini ekleyin
-5) standart giriş akımından 2 tamsayı alın. Örnek 5 ve 9. Başa 5 tane 9 ekleyin.
-6) standart giriş akımından 2 tamsayı alın. Örnek 5 ve 9. Sona 5 tane 9 ekleyin.
+1) Sona _127_ değerini ekleyin
+2) Başa _253_ değerini ekleyin.
+3) Sondan bir önceki değer olacak şekilde _666_ değerini ekleyin.
+4) İkinci değer olacak şekilde _444_ değerini ekleyin
+5) Standart giriş akımından _2_ tam sayı alın. Örnek _5_ ve _9_. Başa _5_ tane _9_ ekleyin.
+6) Standart giriş akımından _2_ tam sayı alın. Örnek _5_ ve _9_. Sona _5_ tane _9_ ekleyin.
 7) standart giriş akımından 2 tamsayı alın. Örnek 5 ve 9. 9 değeri 5 indeksli öğe olacak şekilde 9 değerini ekleyin.
 8) Her öğeden onun yanına bir tane daha ekleyin. Bu işlemden sonra `ivec`'in boyutu 2 katına çıkmalı
-9) a dizisinin öğelerini başa ekleyin. 
-10) a dizisinin öğelerini başa ters sırada ekleyin. (19, 17, 13, 11, 7, 5, 3 ,2)
-11) a dizisinin öğelerini sona ekleyin.
-12) a dizisinin öğelerini sona ters sırada ekleyin. (19, 17, 13, 11, 7, 5, 3 ,2)
-13) a dizisinin ilk ve son öğeleri haricinde tüm öğelerini başa ekleyin.
-14) a dizisinin ilk ve son öğeleri haricinde tüm öğelerini sona ekleyin.
-15) a dizisinin ivec'te bulunmayan öğeleri varsa o öğeleri sondan ekleyin. (a dizisindeki sırasıyla)
+9) _a_ dizisinin öğelerini başa ekleyin. 
+10) _a_ dizisinin öğelerini başa ters sırada ekleyin. _(19, 17, 13, 11, 7, 5, 3 ,2)_
+11) _a_ dizisinin öğelerini sona ekleyin.
+12) _a_ dizisinin öğelerini sona ters sırada ekleyin. _(19, 17, 13, 11, 7, 5, 3 ,2)_
+13) _a_ dizisinin ilk ve son öğeleri haricinde tüm öğelerini başa ekleyin.
+14) _a_ dizisinin ilk ve son öğeleri haricinde tüm öğelerini sona ekleyin.
+15) _a_ dizisinin _ivec_'te bulunmayan öğeleri varsa o öğeleri sondan ekleyin. _(a dizisindeki sırasıyla)_
 
 
 ```
