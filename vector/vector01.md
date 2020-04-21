@@ -15,7 +15,7 @@
 13) ardışık aynı değerde olan öğelerin sayısını teke indirin.
 14) ardışık çift sayılardan birincisi haricindeki geri kalanları, ardışık tek sayılardan birincisi haricindeki geri kalanları silin.
 Silme işleminden sonra yanyana iki tek sayı ya da iki çift sayı bulunmamalı.
-15) _vector_'de aynı değerden birden fazla olmayacak şekilde silme işlemi yapın. Silme işleminden sonra her değer "unique" olmalı.
+15) _vector_'de aynı değerden birden fazla olmayacak şekilde silme işlemi yapın. Silme işleminden sonra her değer _"unique"_ olmalı.
 
 
 ```
