@@ -1,4 +1,4 @@
-### Aşağıdaki test kodunda belirtilen yere (ayrı ayrı) _ivec_ nesnesi üstünde şu işleri gerçekleştirecek kodları yazınız. Gereken yerlerde lambda ifadelerini kullanınız:
+#### Aşağıdaki test kodunda belirtilen yere (ayrı ayrı) _ivec_ nesnesi üstünde şu işleri gerçekleştirecek kodları yazınız. Gereken yerlerde lambda ifadelerini kullanınız:
 
 1) Sona _127_ değerini ekleyin
 2) Başa _253_ değerini ekleyin.
