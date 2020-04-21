@@ -1,19 +1,19 @@
-#### Aşağıdaki test kodunda belirtilen yere (ayrı ayrı) şu işleri gerçekleştirecek kodları yazınız. Gereken yerlerde lamba ifadelerini kullanınız:
+#### Aşağıdaki test kodunda belirtilen yere (ayrı ayrı) şu işleri gerçekleştirecek kodları yazınız. Gereken yerlerde lambda ifadelerini kullanınız:
 
 1) _vector_'de tutulan ilk öğeyi silin.
 2) _vector_'de tutulan son öğeyi silin.
-3) _vector_'de tutulan 15. öğeyi silin.
-4) ilk ve son öğe haricindeki tüm öğeleri (varsa) silin.
-5) değeri 5 olan ilk öğeyi (varsa) silin.
-6) değeri 5 olan son öğeyi (varsa) silin.
-7) değeri 5 olan tüm öğeleri (varsa) silin.
-8) standart giriş akımından alınacak değerdeki tüm öğeleri (varsa) silin
-9) standart giriş akımından alınacak indeksteki öğeyi silin
-10) standart giriş akımından alınacak aralıktaki tüm öğeleri (varsa) silin. Örnek [3 - 7] aralığı.
-11) tüm çift sayıları (varsa) silin.
-12) indeksi 3'e tam bölünen öğeleri silin.
-13) ardışık aynı değerde olan öğelerin sayısını teke indirin.
-14) ardışık çift sayılardan birincisi haricindeki geri kalanları, ardışık tek sayılardan birincisi haricindeki geri kalanları silin.
+3) _vector_'de tutulan _15._ öğeyi silin.
+4) İlk ve son öğe haricindeki tüm öğeleri (varsa) silin.
+5) Değeri _5_ olan ilk öğeyi (varsa) silin.
+6) Değeri _5_ olan son öğeyi (varsa) silin.
+7) Değeri _5_ olan tüm öğeleri (varsa) silin.
+8) Standart giriş akımından alınacak değerdeki tüm öğeleri (varsa) silin
+9) Standart giriş akımından alınacak indeksteki öğeyi silin
+10) Standart giriş akımından alınacak aralıktaki tüm öğeleri (varsa) silin. Örnek *[3 - 7]* aralığı.
+11) Tüm çift sayıları (varsa) silin.
+12) İndeksi _3_'e tam bölünen öğeleri silin.
+13) Ardışık aynı değerde olan öğelerin sayısını teke indirin.
+14) Ardışık çift sayılardan birincisi haricindeki geri kalanları, ardışık tek sayılardan birincisi haricindeki geri kalanları silin.
 Silme işleminden sonra yanyana iki tek sayı ya da iki çift sayı bulunmamalı.
 15) _vector_'de aynı değerden birden fazla olmayacak şekilde silme işlemi yapın. Silme işleminden sonra her değer _"unique"_ olmalı.
 
