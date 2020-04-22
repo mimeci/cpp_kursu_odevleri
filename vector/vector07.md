@@ -1,4 +1,4 @@
-#### Aşağıdaki C++ programı hakkında yorum yapınız:
+#### Aşağıdaki C++ programı derlenip çalıştırıldığında ekrana ne yazar:
 
 ```
 #include <iostream>
@@ -15,8 +15,8 @@ int main()
 }
 ```
 
+Cevabınız aşağıdak seçeneklerden biri de olabilir:
 
 + sentaks hatası
 + tanımsız davranış
-+ derleyiciye göre değişir
-+ ekrana şunu yazar: 
++ derleyiciye göre değişir.
