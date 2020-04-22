@@ -28,4 +28,4 @@ int main()
 5 5 3 3 7 7 1 1 21 21 87 87
 ```
 
-#### Yazacağınız kod, işlemi doğrudan ivec nesnesi üzerinde tek bir döngü deyimi ile gerçekleştirmeli. Yani ikinci bir kap ya da dizi kullanmayacaksınız. Çok kolay gibi görünen bu soru sizi biraz uğraştırabilir.
+__Yazacağınız kod, işlemi doğrudan _ivec_ nesnesi üzerinde tek bir döngü deyimi ile gerçekleştirmeli. Yani ikinci bir kap ya da dizi kullanmayacaksınız. Çok kolay gibi görünen bu soru sizi biraz uğraştırabilir.__
