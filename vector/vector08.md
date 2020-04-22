@@ -7,7 +7,7 @@ Biraz karışık mı geldi? Bir örnekle açıklayalım. Kaynak _vector_’ümü
 34, 185, 56, 17, 8, 3, 98, 21, 10, 4, 77, 124
 ```
 
-olsun. Oluşturacağımız _vector_'de* şu değerler tutuluyor olmalı:
+olsun. Oluşturacağımız _vector_'de şu değerler tutuluyor olmalı:
 
 ```
 5, 0, 3, 4, 5, 6, 1, 2, 2, 2, 1, 0
