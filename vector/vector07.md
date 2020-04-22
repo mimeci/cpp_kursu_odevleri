@@ -15,8 +15,8 @@ int main()
 }
 ```
 
-Cevabınız aşağıdak seçeneklerden biri de olabilir:
+__Cevabınız aşağıdak seçeneklerden biri de olabilir:__
 
 + sentaks hatası
-+ tanımsız davranış
-+ derleyiciye göre değişir.
++ tanımsız davranış _(undefined behavior)_
++ derleyiciye göre değişir. _(unspecified_behavior / implementation defined)_
