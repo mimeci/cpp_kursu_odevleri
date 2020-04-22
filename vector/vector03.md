@@ -1,4 +1,4 @@
-#### Aşağıdaki *main* işlevinde belirtilen alana bir kod yazmanız gerekiyor. Yazdığınız kod *std::vector<int>* türünden *ivec* nesnesinin taşıdığı değerlerden çift olanları _vector_'den silecek tek olanlardan ise _vector_'e bir tane daha ekleyecek.
+#### Aşağıdaki main işlevinde belirtilen alana bir kod yazmanız gerekiyor. Yazdığınız kod std::vector\<int\> türünden _ivec_ nesnesinin taşıdığı değerlerden çift olanları _vector_'den silecek tek olanlardan ise _vector_'e bir tane daha ekleyecek.
 
 ```
 #include <iostream>
