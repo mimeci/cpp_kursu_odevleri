@@ -20,6 +20,5 @@ Bu işi gerçekleştiren _getSurpasserVec_ isimli işlevi tanımlayınız:
  
 std::vector<int> getSurpasserVec(const std::vector<int> &vec);
 ```
-
 + İşlevin parametresi kaynak _vector_
 + İşlevin geri dönüş değeri istenen _vector_
