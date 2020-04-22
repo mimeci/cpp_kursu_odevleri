@@ -34,8 +34,9 @@ int main()
 	srand(static_cast<unsigned>(time(nullptr)));
 	generate(ivec.begin(), ivec.end(), [] {return rand() % 20; });
 	copy(ivec.begin(), ivec.end(), ostream_iterator<int>{cout, " "});
-	//.....
+	
 	// kodunuz
+	
 	cout << "\n\n\n";
 	copy(ivec.begin(), ivec.end(), ostream_iterator<int>{cout, " "});
 }
