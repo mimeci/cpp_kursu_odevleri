@@ -317,10 +317,10 @@ public:
 		//...
 	public:
 		public:
-		iterator& operator++();  //80
-		iterator operator++(int); //81
-		iterator& operator--();  //82
-		iterator operator--(int); //83
+		const_iterator& operator++();  //80
+		const_iterator operator++(int); //81
+		const_iterator& operator--();  //82
+		const_iterator operator--(int); //83
 		int& operator*(); //84
 		int &operator[](int n);  //85
 		ptrdiff_t operator-(iterator); //86
