@@ -16,3 +16,5 @@ int main()
 	std::cout << ival << r;
 }
 ```
+
+[ödev cevabı](https://vimeo.com/433201294)
