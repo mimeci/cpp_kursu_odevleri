@@ -15,3 +15,6 @@ int &foo(); int &&m = foo();
 int ival = 10; int &&rval = ival + 10; int &p = rval;
 
 ```
+
+
+[ödev cevabı](https://vimeo.com/433277804)
