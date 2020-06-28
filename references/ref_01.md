@@ -28,3 +28,5 @@ int main()
 	int(&r16)[3] = a;
 }
 ```
+
+[ödev cevabı](https://vimeo.com/362516832)
