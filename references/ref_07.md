@@ -138,3 +138,5 @@ int main()
 
 }
 ```
+
+[ödev cevabı](https://vimeo.com/433275373)
