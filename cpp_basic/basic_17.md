@@ -1,4 +1,4 @@
-Aşağıdaki kodda yapılan bildirimlerde ve atama işlemlerinde gereken her yerde  uygun tür dönüştürme operaytörünü kullanınız:
+#### Aşağıdaki kodda yapılan bildirimlerde ve atama işlemlerinde gereken her yerde  uygun tür dönüştürme(type-cast) operatörünü kullanınız:
 
 ```
 #include <cstdlib>
