@@ -19,3 +19,5 @@ int main()
 	bx.func(1.2f);
 }
 ```
+
+[odevin cevabı](https://vimeo.com/435753617)
