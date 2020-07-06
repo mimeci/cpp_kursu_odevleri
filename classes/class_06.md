@@ -21,3 +21,5 @@ int main()
 	(&m)->Myclass::func();
 }
 ```
+
+[ödevin cevabı] (https://vimeo.com/368266774)
