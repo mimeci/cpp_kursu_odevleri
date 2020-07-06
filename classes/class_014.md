@@ -22,3 +22,5 @@ void g(D dx)
 	dx.D::func();
 }
 ```
+
+[ödev cevabı] (https://vimeo.com/435767306)
