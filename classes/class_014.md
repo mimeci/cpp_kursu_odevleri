@@ -23,4 +23,4 @@ void g(D dx)
 }
 ```
 
-[ödev cevabı] (https://vimeo.com/435767306)
+[ödev cevabı](https://vimeo.com/435767306)
