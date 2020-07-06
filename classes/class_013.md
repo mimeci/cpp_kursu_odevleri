@@ -26,3 +26,5 @@ void g()
 	cx.cf();
 }
 ```
+
+[ödev cevabı](https://vimeo.com/435763539)
