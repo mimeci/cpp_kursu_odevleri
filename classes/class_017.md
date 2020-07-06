@@ -25,3 +25,6 @@ void g()
 }
 
 ```
+
+
+[ödev cevabı](https://vimeo.com/435790761)
