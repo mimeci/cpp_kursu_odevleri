@@ -24,3 +24,5 @@ int main()
 {
 	func(0ULL);
 }
+
+[ödevin cevabı](https://vimeo.com/443981524)
