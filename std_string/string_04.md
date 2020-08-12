@@ -1,7 +1,7 @@
 #### Aşağıdaki işlevleri tanımlayınız ve kendi yazacağınız test kodu (kodları) ile test ediniz:
 
 ```
-std::string change_case(std::string &s);
+std::string change_case(const std::string &s);
 ```
 
 işlev parametresi ile aldığı yazıdaki 
