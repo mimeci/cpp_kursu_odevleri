@@ -23,7 +23,7 @@ std::string remove_chars(const std::string &source, const std::string scars);
 *geri dönüş değeri*: (tsbgozlermnysb)
 
 ```
-std::string time(const std::string &source);
+std::string trim(const std::string &source);
 ```
 
 işlevin geri dönüş değeri olan string source stringinin başındaki ve sonundaki boşluk karakterlerinin silinmiş hali olacak:
