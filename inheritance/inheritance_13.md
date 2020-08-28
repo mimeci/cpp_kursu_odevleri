@@ -1,22 +1,3 @@
-9
-18
-24
-27
-28
-44
-52
-105
-119
-120
-131
-133
-145
-151
-184
-196
-251
-254
-
 #### Aşağıdaki C++ programı hakkında yorum yapınız:
 
 + sentaks hatası
