@@ -1,4 +1,4 @@
-#### C++17 standartlarına göre aşağıdaki C++ programı çalıştırıldığında bu programın çıktısı ne olur?
+#### Aşağıdaki C++ programı hakkında yorum yapınız:
 
 ```
 #include <iostream>
