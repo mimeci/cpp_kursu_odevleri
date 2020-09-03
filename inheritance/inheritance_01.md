@@ -31,3 +31,5 @@ int main()
 }
 
 ```
+
+[ödevin cevabı](https://vimeo.com/454377188)
