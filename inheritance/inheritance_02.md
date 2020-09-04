@@ -39,4 +39,4 @@ __Sorunun yanıtı şu seçeneklerden biri de olabilir:__
 + Tanımsız davranış *(undefined behavior)*
 + Derleyiciye göre değişir *(implementation defined)*
 
-[Ödevin cevabı)(https://vimeo.com/454386667)
+[Ödevin cevabı](https://vimeo.com/454386667)
