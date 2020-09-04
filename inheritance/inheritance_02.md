@@ -38,3 +38,5 @@ __Sorunun yanıtı şu seçeneklerden biri de olabilir:__
 + Sentaks hatası *(syntax error)*
 + Tanımsız davranış *(undefined behavior)*
 + Derleyiciye göre değişir *(implementation defined)*
+
+[Ödevin cevabı)(https://vimeo.com/454386667)
