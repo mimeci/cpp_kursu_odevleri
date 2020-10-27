@@ -104,9 +104,9 @@ int operator-(const Date &d1, const Date &d2); //28
 Date operator+(const Date &date, int n); //29
 Date operator+(int n, const Date &); //29
 Date::WeekDay& operator++(Date::WeekDay &r); //30
-Date::WeekDay& operator++(Date::WeekDay &r, int); //30
+Date::WeekDay operator++(Date::WeekDay &r, int); //30
 Date::WeekDay& operator--(Date::WeekDay &r); //30
-Date::WeekDay& operator--(Date::WeekDay &r, int); //30
+Date::WeekDay operator--(Date::WeekDay &r, int); //30
 
 std::ostream &operator<<(std::ostream &os, const Date &date); //31
 std::istream &operator>>(std::istream &is, Date &date); //32
