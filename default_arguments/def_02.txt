@@ -1,0 +1,24 @@
+Aşağıdaki programın çıktısı ne olur? Açıklayınız:
+
+#include <iostream>
+
+int foo()
+{
+	static int x{};
+	
+	return ++x;
+}
+
+void func(int i = foo())
+{
+	std::cout << i;
+}
+
+int main()
+{
+	func();
+	func();
+	func();
+}
+
+
