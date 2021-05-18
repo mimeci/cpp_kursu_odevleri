@@ -1,5 +1,6 @@
-Aşağıdaki programın çıktısı ne olur? Açıklayınız:
+<h3>Aşağıdaki programın çıktısı ne olur? Açıklayınız:</h3>
 
+```
 #include <iostream>
 
 int foo()
@@ -20,5 +21,5 @@ int main()
 	func();
 	func();
 }
-
+```
 
