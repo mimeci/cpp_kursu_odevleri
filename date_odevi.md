@@ -94,6 +94,9 @@ public:
 	friend bool operator==(const Date &, const Date &); //27
 	static Date random_date(); //25
 	static constexpr bool isleap(int y); //26
+	
+	std::ostream &operator<<(std::ostream &os, const Date &date); //31
+	std::istream &operator>>(std::istream &is, Date &date); //32
 };
 
 bool operator<(const Date &, const Date &); //27
@@ -109,11 +112,7 @@ Date operator+(int n, const Date &); //29
 Date::Weekday& operator++(Date::Weekday &r); //30
 Date::Weekday operator++(Date::Weekday &r, int); //30
 Date::Weekday& operator--(Date::Weekday &r); //30
-Date::Weekday operator--(Date::Weekday &r, int); //30
-
-std::ostream &operator<<(std::ostream &os, const Date &date); //31
-std::istream &operator>>(std::istream &is, Date &date); //32
-}
+Date::Weekday operator--(Date::Weekday &r, int); //30}
 
 #endif
 ```
