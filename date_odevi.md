@@ -61,6 +61,7 @@ Formatlama: `gg/aa/yyyy` (ayıraç olarak istenilen bir karakter kullanılabilir
 #include <iosfwd>
 #include <ctime>
 
+namespace project {
 class Date {
 public:
 	static constexpr int year_base = 1900;  //1
@@ -88,7 +89,9 @@ public:
 	Date operator++(int); //22
 	Date& operator--(); //23
 	Date operator--(int); //24
-
+	
+	friend bool operator<(const Date &, const Date &); //27
+	friend bool operator==(const Date &, const Date &); //27
 	static Date random_date(); //25
 	static constexpr bool isleap(int y); //26
 };
@@ -110,5 +113,7 @@ Date::WeekDay operator--(Date::WeekDay &r, int); //30
 
 std::ostream &operator<<(std::ostream &os, const Date &date); //31
 std::istream &operator>>(std::istream &is, Date &date); //32
+}
+
 #endif
 ```
