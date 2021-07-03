@@ -67,7 +67,7 @@ public:
 	static constexpr int year_base = 1900;  //1
 	static constexpr int random_min_year = 1940;  //2
 	static constexpr int random_max_year = 2020;  //3
-	enum class WeekDay {Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday}; //4
+	enum class Weekday {Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday}; //4
 	Date(); //5 
 	Date(int d, int m, int y);  //6
 	Date(const char *p);  //7
@@ -106,10 +106,10 @@ bool operator!=(const Date &, const Date &); //27
 int operator-(const Date &d1, const Date &d2); //28
 Date operator+(const Date &date, int n); //29
 Date operator+(int n, const Date &); //29
-Date::WeekDay& operator++(Date::WeekDay &r); //30
-Date::WeekDay operator++(Date::WeekDay &r, int); //30
-Date::WeekDay& operator--(Date::WeekDay &r); //30
-Date::WeekDay operator--(Date::WeekDay &r, int); //30
+Date::Weekday& operator++(Date::Weekday &r); //30
+Date::Weekday operator++(Date::Weekday &r, int); //30
+Date::Weekday& operator--(Date::Weekday &r); //30
+Date::Weekday operator--(Date::Weekday &r, int); //30
 
 std::ostream &operator<<(std::ostream &os, const Date &date); //31
 std::istream &operator>>(std::istream &is, Date &date); //32
