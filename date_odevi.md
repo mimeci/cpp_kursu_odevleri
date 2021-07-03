@@ -76,7 +76,7 @@ public:
 	int get_month()const; //10
 	int get_year()const; //11
 	int get_year_day()const; //12
-	WeekDay get_week_day()const; //13
+	Weekday get_week_day()const; //13
 
 	Date& set_month_day(int day); //14
 	Date& set_month(int month); //15
