@@ -21,9 +21,10 @@ int func()
 	return 1;
 }
 
+// using Nec::func; //2
 int main()
 {
-	using Nec::func;
+	using Nec::func; //1
 
 	func();
 	func(12);
