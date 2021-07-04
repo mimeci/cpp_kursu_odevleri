@@ -95,8 +95,8 @@ public:
 	static Date random_date(); //25
 	static constexpr bool isleap(int y); //26
 	
-	std::ostream &operator<<(std::ostream &os, const Date &date); //31
-	std::istream &operator>>(std::istream &is, Date &date); //32
+	friend std::ostream &operator<<(std::ostream &os, const Date &date); //31
+	friend std::istream &operator>>(std::istream &is, Date &date); //32
 };
 
 bool operator<(const Date &, const Date &); //27
