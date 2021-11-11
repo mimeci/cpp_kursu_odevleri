@@ -1,4 +1,4 @@
-### C++11 öncesi araçları kullanarak Fibonacci serisinin n. teriminin derleme zamanında hesaplanmasını sağlayacak
+### C++11 öncesi araçları kullanarak Fibonacci serisinin n. teriminin derleme zamanında hesaplanmasını sağlayacak aşağıdaki meta fonksiyonu yazınız:
 
 ```
 template <unsigned int n>
@@ -6,8 +6,6 @@ struct Fibonacci {
 	static unsigned const value = expr;
 };
 ```
-
-#### sınıf şablonunu oluşturunuz.
 
 ```
 int main()
@@ -17,7 +15,7 @@ int main()
 }
 ```
 
-#### Yukarıdaki *main* işlevinde *a* dizisinin boyutu *Fibonacc*i serisinin *11.* terimi olan *89* olmalı.
+#### Yukarıdaki *main* işlevinde *a* dizisinin boyutu *Fibonacci* serisinin *11.* terimi olan *89* olmalı.
 Daha sonra, yine *Fibonacci* serisinin *n.* teriminin derleme zamanında hesaplanmasını sağlayacak bir *constexpr* işlevi özyinelemeli *(recursive)* olarak gerçekleştirin:
 
 ```
