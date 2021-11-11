@@ -27,7 +27,7 @@ int main()
 	func(ptr);
 	func(cp);
 }
-}
+
 ```
 
 __Sorunun yanıtı şu seçeneklerden biri de olabilir:__
