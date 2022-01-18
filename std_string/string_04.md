@@ -11,7 +11,7 @@ işlev parametresi ile aldığı yazıdaki
 bir string döndürecek.
 
 ```
-std::string remove_chars(const std::string &source, const std::string scars);
+std::string remove_chars(const std::string &source, const std::string &scars);
 
 ```
 
