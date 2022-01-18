@@ -20,7 +20,7 @@ std::string remove_chars(const std::string &source, const std::string &scars);
 
 *source*           : (ankaranin tasina bak gozlerimin yasina bak) <br>
 *scars*            : (kain ) <br>
-*geri dönüş değeri*: (rtsbgozlermnysb)
+*geri dönüş değeri*: (rtsbgozlermysb)
 
 ```
 std::string trim(const std::string &source);
