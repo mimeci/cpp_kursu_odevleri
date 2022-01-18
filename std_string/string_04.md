@@ -15,7 +15,7 @@ std::string remove_chars(const std::string &source, const std::string &scars);
 
 ```
 
-İşlevin geri dönüş değeri olan *string*'in değeri source *string*'i içinden *scars* stringinin karakterlerinin silimiş hali olacak.
+İşlevin geri dönüş değeri olan *string*'in değeri source *string*'i içinden *scars* stringinin karakterlerinin silinmiş hali olacak.
 <br>Örnek (parantezler yazılara dahil değil)
 
 *source*           : (ankaranin tasina bak gozlerimin yasina bak) <br>
