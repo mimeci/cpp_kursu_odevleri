@@ -28,6 +28,8 @@ std::string trim(const std::string &source);
 
 işlevin geri dönüş değeri olan string source stringinin başındaki ve sonundaki boşluk karakterlerinin silinmiş hali olacak:
 
-(     \tnecati ergin\t     )  ->  (necati ergin)
+```
+(     necati ergin     )  ->  (necati ergin)
+```
 
 parantezler yazıya ait değil.
